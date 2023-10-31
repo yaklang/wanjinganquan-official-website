@@ -4,8 +4,10 @@ name: wanjinganquan-ci
 # 触发部署的条件: 当 main 分支, 有 push 的操作, 即可触发。
 on:
   push:
-    branches: # 此处不仅限于监听分支, 还可监听 tag
-      - main
+    # branches: # 此处不仅限于监听分支, 还可监听 tag
+      # - main
+    tags:
+      - "v*"
     paths-ignore: # 下列文件的变更不触发部署，可以自行添加
       - README.md
       - LICENSE
@@ -24,10 +26,10 @@ jobs:
       uses: actions/setup-node@master
     - run: npm install
     - run: npm run build
-     # 将这些 .nuxt static nuxt.config.js package.json package-lock.json pm2.config.json 文件打包在 release.tgz 中
+     # 将这些 .nuxt static nuxt.config.js package.json package-lock.json ecosystem.config.cjs 文件打包在 release.tgz 中
      # 此处是为了在方便，在服务器中直接解压，获得所有文件，无需单独传
      # pm2 帮助我们在 Node服务器，启动项目的一个工具，具体可查看官网 https://github.com/Unitech/pm2
-    - run: tar -zcvf release.tgz .nuxt static nuxt.config.js package.json package-lock.json pm2.config.json
+    - run: tar -zcvf release.tgz .nuxt static nuxt.config.js package.json package-lock.json ecosystem.config.cjs
  
     # 发布版本 Release
     # 与 Github 建立连接( 此处用于将 release.tgz 上传到 github 上 )
@@ -68,11 +70,11 @@ jobs:
           # 2. 从 Github 上将 release.tgz 复制一份放入文件内
           # 3. 解压 release.tgz 文件
           # 4. 安装插件
-          # 5. 重启 pm2, 并执行 pm2.config.json 内操作，
-          # 6. pm2.config.json 是 启动 项目，( npm start )
+          # 5. 重启 pm2, 并执行 ecosystem.config.cjs 内操作，
+          # 6. ecosystem.config.cjs 是 启动 项目，( npm start )
         script: |
-          cd /home/realworld_nuxt
-          wget https://github.com/TheWomanLiketheWind/nuxtRealworld/releases/latest/download/release.tgz -O release.tgz
+          cd /root/wanjinganquan-official-website
+          wget https://github.com/yaklang/wanjinganquan-official-website/releases/latest/download/release.tgz -O release.tgz
           tar zxvf release.tgz
           npm install --production
-          pm2 reload pm2.config.json
+          pm2 reload ecosystem.config.cjs
