@@ -113,7 +113,7 @@ const newBannerBottomList = computed(() => {
   <Title>首页</Title>
   <!-- 头部轮播 -->
   <div class="h-[560px] bg-[#F4FAFF]">
-    <swiper class="h-[100%]" :speed="1000" loop :autoplayDisableOnInteraction="false" :pagination="{
+    <swiper class="h-[100%]" :speed="1000" loop autoplay :autoplayDisableOnInteraction="false" :pagination="{
       el: '.swiper-pagination',
       clickable: true,
     }">
@@ -368,7 +368,7 @@ const newBannerBottomList = computed(() => {
     </div>
   </div>
 
-  <!-- 底部轮播 TODO 背景-->
+  <!-- 底部轮播 -->
   <div class="bottom-swiper-wrap relative overflow-hidden h-[500px] bg-[#1E83FF]">
     <div class="bottom-left-bg absolute left-[0] top-[0]">
       <img src="@/assets/Images/bottom-banner-left-bg.png" alt="" class="h-[500px]">
@@ -378,7 +378,7 @@ const newBannerBottomList = computed(() => {
     </div>
     <div class="wjaq-container mx-auto h-[100%] font-bold overflow-hidden">
       <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径</div>
-      <swiper class="h-[160px] W-[100%]" :speed="1000" loop :autoplayDisableOnInteraction="false" :navigation="{
+      <swiper class="h-[160px] W-[100%]" :speed="1000" autoplay loop :autoplayDisableOnInteraction="false" :navigation="{
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       }">

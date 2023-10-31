@@ -7,7 +7,7 @@
   <div class="h-[560px] bg-[#F4FAFF]">
     <div class="wjaq-container mx-auto h-[100%] flex justify-between items-center">
       <div class="">
-        <div class="text-[45px] font-bold-600 text-center">更全面的安全服务</div>
+        <div class="text-[50px] font-bold-600 text-center">更全面的安全服务</div>
         <div class="text-[20px] mt-[28px]">
           <span class="inline-block rounded-25 bg-[#0070FF] color-[#fff] px-[27px] py-[8px] ml-[24px]">
             专业
@@ -70,13 +70,13 @@
           为企业提供常规应急响应支持服务的同时，还会对企业进行全面的内网渗透测试，并提出安全修复建议，降低安全事件发生的概率。</div>
       </div>
       <div data-aos="fade-left">
-        <img src="@/assets/Images/securityService-xy.png" alt="" class="h-[230px]">
+        <img src="@/assets/Images/securityService-xy.png" alt="" class="h-[250px]">
       </div>
     </div>
     <!-- 代码审计 -->
     <div class="flex justify-between items-center px-[10px] mb-[195px]">
       <div data-aos="fade-right">
-        <img src="@/assets/Images/securityService-codesj.png" alt="" class="h-[240px]">
+        <img src="@/assets/Images/securityService-codesj.png" alt="" class="h-[250px]">
       </div>
       <div data-aos="fade-left" class="w-[600px]">
         <div class="text-[32px] font-bold-600 mb-[16px]">代码审计</div>

@@ -712,4 +712,5 @@ const coreTechnologyList = ref([
   .nlcz-wrap {
     width: 250px;
   }
-}</style>
+}
+</style>
