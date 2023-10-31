@@ -1,80 +1,84 @@
-# 自动化部署名称
-name: wanjinganquan-ci
- 
-# 触发部署的条件: 当 main 分支, 有 push 的操作, 即可触发。
+# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
+# For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
+
+# name: Publish to AliyunOSS
+
+# on:
+#   push:
+#     branches:
+#       - "deploy"
+
+# jobs:
+#   build:
+#     runs-on: ubuntu-latest
+#     steps:
+#       - uses: actions/checkout@v2
+#       - uses: actions/setup-node@v2
+#         with:
+#           node-version: 14
+#       - run: yarn install
+#       - run: yarn run build
+#       - name: Upload AliyunOSS
+#         uses: fangbinwei/aliyun-oss-website-action@v1
+#         with:
+#           accessKeyId: ${{ secrets.ACCESS_KEY_ID }}
+#           accessKeySecret: ${{ secrets.ACCESS_KEY_SECRET }}
+#           bucket: "yaklang-io"
+#           endpoint: "oss-accelerate-overseas.aliyuncs.com"
+#           folder: "./build"
+
+# 新Github-Ci
+name: Yarn Build CI
+
 on:
   push:
-    # branches: # 此处不仅限于监听分支, 还可监听 tag
-      # - main
+    # branches:
+    #   - "main"
     tags:
       - "v*"
-    paths-ignore: # 下列文件的变更不触发部署，可以自行添加
-      - README.md
-      - LICENSE
- 
+
 jobs:
-  build-and-deploy:
-    runs-on: ubuntu-latest # 使用ubuntu系统镜像运行自动化脚本
-    steps: # 进入自动化步骤
- 
-    # 第一步，下载代码仓库
-    - name: Checkout
-      uses: actions/checkout@master
- 
-    # 打包构建
-    - name: Build
-      uses: actions/setup-node@master
-    - run: npm install
-    - run: npm run build
-     # 将这些 .nuxt static nuxt.config.js package.json package-lock.json ecosystem.config.cjs 文件打包在 release.tgz 中
-     # 此处是为了在方便，在服务器中直接解压，获得所有文件，无需单独传
-     # pm2 帮助我们在 Node服务器，启动项目的一个工具，具体可查看官网 https://github.com/Unitech/pm2
-    - run: tar -zcvf release.tgz .nuxt static nuxt.config.js package.json package-lock.json ecosystem.config.cjs
- 
-    # 发布版本 Release
-    # 与 Github 建立连接( 此处用于将 release.tgz 上传到 github 上 )
-    - name: Create Release
-      id: create_release
-      uses: actions/create-release@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
-      with:
-        tag_name: ${{ github.ref }}
-        release_name: Release ${{ github.ref }}
-        draft: false
-        prerelease: false
- 
-    # 上传构建结果到 Release
-    # 将 release.tgz 上传到 github 上
-    - name: Upload Release Asset
-      id: upload-release-asset
-      uses: actions/upload-release-asset@master
-      env:
-        GITHUB_TOKEN: ${{ secrets.TOKEN }}
-      with:
-        upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./release.tgz
-        asset_name: release.tgz
-        asset_content_type: application/x-tgz
- 
-    # 部署到服务器
-    - name: Deploy
-      uses: appleboy/ssh-action@master
-      with:
-        host: ${{ secrets.HOST }} # 公网 IP 或 域名
-        username: ${{ secrets.USERNAME }} # 登录名
-        password: ${{ secrets.PASSWORD }} # 密码
-        port: ${{ secrets.PORT }} # 端口
-        # 类似在服务端的终端-执行以下操作
-          # 1. 找到需要存放文件的地方
-          # 2. 从 Github 上将 release.tgz 复制一份放入文件内
-          # 3. 解压 release.tgz 文件
-          # 4. 安装插件
-          # 5. 重启 pm2, 并执行 ecosystem.config.cjs 内操作，
-          # 6. ecosystem.config.cjs 是 启动 项目，( npm start )
-        script: |
-          cd /root/wanjinganquan-official-website
-          wget https://github.com/yaklang/wanjinganquan-official-website/releases/latest/download/release.tgz -O release.tgz
-          tar zxvf release.tgz
-          npm install --production
-          pm2 reload ecosystem.config.cjs
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@main
+      - name: Use Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      # 打包
+      - name: build
+        run: yarn install
+      - run: yarn run build
+
+      # 静态文件压缩
+      - name: pack out file
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        run: tar -zcvf out.tgz .output
+        
+
+      - name: Upload out ssh
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        uses: easingthemes/ssh-deploy@v2.1.6
+        with:
+          REMOTE_USER: 'root'
+          REMOTE_HOST: '${{ secrets.ONLINE_HOST }}' #测试服务器地址
+          SSH_PRIVATE_KEY: ${{ secrets.ONLINE_PRIV_KEY }}
+          ARGS: "-avzr --delete"
+          SOURCE: "out.tgz"
+          TARGET: '/root/wanjinganquan/' #服务器中，代码部署的位置
+
+      - name: Deploy
+        if: ${{ startsWith(github.ref, 'refs/tags/v') }}
+        uses: appleboy/ssh-action@main # 使用ssh链接服务器
+        with:
+          host: ${{ secrets.ONLINE_HOST }}
+          username: 'root'
+          key: ${{ secrets.ONLINE_PRIV_KEY }}
+          script: |
+            cd /root/wanjinganquan/
+            tar zxvf out.tgz
+            rm -rf out.tgz
