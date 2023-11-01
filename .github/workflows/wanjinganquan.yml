@@ -52,12 +52,12 @@ jobs:
       # 打包
       - name: build
         run: yarn install
-      - run: yarn run build
+      - run: yarn run generate
 
       # 静态文件压缩
       - name: pack out file
         if: ${{ startsWith(github.ref, 'refs/tags/v') }}
-        run: tar -zcvf out.tgz .output
+        run: tar -zcvf out.tgz dist
         
 
       - name: Upload out ssh

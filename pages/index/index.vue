@@ -113,7 +113,7 @@ const newBannerBottomList = computed(() => {
   <Title>首页</Title>
   <!-- 头部轮播 -->
   <div class="h-[560px] bg-[#F4FAFF]">
-    <swiper class="h-[100%]" :speed="1000" loop :autoplay="{ disableOnInteraction: false }"
+    <swiper class="h-[100%]" :speed="1500" loop :autoplay="{ disableOnInteraction: false }"
       :pagination="{ el: '.swiper-pagination', clickable: true }">
       <swiper-slide v-for="(item, index) in bannerTopList" :key="index">
         <div v-if="item.type === 'banner_1'" class="h-[100%] bg-no-repeat bg-positon-center"
@@ -162,53 +162,69 @@ const newBannerBottomList = computed(() => {
           <div class="color-[#0070FF] text-[16px] mb-[5px] font-bold-600">小智-智能渗透测试机器人</div>
           <div class="text-[14px] font-bold-600">新一代自动化渗透测试平台</div>
         </div>
-        <svg class="w-[122px] h-[106px]" xmlns="http://www.w3.org/2000/svg" width="122" height="106" viewBox="0 0 122 106"
-          fill="none">
-          <path opacity="0.13"
-            d="M92.56 105.46C108.709 105.46 121.8 92.3688 121.8 76.22C121.8 60.0712 108.709 46.98 92.56 46.98C76.4112 46.98 63.32 60.0712 63.32 76.22C63.32 92.3688 76.4112 105.46 92.56 105.46Z"
-            fill="#0070FF" />
-          <path opacity="0.38"
-            d="M92.56 100.36C105.892 100.36 116.7 89.5521 116.7 76.22C116.7 62.8878 105.892 52.08 92.56 52.08C79.2278 52.08 68.42 62.8878 68.42 76.22C68.42 89.5521 79.2278 100.36 92.56 100.36Z"
-            fill="#0070FF" />
-          <path opacity="0.67"
-            d="M92.56 86.92C98.4694 86.92 103.26 82.1295 103.26 76.22C103.26 70.3106 98.4694 65.52 92.56 65.52C86.6506 65.52 81.86 70.3106 81.86 76.22C81.86 82.1295 86.6506 86.92 92.56 86.92Z"
-            fill="#0067FC" />
-          <path
-            d="M92.56 81.94C95.7191 81.94 98.28 79.3791 98.28 76.22C98.28 73.0609 95.7191 70.5 92.56 70.5C89.4009 70.5 86.84 73.0609 86.84 76.22C86.84 79.3791 89.4009 81.94 92.56 81.94Z"
-            fill="#285EF4" />
-          <path d="M4.71997 4.37H20.77L92.84 76.44" stroke="black" stroke-width="1.5" stroke-miterlimit="10"
+        <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="89.78" cy="73.13" r="20.5" fill="url(#paint0_radial_447_1624)" fill-opacity="0.3" />
+          <circle cx="89.78" cy="73.13" r="13.6667" fill="url(#paint1_radial_447_1624)" fill-opacity="0.27" />
+          <circle cx="89.78" cy="73.13" r="9.87037" fill="url(#paint2_radial_447_1624)" fill-opacity="0.48" />
+          <circle cx="89.78" cy="73.13" r="4.55556" fill="#016EF9" />
+          <path d="M1 1H17.05L89.1201 73.07" stroke="black" stroke-width="1.5" stroke-miterlimit="10"
             stroke-linecap="round" stroke-linejoin="round" />
           <path
-            d="M92.65 78.73C94.0363 78.73 95.16 77.6063 95.16 76.22C95.16 74.8338 94.0363 73.71 92.65 73.71C91.2638 73.71 90.14 74.8338 90.14 76.22C90.14 77.6063 91.2638 78.73 92.65 78.73Z"
+            d="M89.79 75.65C91.1763 75.65 92.3 74.5262 92.3 73.14C92.3 71.7538 91.1763 70.63 89.79 70.63C88.4038 70.63 87.28 71.7538 87.28 73.14C87.28 74.5262 88.4038 75.65 89.79 75.65Z"
             fill="black" />
+          <defs>
+            <radialGradient id="paint0_radial_447_1624" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(89.78 73.13) rotate(90) scale(20.5)">
+              <stop offset="0.869792" stop-color="#5199FF" />
+              <stop offset="1" stop-color="white" stop-opacity="0" />
+            </radialGradient>
+            <radialGradient id="paint1_radial_447_1624" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(89.78 73.13) rotate(90) scale(13.6667)">
+              <stop offset="0.869792" stop-color="#217CFD" />
+              <stop offset="1" stop-color="white" stop-opacity="0" />
+            </radialGradient>
+            <radialGradient id="paint2_radial_447_1624" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(89.78 73.13) rotate(90) scale(9.87037)">
+              <stop offset="0.807292" stop-color="#0070FF" />
+              <stop offset="1" stop-color="#4999FF" stop-opacity="0" />
+            </radialGradient>
+          </defs>
         </svg>
       </div>
       <!-- Yakit -->
       <div data-aos="fade-up" class="show-tree-item absolute top-[45%] left-[19%]">
         <div
-          class="absolute top-[-45px] left-[-219px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[235px]">
+          class="absolute top-[-45px] left-[-225px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[235px]">
           <div class="color-[#0070FF] text-[16px] text-center mb-[5px] font-bold-600">Yakit</div>
           <div class="text-[14px] font-bold-600">国产化交互式应用安全测试平台/集成化安全能力平台</div>
         </div>
-        <svg class="w-[160px] h-[104px]" xmlns="http://www.w3.org/2000/svg" width="160" height="104" viewBox="0 0 160 104"
-          fill="none">
-          <path opacity="0.15"
-            d="M131.38 103.75C146.684 103.75 159.09 91.3438 159.09 76.04C159.09 60.7362 146.684 48.33 131.38 48.33C116.076 48.33 103.67 60.7362 103.67 76.04C103.67 91.3438 116.076 103.75 131.38 103.75Z"
-            fill="#0070FF" />
-          <path opacity="0.34"
-            d="M131.38 91.72C140.04 91.72 147.06 84.6998 147.06 76.04C147.06 67.3802 140.04 60.36 131.38 60.36C122.72 60.36 115.7 67.3802 115.7 76.04C115.7 84.6998 122.72 91.72 131.38 91.72Z"
-            fill="#0070FF" />
-          <path opacity="0.67"
-            d="M131.38 86.74C137.289 86.74 142.08 81.9494 142.08 76.04C142.08 70.1305 137.289 65.34 131.38 65.34C125.471 65.34 120.68 70.1305 120.68 76.04C120.68 81.9494 125.471 86.74 131.38 86.74Z"
-            fill="#0067FC" />
-          <path
-            d="M131.38 81.7599C134.539 81.7599 137.1 79.199 137.1 76.0399C137.1 72.8809 134.539 70.3199 131.38 70.3199C128.221 70.3199 125.66 72.8809 125.66 76.0399C125.66 79.199 128.221 81.7599 131.38 81.7599Z"
-            fill="#285EF4" />
-          <path d="M5.01999 4.19H59.59L131.66 76.26" stroke="black" stroke-width="1.5" stroke-miterlimit="10"
+        <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="89.78" cy="73.13" r="20.5" fill="url(#paint0_radial_447_1624)" fill-opacity="0.3" />
+          <circle cx="89.78" cy="73.13" r="13.6667" fill="url(#paint1_radial_447_1624)" fill-opacity="0.27" />
+          <circle cx="89.78" cy="73.13" r="9.87037" fill="url(#paint2_radial_447_1624)" fill-opacity="0.48" />
+          <circle cx="89.78" cy="73.13" r="4.55556" fill="#016EF9" />
+          <path d="M1 1H17.05L89.1201 73.07" stroke="black" stroke-width="1.5" stroke-miterlimit="10"
             stroke-linecap="round" stroke-linejoin="round" />
           <path
-            d="M131.46 78.55C132.846 78.55 133.97 77.4263 133.97 76.04C133.97 74.6538 132.846 73.53 131.46 73.53C130.074 73.53 128.95 74.6538 128.95 76.04C128.95 77.4263 130.074 78.55 131.46 78.55Z"
+            d="M89.79 75.65C91.1763 75.65 92.3 74.5262 92.3 73.14C92.3 71.7538 91.1763 70.63 89.79 70.63C88.4038 70.63 87.28 71.7538 87.28 73.14C87.28 74.5262 88.4038 75.65 89.79 75.65Z"
             fill="black" />
+          <defs>
+            <radialGradient id="paint0_radial_447_1624" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(89.78 73.13) rotate(90) scale(20.5)">
+              <stop offset="0.869792" stop-color="#5199FF" />
+              <stop offset="1" stop-color="white" stop-opacity="0" />
+            </radialGradient>
+            <radialGradient id="paint1_radial_447_1624" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(89.78 73.13) rotate(90) scale(13.6667)">
+              <stop offset="0.869792" stop-color="#217CFD" />
+              <stop offset="1" stop-color="white" stop-opacity="0" />
+            </radialGradient>
+            <radialGradient id="paint2_radial_447_1624" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(89.78 73.13) rotate(90) scale(9.87037)">
+              <stop offset="0.807292" stop-color="#0070FF" />
+              <stop offset="1" stop-color="#4999FF" stop-opacity="0" />
+            </radialGradient>
+          </defs>
         </svg>
       </div>
       <!-- CDSL-YAK企业安全 -->
@@ -219,21 +235,36 @@ const newBannerBottomList = computed(() => {
           </div>
           <div class="text-[14px] font-bold-600">基于网络安全领域编程语言CDSL-YAK，为客户带来全新的安全体系建设思路</div>
         </div>
-        <svg class="w-[113px] h-[96px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 96" fill="none">
-          <path opacity="0.34"
-            d="M19.8701 95.7C30.7335 95.7 39.54 86.8934 39.54 76.03C39.54 65.1666 30.7335 56.36 19.8701 56.36C9.00661 56.36 0.200012 65.1666 0.200012 76.03C0.200012 86.8934 9.00661 95.7 19.8701 95.7Z"
-            fill="#0070FF" />
-          <path opacity="0.67"
-            d="M19.8701 86.73C25.7795 86.73 30.57 81.9394 30.57 76.03C30.57 70.1205 25.7795 65.33 19.8701 65.33C13.9606 65.33 9.16998 70.1205 9.16998 76.03C9.16998 81.9394 13.9606 86.73 19.8701 86.73Z"
-            fill="#0067FC" />
-          <path
-            d="M19.8701 81.7501C23.0291 81.7501 25.59 79.1891 25.59 76.0301C25.59 72.871 23.0291 70.3101 19.8701 70.3101C16.711 70.3101 14.15 72.871 14.15 76.0301C14.15 79.1891 16.711 81.7501 19.8701 81.7501Z"
-            fill="#285EF4" />
-          <path d="M107.71 4.17993H91.66L19.59 76.2499" stroke="black" stroke-width="1.5" stroke-miterlimit="10"
+        <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="20.5" cy="20.5" r="20.5" transform="matrix(-1 0 0 1 41 52.63)" fill="url(#paint0_radial_447_1616)"
+            fill-opacity="0.3" />
+          <circle cx="13.6667" cy="13.6667" r="13.6667" transform="matrix(-1 0 0 1 34.1666 59.4634)"
+            fill="url(#paint1_radial_447_1616)" fill-opacity="0.27" />
+          <circle cx="9.87037" cy="9.87037" r="9.87037" transform="matrix(-1 0 0 1 30.3704 63.2596)"
+            fill="url(#paint2_radial_447_1616)" fill-opacity="0.48" />
+          <circle cx="4.55556" cy="4.55556" r="4.55556" transform="matrix(-1 0 0 1 25.0555 68.5745)" fill="#016EF9" />
+          <path d="M109.28 1H93.23L21.16 73.07" stroke="black" stroke-width="1.5" stroke-miterlimit="10"
             stroke-linecap="round" stroke-linejoin="round" />
           <path
-            d="M19.78 78.54C21.1662 78.54 22.29 77.4163 22.29 76.03C22.29 74.6438 21.1662 73.52 19.78 73.52C18.3937 73.52 17.27 74.6438 17.27 76.03C17.27 77.4163 18.3937 78.54 19.78 78.54Z"
+            d="M20.49 75.65C19.1038 75.65 17.98 74.5262 17.98 73.14C17.98 71.7538 19.1038 70.63 20.49 70.63C21.8762 70.63 23 71.7538 23 73.14C23 74.5262 21.8762 75.65 20.49 75.65Z"
             fill="black" />
+          <defs>
+            <radialGradient id="paint0_radial_447_1616" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(20.5 20.5) rotate(90) scale(20.5)">
+              <stop offset="0.869792" stop-color="#5199FF" />
+              <stop offset="1" stop-color="white" stop-opacity="0" />
+            </radialGradient>
+            <radialGradient id="paint1_radial_447_1616" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(13.6667 13.6667) rotate(90) scale(13.6667)">
+              <stop offset="0.869792" stop-color="#217CFD" />
+              <stop offset="1" stop-color="white" stop-opacity="0" />
+            </radialGradient>
+            <radialGradient id="paint2_radial_447_1616" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+              gradientTransform="translate(9.87037 9.87037) rotate(90) scale(9.87037)">
+              <stop offset="0.807292" stop-color="#0070FF" />
+              <stop offset="1" stop-color="#4999FF" stop-opacity="0" />
+            </radialGradient>
+          </defs>
         </svg>
       </div>
       <!-- 安全培训服务 -->
@@ -377,7 +408,7 @@ const newBannerBottomList = computed(() => {
     </div>
     <div class="wjaq-container mx-auto h-[100%] font-bold overflow-hidden bg-[#1E83FF]">
       <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径</div>
-      <swiper class="h-[160px]" :speed="1000" loop :autoplay="{ disableOnInteraction: false }" :navigation="{
+      <swiper class="h-[160px]" :speed="1500" loop :autoplay="{ disableOnInteraction: false }" :navigation="{
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       }">
