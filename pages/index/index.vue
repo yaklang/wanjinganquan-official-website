@@ -192,7 +192,7 @@ const newBannerBottomList = computed(() => {
         </svg>
       </div>
       <!-- Yakit -->
-      <div data-aos="fade-up" class="show-tree-item absolute top-[45%] left-[19%]">
+      <div data-aos="fade-up" class="absolute top-[45%] left-[19%]">
         <div
           class="absolute top-[-45px] left-[-225px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[235px]">
           <div class="color-[#0070FF] text-[16px] text-center mb-[5px] font-bold-600">Yakit</div>
@@ -228,7 +228,7 @@ const newBannerBottomList = computed(() => {
         </svg>
       </div>
       <!-- CDSL-YAK企业安全 -->
-      <div data-aos="fade-up" class="show-tree-item absolute right-[20%] top-[55%]">
+      <div data-aos="fade-up" class="absolute right-[20%] top-[55%]">
         <div
           class="absolute top-[-60px] right-[-268px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[280px]">
           <div class="color-[#0070FF] text-[16px] text-center font-bold-600 w-[146px] mx-auto mb-[5px]">CDSL-YAK企业安全建设解决方案
