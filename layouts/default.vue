@@ -1,7 +1,7 @@
 <template>
   <div class="default" :style="{ height: '100%' }">
-    <WanjinganquanHeader></WanjinganquanHeader>
+    <MegavectorHeader></MegavectorHeader>
     <slot />
-    <WanjinganquanFooter></WanjinganquanFooter>
+    <MegavectorFooter></MegavectorFooter>
   </div>
 </template>
