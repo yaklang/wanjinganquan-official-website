@@ -24,7 +24,7 @@ const coreTechnologyList = ref([
     <div class="bottom-right-bg absolute right-[0] top-[0]">
       <img src="@/assets/Images/light-bg-right.png" alt="" class="h-[560px]">
     </div>
-    <div class="container mx-auto h-[100%] flex justify-center items-center">
+    <div class="xiaozhi-banner-cont relative wjaq-container mx-auto h-[100%] flex justify-center items-center">
       <div class="text-center">
         <div class="text-[52px]"><span class="font-bold-600 color-[#007AFF]">小智</span>新一代自动化渗透测试平台</div>
         <div class="text-[18px] mt-[12px] mb-[45px]">国内率先实现“AI+网络安全检测”的智能渗透测试平台，自动完成从信息收集、漏洞验证、漏洞利用、输出报告的渗透测试全过程。</div>
@@ -690,6 +690,10 @@ const coreTechnologyList = ref([
 </template>
 
 <style lang="scss" scoped>
+.xiaozhi-banner-cont {
+  z-index: 999;
+}
+
 @media (max-width: 1366px) {
   .nrz-wrap {
     width: 400px;

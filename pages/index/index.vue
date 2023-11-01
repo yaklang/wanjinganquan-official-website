@@ -156,11 +156,11 @@ const newBannerBottomList = computed(() => {
   <div class="h-[1400px] tree-wrap bg-center bg-contain bg-no-repeat">
     <div class="wjaq-container relative mx-auto h-[100%]">
       <!-- 小智-智能渗透测试机器人 -->
-      <div data-aos="fade-down" class="show-tree-item absolute left-[49%] top-[20%]">
+      <div data-aos="fade-down" class="xiaozhi-tree-item absolute left-[49%] top-[20%]">
         <div
           class="absolute top-[-35px] left-[-225px] text-center bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px]">
           <div class="color-[#0070FF] text-[16px] mb-[5px] font-bold-600">小智-智能渗透测试机器人</div>
-          <div class="text-[14px] font-bold-600">新一代自动化渗透测试平台</div>
+          <div class="text-[12px] font-bold-600">新一代自动化渗透测试平台</div>
         </div>
         <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="89.78" cy="73.13" r="20.5" fill="url(#paint0_radial_447_1624)" fill-opacity="0.3" />
@@ -196,7 +196,7 @@ const newBannerBottomList = computed(() => {
         <div
           class="absolute top-[-45px] left-[-225px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[235px]">
           <div class="color-[#0070FF] text-[16px] text-center mb-[5px] font-bold-600">Yakit</div>
-          <div class="text-[14px] font-bold-600">国产化交互式应用安全测试平台/集成化安全能力平台</div>
+          <div class="text-[12px] font-bold-600">国产化交互式应用安全测试平台/集成化安全能力平台</div>
         </div>
         <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="89.78" cy="73.13" r="20.5" fill="url(#paint0_radial_447_1624)" fill-opacity="0.3" />
@@ -233,7 +233,7 @@ const newBannerBottomList = computed(() => {
           class="absolute top-[-60px] right-[-268px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[280px]">
           <div class="color-[#0070FF] text-[16px] text-center font-bold-600 w-[146px] mx-auto mb-[5px]">CDSL-YAK企业安全建设解决方案
           </div>
-          <div class="text-[14px] font-bold-600">基于网络安全领域编程语言CDSL-YAK，为客户带来全新的安全体系建设思路</div>
+          <div class="text-[12px] font-bold-600">基于网络安全领域编程语言CDSL-YAK，为客户带来全新的安全体系建设思路</div>
         </div>
         <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
           <circle cx="20.5" cy="20.5" r="20.5" transform="matrix(-1 0 0 1 41 52.63)" fill="url(#paint0_radial_447_1616)"
@@ -292,7 +292,7 @@ const newBannerBottomList = computed(() => {
         </div>
         <div class="ml-[6px]">
           <div class="font-bold-600 text-[14px] mb-[2px]">安全培训服务</div>
-          <div class="text-[14px] w-[185px]">行业定制化培训、产品培训、管理培训、技术培训</div>
+          <div class="text-[12px] w-[185px]">行业定制化培训、产品培训、管理培训、技术培训</div>
         </div>
       </div>
       <!-- 代码审计 -->
@@ -323,7 +323,7 @@ const newBannerBottomList = computed(() => {
         </div>
         <div class="ml-[6px]">
           <div class="font-bold-600 text-[14px] mb-[2px] font-bold-700">代码审计</div>
-          <div class="text-[14px] w-[200px]">分析系统的完整源代码，挖掘代码在架构和编码上的安全缺陷，解决系统安全隐患</div>
+          <div class="text-[12px] w-[200px]">分析系统的完整源代码，挖掘代码在架构和编码上的安全缺陷，解决系统安全隐患</div>
         </div>
       </div>
       <!-- 渗透测试 -->
@@ -366,7 +366,7 @@ const newBannerBottomList = computed(() => {
         </div>
         <div class="ml-[6px]">
           <div class="font-bold-600 text-[14px] mb-[2px]">渗透测试</div>
-          <div class="text-[14px] w-[210px]">从攻击者视角模拟最真实的攻击，帮助企业发现系统安全漏洞并协助修复</div>
+          <div class="text-[12px] w-[210px]">从攻击者视角模拟最真实的攻击，帮助企业发现系统安全漏洞并协助修复</div>
         </div>
       </div>
       <!-- 应急响应 -->
@@ -392,7 +392,7 @@ const newBannerBottomList = computed(() => {
         </div>
         <div class="ml-[6px]">
           <div class="font-bold-600 text-[14px] mb-[2px]">应急响应</div>
-          <div class="text-[14px] w-[180px]">7x24小时在线服务,快速响应</div>
+          <div class="text-[12px] w-[180px]">7x24小时在线服务,快速响应</div>
         </div>
       </div>
     </div>
@@ -471,6 +471,10 @@ const newBannerBottomList = computed(() => {
 @media (max-width: 1366px) {
   .bottom-swiper-row {
     padding: 0 65px;
+  }
+
+  .xiaozhi-tree-item {
+    top: 27%;
   }
 }
 </style>

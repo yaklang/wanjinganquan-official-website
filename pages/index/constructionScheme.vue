@@ -14,7 +14,7 @@ useSeoMeta({
     <div class="bottom-right-bg absolute right-[0] top-[0]">
       <img src="@/assets/Images/light-bg-right.png" alt="" class="h-[560px]">
     </div>
-    <div class="63.5% mx-auto h-[100%] flex justify-center items-center">
+    <div class="constructionScheme-banner-cont relative wjaq-container mx-auto h-[100%] flex justify-center items-center">
       <div class="text-center">
         <div class="text-[52px]"><span class="font-bold-600 color-[#007AFF]">CDSL-YAK</span>企业安全建设方案</div>
         <div class="text-[18px] mt-[12px] mb-[45px]">以YAK语言为核心，聚焦网络安全底层，致力于安全融合，助力企业网络安全体系建设。</div>
@@ -574,6 +574,10 @@ useSeoMeta({
 </template>
 
 <style lang="scss" scoped>
+.constructionScheme-banner-cont {
+  z-index: 999;
+}
+
 @media (max-width: 1366px) {
   .aqgj-img {
     height: 214px;
