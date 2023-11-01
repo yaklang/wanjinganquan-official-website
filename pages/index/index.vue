@@ -375,9 +375,9 @@ const newBannerBottomList = computed(() => {
     <div class="bottom-right-bg absolute right-[0] top-[0]">
       <img src="@/assets/Images/bottom-banner-right-bg.png" alt="" class="h-[500px]">
     </div>
-    <div class="wjaq-container mx-auto h-[100%] font-bold overflow-hidden">
+    <div class="wjaq-container mx-auto h-[100%] font-bold overflow-hidden bg-[#1E83FF]">
       <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径</div>
-      <swiper class="h-[160px] W-[100%]" :speed="1000" loop :autoplay="{ disableOnInteraction: false }" :navigation="{
+      <swiper class="h-[160px]" :speed="1000" loop :autoplay="{ disableOnInteraction: false }" :navigation="{
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       }">
@@ -389,13 +389,13 @@ const newBannerBottomList = computed(() => {
             </el-col>
           </el-row>
         </swiper-slide>
-        <div class="swiper-button-prev left-[0]" slot="button-prev">
+        <div class="swiper-button-prev flex bg-[#1E83FF]" slot="button-prev">
           <svg xmlns="http://www.w3.org/2000/svg" width="21" height="48" viewBox="0 0 21 48" fill="none">
             <path d="M19.014 45.4263L2 24.2131L19.014 2.99993" stroke="white" stroke-width="4" stroke-linecap="round"
               stroke-linejoin="round" />
           </svg>
         </div>
-        <div class="swiper-button-next right-[0]" slot="button-next">
+        <div class="swiper-button-next flex bg-[#1E83FF]" slot="button-next">
           <svg width="21" height="48" viewBox="0 0 21 48" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path id="Rectangle 323" d="M1.98603 2.99993L19 24.2131L1.98603 45.4263" stroke="white" stroke-width="4"
               stroke-linecap="round" stroke-linejoin="round" />
@@ -412,6 +412,24 @@ const newBannerBottomList = computed(() => {
 }
 
 .bottom-swiper-wrap {
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    width: 68px !important;
+    height: 100% !important;
+  }
+
+  .swiper-button-prev {
+    justify-content: flex-start;
+    top: 25px;
+    left: 0;
+  }
+
+  .swiper-button-next {
+    justify-content: flex-end;
+    top: 25px;
+    right: 0;
+  }
 
   .swiper-button-next:after,
   .swiper-button-prev:after {

@@ -9,7 +9,7 @@
       <div class="">
         <div class="text-[50px] font-bold-600 text-center">更全面的安全服务</div>
         <div class="text-[20px] mt-[28px]">
-          <span class="inline-block rounded-25 bg-[#0070FF] color-[#fff] px-[27px] py-[8px] ml-[24px]">
+          <span class="inline-block rounded-25 bg-[#0070FF] color-[#fff] px-[27px] py-[8px]">
             专业
           </span>
           <span class="inline-block rounded-25 bg-[#0070FF] color-[#fff] px-[27px] py-[8px] ml-[24px]">
