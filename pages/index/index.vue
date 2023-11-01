@@ -113,10 +113,8 @@ const newBannerBottomList = computed(() => {
   <Title>首页</Title>
   <!-- 头部轮播 -->
   <div class="h-[560px] bg-[#F4FAFF]">
-    <swiper class="h-[100%]" :speed="1000" loop autoplay :autoplayDisableOnInteraction="false" :pagination="{
-      el: '.swiper-pagination',
-      clickable: true,
-    }">
+    <swiper class="h-[100%]" :speed="1000" loop :autoplay="{ disableOnInteraction: false }"
+      :pagination="{ el: '.swiper-pagination', clickable: true }">
       <swiper-slide v-for="(item, index) in bannerTopList" :key="index">
         <div v-if="item.type === 'banner_1'" class="h-[100%] bg-no-repeat bg-positon-center"
           :style="{ backgroundImage: `url(${item.bgUrl})`, backgroundPosition: '45% center', backgroundSize: 'contain' }">
@@ -155,10 +153,10 @@ const newBannerBottomList = computed(() => {
   </div>
 
   <!-- 万径树 -->
-  <div class="h-[1229px] tree-wrap bg-center bg-contain bg-no-repeat">
+  <div class="h-[1400px] tree-wrap bg-center bg-contain bg-no-repeat">
     <div class="wjaq-container relative mx-auto h-[100%]">
       <!-- 小智-智能渗透测试机器人 -->
-      <div data-aos="fade-down" class="show-tree-item absolute left-[49%] top-[23%]">
+      <div data-aos="fade-down" class="show-tree-item absolute left-[49%] top-[20%]">
         <div
           class="absolute top-[-35px] left-[-225px] text-center bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px]">
           <div class="color-[#0070FF] text-[16px] mb-[5px] font-bold-600">小智-智能渗透测试机器人</div>
@@ -186,7 +184,7 @@ const newBannerBottomList = computed(() => {
         </svg>
       </div>
       <!-- Yakit -->
-      <div data-aos="fade-up" class="show-tree-item absolute top-[45%] left-[20%]">
+      <div data-aos="fade-up" class="show-tree-item absolute top-[45%] left-[19%]">
         <div
           class="absolute top-[-45px] left-[-219px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[235px]">
           <div class="color-[#0070FF] text-[16px] text-center mb-[5px] font-bold-600">Yakit</div>
@@ -214,10 +212,11 @@ const newBannerBottomList = computed(() => {
         </svg>
       </div>
       <!-- CDSL-YAK企业安全 -->
-      <div data-aos="fade-up" class="show-tree-item absolute right-[24%] top-[55%]">
+      <div data-aos="fade-up" class="show-tree-item absolute right-[20%] top-[55%]">
         <div
           class="absolute top-[-60px] right-[-268px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[280px]">
-          <div class="color-[#0070FF] text-[16px] text-center font-bold-600 w-[146px] mx-auto mb-[5px]">CDSL-YAK企业安全建设解决方案</div>
+          <div class="color-[#0070FF] text-[16px] text-center font-bold-600 w-[146px] mx-auto mb-[5px]">CDSL-YAK企业安全建设解决方案
+          </div>
           <div class="text-[14px] font-bold-600">基于网络安全领域编程语言CDSL-YAK，为客户带来全新的安全体系建设思路</div>
         </div>
         <svg class="w-[113px] h-[96px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 96" fill="none">
@@ -378,7 +377,7 @@ const newBannerBottomList = computed(() => {
     </div>
     <div class="wjaq-container mx-auto h-[100%] font-bold overflow-hidden">
       <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径</div>
-      <swiper class="h-[160px] W-[100%]" :speed="1000" autoplay loop :autoplayDisableOnInteraction="false" :navigation="{
+      <swiper class="h-[160px] W-[100%]" :speed="1000" loop :autoplay="{ disableOnInteraction: false }" :navigation="{
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       }">
