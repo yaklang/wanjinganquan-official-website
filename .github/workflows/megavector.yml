@@ -57,7 +57,7 @@ jobs:
       # 静态文件压缩
       - name: pack out file
         if: ${{ startsWith(github.ref, 'refs/tags/v') }}
-        run: tar -czvf dist.tar.gz dist
+        run: tar -cvf dist.tar dist
         
 
       - name: Upload out ssh
@@ -68,7 +68,7 @@ jobs:
           REMOTE_HOST: '${{ secrets.MEGEVECTOR_HOST }}' #测试服务器地址
           SSH_PRIVATE_KEY: ${{ secrets.MEGEVECTOR_KEY }}
           ARGS: "-avzr --delete"
-          SOURCE: "dist.tar.gz"
+          SOURCE: "dist.tar"
           TARGET: '/root/wanjing-megavector/' #服务器中，代码部署的位置
 
       - name: Deploy
@@ -80,5 +80,5 @@ jobs:
           key: ${{ secrets.MEGEVECTOR_KEY }}
           script: |
             cd /root/wanjing-megavector/
-            tar -xvf dist.tar.gz
-            rm -rf dist.tar.gz
+            tar -xvf dist.tar
+            rm -rf dist.tar
