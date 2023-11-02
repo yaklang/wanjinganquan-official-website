@@ -75,9 +75,9 @@ jobs:
         if: ${{ startsWith(github.ref, 'refs/tags/v') }}
         uses: appleboy/ssh-action@master # 使用ssh链接服务器
         with:
-          host: ${{ secrets.ONLINE_HOST }}
+          host: ${{ secrets.MEGEVECTOR_HOST }}
           username: 'root'
-          key: ${{ secrets.ONLINE_PRIV_KEY }}
+          key: ${{ secrets.MEGEVECTOR_KEY }}
           script: |
             cd /root/wanjing-megavector/
             tar zxvf out.tgz
