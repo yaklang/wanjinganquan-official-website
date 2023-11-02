@@ -73,7 +73,7 @@ jobs:
 
       - name: Deploy
         if: ${{ startsWith(github.ref, 'refs/tags/v') }}
-        uses: appleboy/ssh-action@main # 使用ssh链接服务器
+        uses: appleboy/ssh-action@master # 使用ssh链接服务器
         with:
           host: ${{ secrets.ONLINE_HOST }}
           username: 'root'
