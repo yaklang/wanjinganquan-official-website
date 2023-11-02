@@ -79,6 +79,6 @@ jobs:
           username: 'root'
           key: ${{ secrets.MEGEVECTOR_KEY }}
           script: |
+            ll
             cd /root/wanjing-megavector/
             tar -zxvf out.tar -C .
-            rm -rf out.tar
