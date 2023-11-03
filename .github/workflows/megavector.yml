@@ -28,7 +28,7 @@ jobs:
       # 静态文件压缩
       - name: pack out file
         if: ${{ startsWith(github.ref, 'refs/tags/v') }}
-        run: cd .output & tar -zcvf public.tar.gz public
+        run: tar -zcvf public.tar.gz .output/public/
         
 
       - name: Upload out ssh
