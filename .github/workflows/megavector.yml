@@ -37,7 +37,7 @@ jobs:
         with:
           REMOTE_USER: 'root'
           REMOTE_HOST: '${{ secrets.MEGEVECTOR_HOST }}' #测试服务器地址
-          SSH_PRIVATE_KEY: ${{ secrets.REPOSITORY_PRIVATE_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.MEGEVECTOR_KEY }}
           ARGS: "-avzr --delete"
           SOURCE: "out.tar.gz"
           TARGET: '/root/byw-wanjing/' #服务器中，代码部署的位置
@@ -48,7 +48,7 @@ jobs:
         with:
           host: ${{ secrets.MEGEVECTOR_HOST }}
           username: 'root'
-          key: ${{ secrets.REPOSITORY_PRIVATE_KEY }}
+          key: ${{ secrets.MEGEVECTOR_KEY }}
           script: |
             cd /root/byw-wanjing/
             tar -xzvf out.tar.gz
