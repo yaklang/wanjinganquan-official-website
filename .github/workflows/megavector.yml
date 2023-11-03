@@ -1,32 +1,3 @@
-# This workflow will run tests using node and then publish a package to GitHub Packages when a release is created
-# For more information see: https://help.github.com/actions/language-and-framework-guides/publishing-nodejs-packages
-
-# name: Publish to AliyunOSS
-
-# on:
-#   push:
-#     branches:
-#       - "deploy"
-
-# jobs:
-#   build:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#       - uses: actions/setup-node@v2
-#         with:
-#           node-version: 14
-#       - run: yarn install
-#       - run: yarn run build
-#       - name: Upload AliyunOSS
-#         uses: fangbinwei/aliyun-oss-website-action@v1
-#         with:
-#           accessKeyId: ${{ secrets.ACCESS_KEY_ID }}
-#           accessKeySecret: ${{ secrets.ACCESS_KEY_SECRET }}
-#           bucket: "yaklang-io"
-#           endpoint: "oss-accelerate-overseas.aliyuncs.com"
-#           folder: "./build"
-
 # 新Github-Ci
 name: Yarn Build CI
 
@@ -66,10 +37,10 @@ jobs:
         with:
           REMOTE_USER: 'root'
           REMOTE_HOST: '${{ secrets.MEGEVECTOR_HOST }}' #测试服务器地址
-          SSH_PRIVATE_KEY: ${{ secrets.MEGEVECTOR_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.REPOSITORY_PRIVATE_KEY }}
           ARGS: "-avzr --delete"
-          SOURCE: "out.tar"
-          TARGET: '/root/wanjing-megavector/' #服务器中，代码部署的位置
+          SOURCE: "out.tar.gz"
+          TARGET: '/root/byw-wanjing/' #服务器中，代码部署的位置
 
       - name: Deploy
         if: ${{ startsWith(github.ref, 'refs/tags/v') }}
@@ -77,7 +48,7 @@ jobs:
         with:
           host: ${{ secrets.MEGEVECTOR_HOST }}
           username: 'root'
-          key: ${{ secrets.MEGEVECTOR_KEY }}
+          key: ${{ secrets.REPOSITORY_PRIVATE_KEY }}
           script: |
-            cd /root/wanjing-megavector/
-            tar -zxvf out.tar -C .
+            cd /root/byw-wanjing/
+            tar -xzvf out.tar.gz
