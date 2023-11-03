@@ -28,18 +28,18 @@ jobs:
       # 静态文件压缩
       - name: pack out file
         if: ${{ startsWith(github.ref, 'refs/tags/v') }}
-        run: tar -zcvf out.tar.gz ./dist
+        run: tar -zcvf public.tar.gz .output/public/
         
 
       - name: Upload out ssh
         if: ${{ startsWith(github.ref, 'refs/tags/v') }}
-        uses: easingthemes/ssh-deploy@v2.1.6
+        uses: easingthemes/ssh-deploy@master
         with:
           REMOTE_USER: 'root'
           REMOTE_HOST: '${{ secrets.MEGEVECTOR_HOST }}' #测试服务器地址
-          SSH_PRIVATE_KEY: ${{ secrets.MEGEVECTOR_KEY }}
+          SSH_PRIVATE_KEY: ${{ secrets.REPOSITORY_PRIVATE_KEY }}
           ARGS: "-avzr --delete"
-          SOURCE: "out.tar.gz"
+          SOURCE: "public.tar.gz"
           TARGET: '/root/byw-wanjing/' #服务器中，代码部署的位置
 
       - name: Deploy
@@ -48,7 +48,7 @@ jobs:
         with:
           host: ${{ secrets.MEGEVECTOR_HOST }}
           username: 'root'
-          key: ${{ secrets.MEGEVECTOR_KEY }}
+          key: ${{ secrets.REPOSITORY_PRIVATE_KEY }}
           script: |
             cd /root/byw-wanjing/
-            tar -xzvf out.tar.gz
+            tar -xzvf public.tar.gz
