@@ -52,4 +52,6 @@ jobs:
           script: |
             cd /root/wanjing-megavector/
             tar -xzvf public.tar.gz
+            cp .output/public /root/wanjing-megavector/
             rm -r public.tar.gz
+            mv .output/ output/
