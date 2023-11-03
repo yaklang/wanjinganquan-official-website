@@ -28,7 +28,7 @@ jobs:
       # 静态文件压缩
       - name: pack out file
         if: ${{ startsWith(github.ref, 'refs/tags/v') }}
-        run: tar -zcvf public.tar.gz .output/public/
+        run: tar -zcvf dist.tar.gz dist
         
 
       - name: Upload out ssh
@@ -39,7 +39,7 @@ jobs:
           REMOTE_HOST: '${{ secrets.MEGEVECTOR_HOST }}' #测试服务器地址
           SSH_PRIVATE_KEY: ${{ secrets.REPOSITORY_PRIVATE_KEY }}
           ARGS: "-avzr --delete"
-          SOURCE: "public.tar.gz"
+          SOURCE: "dist.tar.gz"
           TARGET: '/root/byw-wanjing/' #服务器中，代码部署的位置
 
       - name: Deploy
@@ -51,4 +51,5 @@ jobs:
           key: ${{ secrets.REPOSITORY_PRIVATE_KEY }}
           script: |
             cd /root/byw-wanjing/
-            tar -xzvf public.tar.gz
+            tar -xzvf dist.tar.gz
+            rm -r dist.tar.gz
