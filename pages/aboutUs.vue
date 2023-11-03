@@ -10,8 +10,9 @@
         <div class="text-[45px] mb-[35px]">让世界<span class="font-bold-600">更安全</span>，让安全<span
             class="font-bold-600">更简单</span>
         </div>
-        <div class="text-[18px] leading-[35px] w-[588px]">致力于为企业提供专业的网络安全基础设施与用户共建安全，为企业带来专业、可控、放心的安全产品及服务
-          2019年发布了基于“AI+知识图谱”的智能渗透测试机器人，将人工智能首次融入网络安全，2021年发布了国产化“图灵完备”的CDSL-YAK(YAK)语言，以全新的方式重新定义了安全能力融合，从底层安全基座出发构建企业安全体系。
+        <div class="text-[18px] leading-[35px] w-[588px]">致力于为企业提供专业的网络安全基础设施与用户共建安全，为企业带来专业、可控、放心的安全产品及服务。<br>
+          2019年发布了基于“AI+知识图谱”的智能渗透测试机器人，将人工智能首次融入网络安全。<br>
+          2021年发布了国产化“图灵完备”的CDSL-YAK(YAK)语言，以全新的方式定义安全能力融合，从底层安全基座出发构建企业安全体系。
         </div>
       </div>
     </div>
@@ -233,9 +234,15 @@
           <div class="mr-[26px] hover-box">
             <div class="text-[24px] color-[#007AFF] font-bold-600">2017</div>
             <div class="mt-[8px] w-[245px] leading-[30px] text-[15px] history-cont-text">
-              ·千万级天使轮投资与中国信息安全测评中心合成立物联网安全实验室<br>
-              ·CCRC信息安全风险评估三级服务资质要求<br>
-              ·CCRC信息系统安全集成三级服务资质要求<br>
+              <div class="flex"><span class="mr-[5px]">·</span>
+                <div>千万级天使轮投资与中国信息安全测评中心合成立物联网安全实验室</div>
+              </div>
+              <div class="flex"><span class="mr-[5px]">·</span>
+                <div>CCRC信息安全风险评估三级服务资质要求</div>
+              </div>
+              <div class="flex"><span class="mr-[5px]">·</span>
+                <div>CCRC信息系统安全集成三级服务资质要求</div>
+              </div>
             </div>
           </div>
           <div class="one-seven-dp ml-[220px]">
@@ -327,15 +334,29 @@
             <div class="text-[24px] color-[#007AFF] font-bold-600">2018</div>
             <div class="flex">
               <div class="mt-[8px] mr-[40px] w-[260px] leading-[30px] text-[15px] history-cont-text">
-                ·中国物联网安全最具影响力企业<br>
-                ·国家信息安全漏洞库支撑单位<br>
-                ·互联网安全领袖峰会“安全新锐力量”<br>
-                ·中国信息安全产业“优秀创新型产品解决方案<br>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>中国物联网安全最具影响力企业</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>国家信息安全漏洞库支撑单位</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>互联网安全领袖峰会“安全新锐力量”</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>中国信息安全产业“优秀创新型产品解决方案</div>
+                </div>
               </div>
               <div class="mt-[8px] w-[260px] leading-[30px] text-[15px]">
-                ·2018北京协和医院信息化项目建设优秀合作伙伴<br>
-                ·共青城市公安局致谢<br>
-                ·陕西省信息网络安全协会会员单位<br>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>2018北京协和医院信息化项目建设优秀合作伙伴</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>共青城市公安局致谢</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>陕西省信息网络安全协会会员单位</div>
+                </div>
               </div>
             </div>
           </div>
@@ -413,16 +434,32 @@
             <div class="text-[24px] color-[#007AFF] font-bold-600">2019</div>
             <div class="flex">
               <div class="mt-[8px] mr-[40px] w-[240px] leading-[30px] text-[15px] history-cont-text">
-                ·中国信息安全产业“优秀创新型产品解决方案”<br>
-                ·小智-智能渗透测试机器人发布<br>
-                ·2019“黄鹤杯”网络安全服务技能三等奖<br>
-                ·高新技术企业证书<br>
-                ·国家电网第二届网络安全技能竞赛优秀组织奖<br>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>中国信息安全产业“优秀创新型产品解决方案”</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>小智-智能渗透测试机器人发布</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>2019“黄鹤杯”网络安全服务技能三等奖</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>高新技术企业证书</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>国家电网第二届网络安全技能竞赛优秀组织奖</div>
+                </div>
               </div>
               <div class="mt-[8px] w-[240px] leading-[30px] text-[15px]">
-                ·海南省公安厅致谢<br>
-                ·内蒙古电力科学研究院致谢<br>
-                ·中国网络安全与信息产业年度优秀单位奖<br>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>海南省公安厅致谢</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>内蒙古电力科学研究院致谢</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>中国网络安全与信息产业年度优秀单位奖</div>
+                </div>
               </div>
             </div>
           </div>
@@ -477,9 +514,15 @@
             <div class="mb-[40px] w-[260px] hover-box">
               <div class="text-[24px] color-[#007AFF] font-bold-600">2020</div>
               <div class="mt-[8px] leading-[30px] history-cont-text">
-                ·AAA级信用企业<br>
-                ·ISO9001质量管理体系认证证书<br>
-                ·中国信息协会信息安全专业委员会理事单位<br>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>AAA级信用企业</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>ISO9001质量管理体系认证证书</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>中国信息协会信息安全专业委员会理事单位</div>
+                </div>
               </div>
             </div>
             <div class="ml-[75px]">
@@ -573,16 +616,32 @@
             <div class="text-[24px] color-[#007AFF] font-bold-600">2021</div>
             <div class="flex">
               <div class="mt-[8px] mr-[40px] w-[255px] leading-[30px] text-[15px] history-cont-text">
-                ·堂春藤资本数千万A轮融咨<br>
-                ·Yak/Yakit亮相<br>
-                ·网络安全生态语言发布CNNVD技术支撑单位<br>
-                ·ISO27001信息安全管理体系认证证书<br>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>常春藤资本数千万A轮融资</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>Yak/Yakit亮相</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>网络安全生态语言发布CNNVD技术支撑单位</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>ISO27001信息安全管理体系认证证书</div>
+                </div>
               </div>
               <div class="mt-[8px] w-[255px] leading-[30px] text-[15px]">
-                ·北京市企业创新信用领跑企业<br>
-                ·中关村高新技术企业<br>
-                ·中国信息产业商会信息安全产业分会会员单位<br>
-                ·北京市“专精特精”中小企业<br>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>北京市企业创新信用领跑企业</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>中关村高新技术企业</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>中国信息产业商会信息安全产业分会会员单位</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>北京市“专精特新”中小企业</div>
+                </div>
               </div>
             </div>
           </div>
@@ -684,12 +743,24 @@
           <div class="ml-[68px] hover-box">
             <div class="text-[24px] color-[#007AFF] font-bold-600">2022</div>
             <div class="mt-[8px] w-[248px] leading-[30px] text-[15px] history-cont-text">
-              ·CMMI Institute Partner三级证书<br>
-              ·ISO14001环境管理体系认证证书<br>
-              ·ISO45001职业健康安全管理体系认证证书<br>
-              ·“首届腾讯数字安全创新大赛”最佳技术创新奖和最佳网络人气奖<br>
-              ·2022CCF青年精英大会“科技创业秀”二等奖<br>
-              ·2021-2022智能网络安全创新产品奖<br>
+              <div class="flex"><span class="mr-[5px]">·</span>
+                <div>CMMI Institute Partner三级证书</div>
+              </div>
+              <div class="flex"><span class="mr-[5px]">·</span>
+                <div>ISO14001环境管理体系认证证书</div>
+              </div>
+              <div class="flex"><span class="mr-[5px]">·</span>
+                <div>ISO45001职业健康安全管理体系认证证书</div>
+              </div>
+              <div class="flex"><span class="mr-[5px]">·</span>
+                <div>“首届腾讯数字安全创新大赛”最佳技术创新奖和最佳网络人气奖</div>
+              </div>
+              <div class="flex"><span class="mr-[5px]">·</span>
+                <div>2022CCF青年精英大会“科技创业秀”二等奖</div>
+              </div>
+              <div class="flex"><span class="mr-[5px]">·</span>
+                <div>2021-2022智能网络安全创新产品奖</div>
+              </div>
             </div>
           </div>
           <div class="absolute left-[200px] top-[-80px]">
@@ -727,7 +798,7 @@
           </div>
         </div>
         <!-- 2023 -->
-        <div class="absolute left-[10%] top-[80%]">
+        <div class="absolute left-[5%] top-[80%]">
           <div class="absolute top-[130px] left-[300px]">
             <svg class="w-[64px] h-[67px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 67" fill="none">
               <path opacity="0.2"
@@ -756,12 +827,25 @@
           <div class="hover-box">
             <div class="text-[24px] color-[#007AFF] font-bold-600">2023</div>
             <div class="flex">
-              <div class="mt-[8px] w-[240px] leading-[30px] text-[15px] history-cont-text">
-                ·万径安全官宣<br>
-                ·北京市用户满意企业网络安全技术应用试点示范单位<br>
-                ·全国信息安全标准化技术委员会成员单位<br>
-                ·北京市新技术新产品(服务)<br>
-                ·北京市“创新型”中小企业北京市“科技型”中小企业<br>
+              <div class="mt-[8px] w-[270px] leading-[30px] text-[15px] history-cont-text">
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div class="color-[#007AFF]">万径安全官宣</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>北京市用户满意企业网络安全技术应用试点示范单位</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>全国信息安全标准化技术委员会成员单位</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>北京市新技术新产品(服务)</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>北京市“创新型”中小企业</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>北京市“科技型”中小企业</div>
+                </div>
               </div>
             </div>
           </div>
@@ -790,7 +874,13 @@
   </div>
 
   <!-- 二维码-->
-  <div class="h-[409px] bg-[#E4F3FF]">
+  <div class="relative h-[409px] bg-[#E4F3FF]">
+    <div class="bottom-left-bg absolute left-[0] top-[0]">
+      <img src="@/assets/Images/light-bg-left.png" alt="" class="h-[409px]">
+    </div>
+    <div class="bottom-right-bg absolute right-[0] top-[0]">
+      <img src="@/assets/Images/light-bg-right.png" alt="" class="h-[409px]">
+    </div>
     <div class="relative wjaq-container mx-auto h-[100%]">
       <div class="absolute left-[50%] top-[-110px] translate-x-[-50%] flex">
         <div class="flex flex-col items-center mr-[50px]">
@@ -799,7 +889,7 @@
         </div>
         <div class="flex flex-col items-center ml-[50px]">
           <img src="@/assets/Images/yakit-code.png" alt="" class="w-[170px]">
-          <div class="text-[18px] mr-[10px] mt-[-10px]">Yakit企业版小助手</div>
+          <div class="text-[18px] mr-[20px] mt-[-10px]">Yak Project公众号</div>
         </div>
       </div>
       <div class="absolute top-[150px] left-[50%] translate-x-[-50%] flex justify-around w-[100%]">
