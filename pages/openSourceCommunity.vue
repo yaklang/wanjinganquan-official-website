@@ -3,7 +3,7 @@
 
 <template>
   <Title>开源社区</Title>
-  <div class="openSourceCommunity relative bg-[#F4FAFF]">
+  <div class="openSourceCommunity relative bg-[#F4FAFF] mt-[86px]">
     <div
       class="openSourceCommunity-cont h-[100%] absolute left-[50%] top-[50%] translate-x-[-50%] translate-y-[-50%] bg-cover bg-center w-[1105px] h-[814px]">
       <a href="https://chat.yaklang.com" target="_blank"><span
@@ -16,7 +16,7 @@
 
 <style lang="scss" scoped>
 .openSourceCommunity {
-  height: calc(100% - 191px);
+  height: calc(100% - 105px);
   min-height: 814px;
   .openSourceCommunity-cont {
     background-image: url("@/assets/Images/openSourceCommunity-bg.jpg");
