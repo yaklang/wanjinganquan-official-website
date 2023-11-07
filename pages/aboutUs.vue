@@ -63,7 +63,7 @@
             </svg>
             <div class="ml-[68px] hover-box">
               <div class="text-[24px] color-[#007AFF] font-bold-600">2013</div>
-              <div class="mt-[8px] leading-[30px] text-[15px] history-cont-text">四维创智成立</div>
+              <div class="mt-[8px] leading-[30px] text-[15px] history-cont-text">四维创智成立。</div>
             </div>
             <div class="absolute left-[190px] top-[-60px]">
               <svg class="w-[86px] h-[75px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 86 75" fill="none">
@@ -123,7 +123,7 @@
             </svg>
             <div class="w-[260px] hover-box ml-[20px] mt-[20px]">
               <div class="text-[24px] color-[#007AFF] font-bold-600">2014</div>
-              <div class="mt-[8px] leading-[30px] text-[15px] history-cont-text">国家信息技术安全研究中心联盟单位</div>
+              <div class="mt-[8px] leading-[30px] text-[15px] history-cont-text">国家信息技术安全研究中心联盟单位。</div>
             </div>
             <div class="absolute left-[140px] top-[-20px]">
               <svg class="w-[86px] h-[75px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 113 77" fill="none">
@@ -172,7 +172,7 @@
           <div class="absolute left-[20%] top-[-7%]">
             <div class="mb-[40px] w-[320px] hover-box">
               <div class="text-[24px] color-[#007AFF] font-bold-600">2015</div>
-              <div class="mt-[8px] leading-[30px] text-[15px] history-cont-text">与国家信息技术安全研究中心成立，“移动互联网金融安全联合实验室”</div>
+              <div class="mt-[8px] leading-[30px] text-[15px] history-cont-text">与国家信息技术安全研究中心成立，“移动互联网金融安全联合实验室”。</div>
             </div>
             <div class="ml-[75px]">
               <svg class="w-[64px] h-[67px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 67" fill="none">
@@ -236,13 +236,13 @@
               <div class="text-[24px] color-[#007AFF] font-bold-600">2017</div>
               <div class="mt-[8px] w-[245px] leading-[30px] text-[15px] history-cont-text">
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>千万级天使轮投资与中国信息安全测评中心合成立物联网安全实验室</div>
+                  <div>千万级天使轮投资与中国信息安全测评中心合成立物联网安全实验室。</div>
                 </div>
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>CCRC信息安全风险评估三级服务资质要求</div>
+                  <div>CCRC信息安全风险评估三级服务资质要求。</div>
                 </div>
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>CCRC信息系统安全集成三级服务资质要求</div>
+                  <div>CCRC信息系统安全集成三级服务资质要求。</div>
                 </div>
               </div>
             </div>
@@ -336,27 +336,27 @@
               <div class="flex">
                 <div class="mt-[8px] mr-[40px] w-[260px] leading-[30px] text-[15px] history-cont-text">
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>中国物联网安全最具影响力企业</div>
+                    <div>中国物联网安全最具影响力企业。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>国家信息安全漏洞库支撑单位</div>
+                    <div>国家信息安全漏洞库支撑单位。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>互联网安全领袖峰会“安全新锐力量”</div>
+                    <div>互联网安全领袖峰会“安全新锐力量”。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>中国信息安全产业“优秀创新型产品解决方案</div>
+                    <div>中国信息安全产业“优秀创新型产品解决方案。</div>
                   </div>
                 </div>
                 <div class="mt-[8px] w-[260px] leading-[30px] text-[15px]">
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>2018北京协和医院信息化项目建设优秀合作伙伴</div>
+                    <div>2018北京协和医院信息化项目建设优秀合作伙伴。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>共青城市公安局致谢</div>
+                    <div>共青城市公安局致谢。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>陕西省信息网络安全协会会员单位</div>
+                    <div>陕西省信息网络安全协会会员单位。</div>
                   </div>
                 </div>
               </div>
@@ -436,30 +436,30 @@
               <div class="flex">
                 <div class="mt-[8px] mr-[40px] w-[240px] leading-[30px] text-[15px] history-cont-text">
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>中国信息安全产业“优秀创新型产品解决方案”</div>
+                    <div>中国信息安全产业“优秀创新型产品解决方案”。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>小智-智能渗透测试机器人发布</div>
+                    <div>小智-智能渗透测试机器人发布。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>2019“黄鹤杯”网络安全服务技能三等奖</div>
+                    <div>2019“黄鹤杯”网络安全服务技能三等奖。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>高新技术企业证书</div>
+                    <div>高新技术企业证书。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>国家电网第二届网络安全技能竞赛优秀组织奖</div>
+                    <div>国家电网第二届网络安全技能竞赛优秀组织奖。</div>
                   </div>
                 </div>
                 <div class="mt-[8px] w-[240px] leading-[30px] text-[15px]">
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>海南省公安厅致谢</div>
+                    <div>海南省公安厅致谢。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>内蒙古电力科学研究院致谢</div>
+                    <div>内蒙古电力科学研究院致谢。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>中国网络安全与信息产业年度优秀单位奖</div>
+                    <div>中国网络安全与信息产业年度优秀单位奖。</div>
                   </div>
                 </div>
               </div>
@@ -517,13 +517,13 @@
                 <div class="text-[24px] color-[#007AFF] font-bold-600">2020</div>
                 <div class="mt-[8px] leading-[30px] history-cont-text">
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>AAA级信用企业</div>
+                    <div>AAA级信用企业。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>ISO9001质量管理体系认证证书</div>
+                    <div>ISO9001质量管理体系认证证书。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>中国信息协会信息安全专业委员会理事单位</div>
+                    <div>中国信息协会信息安全专业委员会理事单位。</div>
                   </div>
                 </div>
               </div>
@@ -619,30 +619,30 @@
               <div class="flex">
                 <div class="mt-[8px] mr-[40px] w-[255px] leading-[30px] text-[15px] history-cont-text">
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>常春藤资本数千万A轮融资</div>
+                    <div>常春藤资本数千万A轮融资。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>Yak/Yakit亮相</div>
+                    <div>Yak/Yakit亮相。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>网络安全生态语言发布CNNVD技术支撑单位</div>
+                    <div>网络安全生态语言发布CNNVD技术支撑单位。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>ISO27001信息安全管理体系认证证书</div>
+                    <div>ISO27001信息安全管理体系认证证书。</div>
                   </div>
                 </div>
                 <div class="mt-[8px] w-[255px] leading-[30px] text-[15px]">
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>北京市企业创新信用领跑企业</div>
+                    <div>北京市企业创新信用领跑企业。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>中关村高新技术企业</div>
+                    <div>中关村高新技术企业。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>中国信息产业商会信息安全产业分会会员单位</div>
+                    <div>中国信息产业商会信息安全产业分会会员单位。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>北京市“专精特新”中小企业</div>
+                    <div>北京市“专精特新”中小企业。</div>
                   </div>
                 </div>
               </div>
@@ -746,22 +746,22 @@
               <div class="text-[24px] color-[#007AFF] font-bold-600">2022</div>
               <div class="mt-[8px] w-[248px] leading-[30px] text-[15px] history-cont-text">
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>CMMI Institute Partner三级证书</div>
+                  <div>CMMI Institute Partner三级证书。</div>
                 </div>
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>ISO14001环境管理体系认证证书</div>
+                  <div>ISO14001环境管理体系认证证书。</div>
                 </div>
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>ISO45001职业健康安全管理体系认证证书</div>
+                  <div>ISO45001职业健康安全管理体系认证证书。</div>
                 </div>
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>“首届腾讯数字安全创新大赛”最佳技术创新奖和最佳网络人气奖</div>
+                  <div>“首届腾讯数字安全创新大赛”最佳技术创新奖和最佳网络人气奖。</div>
                 </div>
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>2022CCF青年精英大会“科技创业秀”二等奖</div>
+                  <div>2022CCF青年精英大会“科技创业秀”二等奖。</div>
                 </div>
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>2021-2022智能网络安全创新产品奖</div>
+                  <div>2021-2022智能网络安全创新产品奖。</div>
                 </div>
               </div>
             </div>
@@ -833,22 +833,22 @@
               <div class="flex">
                 <div class="mt-[8px] w-[270px] leading-[30px] text-[15px] history-cont-text">
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div class="color-[#007AFF]">万径安全官宣</div>
+                    <div class="color-[#007AFF]">万径安全官宣。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>北京市用户满意企业网络安全技术应用试点示范单位</div>
+                    <div>北京市用户满意企业网络安全技术应用试点示范单位。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>全国信息安全标准化技术委员会成员单位</div>
+                    <div>全国信息安全标准化技术委员会成员单位。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>北京市新技术新产品(服务)</div>
+                    <div>北京市新技术新产品(服务)。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>北京市“创新型”中小企业</div>
+                    <div>北京市“创新型”中小企业。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>北京市“科技型”中小企业</div>
+                    <div>北京市“科技型”中小企业。</div>
                   </div>
                 </div>
               </div>

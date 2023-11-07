@@ -216,15 +216,15 @@ useSeoMeta({
           <div class="color-[#646363] text-[18px] mb-[38px]">对安全团队成员进行管理，实现团队紧密协作，高效工作。</div>
           <div class="mb-[28px]">
             <div class="text-[18px] font-bold-600 mb-[15px]">成员管理</div>
-            <div class="text-[16px] color-[#0070FF] flex justify-between">基于认证的访问控制,基于角色的授权管理</div>
+            <div class="text-[16px] color-[#0070FF] flex justify-between">基于认证的访问控制,基于角色的授权管理。</div>
           </div>
           <div class="mb-[28px]">
             <div class="text-[18px] font-bold-600 mb-[15px]">任务协同</div>
-            <div class="text-[16px] color-[#0070FF] flex justify-between">可以组建任务组,实现安全测试任务的协作或者接力执行</div>
+            <div class="text-[16px] color-[#0070FF] flex justify-between">可以组建任务组,实现安全测试任务的协作或者接力执行。</div>
           </div>
           <div class="mb-[28px]">
             <div class="text-[18px] font-bold-600 mb-[15px]">安全数据共享</div>
-            <div class="text-[16px] color-[#0070FF] flex justify-between">参与任务的成员可以查看所有任务相关数据</div>
+            <div class="text-[16px] color-[#0070FF] flex justify-between">参与任务的成员可以查看所有任务相关数据。</div>
           </div>
         </div>
         <div data-aos="fade-left">
