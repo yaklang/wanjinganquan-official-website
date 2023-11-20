@@ -1,5 +1,9 @@
 export default defineNuxtRouteMiddleware((to, from) => {
-  if (to.path === '/safetyProduct') {
-    return abortNavigation() // 阻止路由跳转
+  if (to.path === "/safetyProduct") {
+    if (from.path !== "/safetyProduct") {
+      return navigateTo(from.path)
+    } else {
+      return navigateTo("/")
+    }
   }
 })
