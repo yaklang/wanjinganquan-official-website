@@ -3,15 +3,11 @@ useSeoMeta({
   title: '小智新一代自动化渗透测试平台',
   description: '国内率先实现“AI+网络安全检测”的智能渗透测试平台，自动完成从信息收集、漏洞验证、漏洞利用、输出报告的渗透测试全过程。',
 })
-
-import spider from "/Images/spider.png"
-import xiaozhiBulb from "/Images/xiaozhi-bulb.png"
-import xiaozhiYak from "/Images/xiaozhi-yak.png"
 // 核心技术数据
 const coreTechnologyList = ref([
-  { imgUrl: spider, title: "立体化漏洞情报知识图谱构建技术", desc: "通过对全网已知漏洞情报进行整合和分析，构建了对漏洞作用目标、分析情报、时空热度等多维立体描述的漏洞情报知识图谱，为小智提供可解释的漏洞处置辅助決策能力。" },
-  { imgUrl: xiaozhiBulb, title: "基于事件图谱的智能任务决策", desc: "以数据驱动为核心原理，基于专家经验和一阶谓词逻辑推理技术实了路径规划、动作调度、事件演绎的全流程智能决策。具备未知场景自适应、攻击收益自校正等实战化能力。" },
-  { imgUrl: xiaozhiYak, title: "安全能力融合的垂直领域开发语言-YAK", desc: "YAK作为“一站式”安全能力基座通过自身融合的丰富的底层安全能力和函数级插件扩展能力，为小智提供了全面的渗透测试能力，并能够支持用户快捷实现渗透测试能力自定义扩展。" },
+  { imgUrl: "/Images/spider.png", title: "立体化漏洞情报知识图谱构建技术", desc: "通过对全网已知漏洞情报进行整合和分析，构建了对漏洞作用目标、分析情报、时空热度等多维立体描述的漏洞情报知识图谱，为小智提供可解释的漏洞处置辅助決策能力。" },
+  { imgUrl: "/Images/xiaozhi-bulb.png", title: "基于事件图谱的智能任务决策", desc: "以数据驱动为核心原理，基于专家经验和一阶谓词逻辑推理技术实了路径规划、动作调度、事件演绎的全流程智能决策。具备未知场景自适应、攻击收益自校正等实战化能力。" },
+  { imgUrl: "/Images/xiaozhi-yak.png", title: "安全能力融合的垂直领域开发语言-YAK", desc: "YAK作为“一站式”安全能力基座通过自身融合的丰富的底层安全能力和函数级插件扩展能力，为小智提供了全面的渗透测试能力，并能够支持用户快捷实现渗透测试能力自定义扩展。" },
 ])
 </script>
 

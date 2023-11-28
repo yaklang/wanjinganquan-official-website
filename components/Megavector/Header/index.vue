@@ -14,9 +14,9 @@
           <NuxtLink to="/">首页</NuxtLink>
         </div>
         <div class="dropdown relative ml-[100px] text-[18px]">
-          <NuxtLink to="/safetyProduct">安全产品</NuxtLink>
+          <NuxtLink to="/safetyProduct">产品&解决方案</NuxtLink>
           <ul
-            class="dropdown-content absolute w-[100px] h-[0px] overflow-hidden bg-[#fff] left-[-10px] top-[55px] px-[13px] text-center text-[15px] rounded-[3px]">
+            class="dropdown-content absolute w-[100px] h-[0px] overflow-hidden bg-[#fff] left-[10px] top-[55px] px-[13px] text-center text-[15px] rounded-[3px]">
             <li class="cursor-pointer mt-[15px]">
               <NuxtLink to="/safetyProduct/constructionScheme">CDSL-YAK</NuxtLink>
             </li>
@@ -46,6 +46,7 @@
 .header {
   z-index: 99999;
 }
+
 .dropdown {
   .dropdown-content {
     line-height: normal;
