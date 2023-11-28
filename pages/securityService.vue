@@ -25,7 +25,7 @@
           </div>
         </div>
         <div class="securityService-banner-img">
-          <img src="@/assets/Images/security-service.png" alt="" class="h-[520px]">
+          <NuxtImg src="/Images/security-service.png" alt="" class="h-[520px]" />
         </div>
       </div>
     </div>
@@ -34,7 +34,7 @@
       <!-- 实现企业安全工具的统一管理 -->
       <div class="flex justify-between items-center px-[10px] mb-[195px]">
         <div data-aos="fade-right">
-          <img src="@/assets/Images/securityService-stcs.png" alt="" class="h-[320px]">
+          <NuxtImg src="/Images/securityService-stcs.png" alt="" class="h-[320px]" />
         </div>
         <div data-aos="fade-left" class="w-[650px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">渗透测试</div>
@@ -71,13 +71,13 @@
             为企业提供常规应急响应支持服务的同时，还会对企业进行全面的内网渗透测试，并提出安全修复建议，降低安全事件发生的概率。</div>
         </div>
         <div data-aos="fade-left">
-          <img src="@/assets/Images/securityService-xy.png" alt="" class="h-[250px]">
+          <NuxtImg src="/Images/securityService-xy.png" alt="" class="h-[250px]" />
         </div>
       </div>
       <!-- 代码审计 -->
       <div class="flex justify-between items-center px-[10px] mb-[195px]">
         <div data-aos="fade-right">
-          <img src="@/assets/Images/securityService-codesj.png" alt="" class="h-[250px]">
+          <NuxtImg src="/Images/securityService-codesj.png" alt="" class="h-[250px]" />
         </div>
         <div data-aos="fade-left" class="w-[600px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">代码审计</div>
@@ -137,7 +137,7 @@
           </div>
         </div>
         <div data-aos="fade-left">
-          <img src="@/assets/Images/securityService-fwpx.png" alt="" class="h-[224px]">
+          <NuxtImg src="/Images/securityService-fwpx.png" alt="" class="h-[224px]" />
         </div>
       </div>
     </div>

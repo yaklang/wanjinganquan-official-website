@@ -4,9 +4,9 @@ useSeoMeta({
   description: '国内率先实现“AI+网络安全检测”的智能渗透测试平台，自动完成从信息收集、漏洞验证、漏洞利用、输出报告的渗透测试全过程。',
 })
 
-import spider from "@/assets/Images/spider.png"
-import xiaozhiBulb from "@/assets/Images/xiaozhi-bulb.png"
-import xiaozhiYak from "@/assets/Images/xiaozhi-yak.png"
+import spider from "/Images/spider.png"
+import xiaozhiBulb from "/Images/xiaozhi-bulb.png"
+import xiaozhiYak from "/Images/xiaozhi-yak.png"
 // 核心技术数据
 const coreTechnologyList = ref([
   { imgUrl: spider, title: "立体化漏洞情报知识图谱构建技术", desc: "通过对全网已知漏洞情报进行整合和分析，构建了对漏洞作用目标、分析情报、时空热度等多维立体描述的漏洞情报知识图谱，为小智提供可解释的漏洞处置辅助決策能力。" },
@@ -20,10 +20,10 @@ const coreTechnologyList = ref([
     <!-- 小智 banner -->
     <div class="relative h-[560px] bg-[#DEEEFD]">
       <div class="bottom-left-bg absolute left-[0] top-[0]">
-        <img src="@/assets/Images/light-bg-left.png" alt="" class="h-[560px]">
+        <NuxtImg src="/Images/light-bg-left.png" alt="" class="h-[560px]" />
       </div>
       <div class="bottom-right-bg absolute right-[0] top-[0]">
-        <img src="@/assets/Images/light-bg-right.png" alt="" class="h-[560px]">
+        <NuxtImg src="/Images/light-bg-right.png" alt="" class="h-[560px]" />
       </div>
       <div class="xiaozhi-banner-cont relative wjaq-container mx-auto h-[100%] flex justify-center items-center">
         <div class="text-center">
@@ -161,13 +161,13 @@ const coreTechnologyList = ref([
             <div class="text-[25px] text-center font-bold-600 mb-[20px]">网络场景信息的智能认知</div>
             <div class="text-[16px] mb-[110px] color-[#646363] leading-[35px]">
               基于漏洞情报知识图谱，对网络场景中的各种信息元素进行统一管理，并运用知识推理技术对场景元素进行扩展和悖论校正，完成对网络场景的智能认知。</div>
-            <div class="text-center"><img src="@/assets/Images/xiaozhi-set.png" alt="" class="znrz-img h-[300px]"></div>
+            <div class="text-center"><NuxtImg src="/Images/xiaozhi-set.png" alt="" class="znrz-img h-[300px]" /></div>
           </div>
           <div class="jczh-wrap w-[480px]">
             <div class="text-[25px] text-center font-bold-600 mb-[20px]">任务流程的复杂逻辑决策执行</div>
             <div class="text-[16px] mb-[110px] color-[#646363] leading-[35px]">
               依托于知识图谱的知识推理技术，联合其他智能体，实现高阶谓词逻辑的智能化决策技术。</div>
-            <div class="text-center"><img src="@/assets/Images/xiaozhi-ai.png" alt="" class="jczh-img h-[320px]"></div>
+            <div class="text-center"><NuxtImg src="/Images/xiaozhi-ai.png" alt="" class="jczh-img h-[320px]" /></div>
           </div>
         </div>
       </div>
@@ -188,7 +188,7 @@ const coreTechnologyList = ref([
         </div>
         <div class="flex justify-between items-center mb-[100px]" v-for="(item, index) in coreTechnologyList"
           :key="index">
-          <div class="mr-[88px]"><img :src="item.imgUrl" alt="" class="h-[150px]"></div>
+          <div class="mr-[88px]"><NuxtImg :src="item.imgUrl" alt="" class="h-[150px]" /></div>
           <div>
             <div class="mb-[15px] text-[24px] font-bold-600">{{ item.title }}</div>
             <div class="text-[18px] color-[#646363] leading-[35px]">

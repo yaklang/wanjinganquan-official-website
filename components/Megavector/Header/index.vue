@@ -6,7 +6,7 @@
     <div class="wjaq-container mx-auto bg-[#fff] flex justify-between items-center">
       <div class="header-left mt-[10px]">
         <NuxtLink to="/">
-          <img src="@/assets/Images/logo.png" class="w-[125px]" />
+          <NuxtImg src="/Images/logo.png" class="w-[125px]" />
         </NuxtLink>
       </div>
       <div class="header-right flex h-[100%] leading-[86px]">

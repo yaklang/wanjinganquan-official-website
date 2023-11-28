@@ -880,19 +880,19 @@
     <!-- 二维码-->
     <div class="relative h-[409px] bg-[#E4F3FF]">
       <div class="bottom-left-bg absolute left-[0] top-[0]">
-        <img src="@/assets/Images/light-bg-left.png" alt="" class="h-[409px]">
+        <NuxtImg src="/Images/light-bg-left.png" alt="" class="h-[409px]" />
       </div>
       <div class="bottom-right-bg absolute right-[0] top-[0]">
-        <img src="@/assets/Images/light-bg-right.png" alt="" class="h-[409px]">
+        <NuxtImg src="/Images/light-bg-right.png" alt="" class="h-[409px]" />
       </div>
       <div class="relative wjaq-container mx-auto h-[100%]">
         <div class="absolute left-[50%] top-[-110px] translate-x-[-50%] flex">
           <div class="flex flex-col items-center mr-[50px]">
-            <img src="@/assets/Images/wanjing-code.png" alt="" class="w-[170px]">
+            <NuxtImg src="/Images/wanjing-code.png" alt="" class="w-[170px]" />
             <div class="text-[18px] mr-[10px] mt-[-10px]">万径安全公众号</div>
           </div>
           <div class="flex flex-col items-center ml-[50px]">
-            <img src="@/assets/Images/yakit-code.png" alt="" class="w-[170px]">
+            <NuxtImg src="/Images/yakit-code.png" alt="" class="w-[170px]" />
             <div class="text-[18px] mr-[20px] mt-[-10px]">Yak Project公众号</div>
           </div>
         </div>
@@ -938,11 +938,11 @@
 
 <style lang="scss" scoped>
 .about-us-banner {
-  background-image: url('@/assets/Images/aboutUs.jpg');
+  background-image: url('/Images/aboutUs.jpg');
 }
 
 .about-us-history {
-  background-image: url("@/assets/Images/history-line.png");
+  background-image: url("/Images/history-line.png");
 }
 
 @media (max-width: 1366px) {

@@ -10,10 +10,10 @@ useSeoMeta({
     <!-- 建设方案 banner -->
     <div class="relative h-[560px] bg-[#DEEEFD]">
       <div class="bottom-left-bg absolute left-[0] top-[0]">
-        <img src="@/assets/Images/light-bg-left.png" alt="" class="h-[560px]">
+        <NuxtImg src="/Images/light-bg-left.png" alt="" class="h-[560px]" />
       </div>
       <div class="bottom-right-bg absolute right-[0] top-[0]">
-        <img src="@/assets/Images/light-bg-right.png" alt="" class="h-[560px]">
+        <NuxtImg src="/Images/light-bg-right.png" alt="" class="h-[560px]" />
       </div>
       <div
         class="constructionScheme-banner-cont relative wjaq-container mx-auto h-[100%] flex justify-center items-center">
@@ -151,7 +151,7 @@ useSeoMeta({
       <!-- 实现企业安全工具的统一管理 -->
       <div class="flex justify-between items-center px-[10px] mb-[195px]">
         <div data-aos="fade-right">
-          <img src="@/assets/Images/constructionScheme-tools.png" alt="" class="aqgj-img h-[314px]">
+          <NuxtImg src="/Images/constructionScheme-tools.png" alt="" class="aqgj-img h-[314px]" />
         </div>
         <div data-aos="fade-left" class="w-[565px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">实现企业安全工具的统一管理</div>
@@ -228,13 +228,13 @@ useSeoMeta({
           </div>
         </div>
         <div data-aos="fade-left">
-          <img src="@/assets/Images/constructionScheme-xiezuo.png" alt="" class="aqtdgl-img h-[408px]">
+          <NuxtImg src="/Images/constructionScheme-xiezuo.png" alt="" class="aqtdgl-img h-[408px]" />
         </div>
       </div>
       <!-- 针对新漏洞的快速响应 -->
       <div class="flex justify-between items-center px-[10px] mb-[195px]">
         <div data-aos="fade-right">
-          <img src="@/assets/Images/constructionScheme-bugxy.png" alt="" class="ldksxy-img h-[470px]">
+          <NuxtImg src="/Images/constructionScheme-bugxy.png" alt="" class="ldksxy-img h-[470px]" />
         </div>
         <div data-aos="fade-left" class="w-[450px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">针对新漏洞的快速响应</div>
@@ -309,13 +309,13 @@ useSeoMeta({
           </div>
         </div>
         <div data-aos="fade-left">
-          <img src="@/assets/Images/constructionScheme-bushu.png" alt="" class="bsfa-img h-[452px]">
+          <NuxtImg src="/Images/constructionScheme-bushu.png" alt="" class="bsfa-img h-[452px]" />
         </div>
       </div>
       <!-- 企业专属定制化服务和合作 -->
       <div class="flex justify-between items-center px-[10px] mb-[195px]">
         <div data-aos="fade-right">
-          <img src="@/assets/Images/constructionScheme-dz.png" alt="" class="dzfu-img w-[460px]">
+          <NuxtImg src="/Images/constructionScheme-dz.png" alt="" class="dzfu-img w-[460px]" />
         </div>
         <div data-aos="fade-left" class="w-[460px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">企业专属定制化服务和合作</div>
@@ -569,10 +569,10 @@ useSeoMeta({
         </div>
       </div>
       <div class="absolute top-[0] left-[0]">
-        <img src="@/assets/Images/constructionScheme-l-circle.png" alt="" class="w-[418px]">
+        <NuxtImg src="/Images/constructionScheme-l-circle.png" alt="" class="w-[418px]" />
       </div>
       <div class="absolute bottom-[0] right-[0]">
-        <img src="@/assets/Images/constructionScheme-r-circle.png" alt="" class="w-[418px]">
+        <NuxtImg src="/Images/constructionScheme-r-circle.png" alt="" class="w-[418px]" />
       </div>
     </div>
   </div>
@@ -606,6 +606,6 @@ useSeoMeta({
 }
 
 .constructionScheme-cont {
-  background-image: url("@/assets/Images/constructionScheme-bg.png");
+  background-image: url("/Images/constructionScheme-bg.png");
 }
 </style>

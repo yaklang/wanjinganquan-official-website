@@ -1,48 +1,8 @@
 <script setup>
-import wanjingBanner from "@/assets/Images/wanjing-banner.png"
-import solutionBanner from "@/assets/Images/solution-banner.png"
-import yakitBanner from "@/assets/Images/yakit-banner.png"
-import xiaozhiBanner from "@/assets/Images/xiaozhi-banner.png"
-import CSTC from "@/assets/Images/CSTC.png"
-import zgxxaqcpzx from "@/assets/Images/zgxxaqcpzx.png"
-import CCID from "@/assets/Images/CCID.png"
-import zggcwlyjy from "@/assets/Images/zggcwlyjy.png"
-import zgmyhkj from "@/assets/Images/zgmyhkj.png"
-import zgjsyh from "@/assets/Images/zgjsyh.png"
-import zgyh from "@/assets/Images/zgyh.png"
-import jx from "@/assets/Images/jx.png"
-import xyyh from "@/assets/Images/xyyh.png"
-import zgpa from "@/assets/Images/zgpa.png"
-import taikang from "@/assets/Images/taikang.png"
-import zgjrrzzx from "@/assets/Images/zgjrrzzx.png"
-import zghnjtyxgs from "@/assets/Images/zghnjtyxgs.png"
-import gjdw from "@/assets/Images/gjdw.png"
-import zgzmnyjtyxgs from "@/assets/Images/zgzmnyjtyxgs.png"
-import zgsy from "@/assets/Images/zgsy.png"
-import zgnfdw from "@/assets/Images/zgnfdw.png"
-import zglt from "@/assets/Images/zglt.png"
-import zgyd from "@/assets/Images/zgyd.png"
-import zgdx from "@/assets/Images/zgdx.png"
-import zggsyh from "@/assets/Images/zggsyh.png"
-import jtyh from "@/assets/Images/jtyh.png"
-import zsyh from "@/assets/Images/zsyh.png"
-import zggdyh from "@/assets/Images/zggdyh.png"
-import zgnyyh from "@/assets/Images/zgnyyh.png"
-import zgwk from "@/assets/Images/zgwk.png"
-import zgrmyh from "@/assets/Images/zgrmyh.png"
-import zgmsyh from "@/assets/Images/zgmsyh.png"
-import zgyhzj from "@/assets/Images/zgyhzj.png"
-import hxyh from "@/assets/Images/hxyh.png"
-import zh from "@/assets/Images/zh.png"
-import zgh from "@/assets/Images/zgh.png"
-import zgsh from "@/assets/Images/zgsh.png"
-import chinawk from "@/assets/Images/chinawk.png"
-import lnjt from "@/assets/Images/lnjt.png"
-import dzkjdx from "@/assets/Images/dzkjdx.png"
-import zzdx from "@/assets/Images/zzdx.png"
-import bjqhcgxy from "@/assets/Images/bjqhcgxy.png"
-import bjdt from "@/assets/Images/bjdt.png"
-import qnlx from "@/assets/Images/qnlx.png"
+import wanjingBanner from "/Images/wanjing-banner.png"
+import solutionBanner from "/Images/solution-banner.png"
+import yakitBanner from "/Images/yakit-banner.png"
+import xiaozhiBanner from "/Images/xiaozhi-banner.png"
 import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper'
 SwiperCore.use([Autoplay, Navigation, Pagination])
 
@@ -56,46 +16,46 @@ const bannerTopList = [
 
 // 底部轮播数据
 const bannerBottomList = [
-  { imgUrl: CSTC },
-  { imgUrl: zgxxaqcpzx },
-  { imgUrl: CCID },
-  { imgUrl: zggcwlyjy },
-  { imgUrl: zgmyhkj },
-  { imgUrl: zgjsyh },
-  { imgUrl: zgyh },
-  { imgUrl: jx },
-  { imgUrl: xyyh },
-  { imgUrl: zgpa },
-  { imgUrl: taikang },
-  { imgUrl: zgjrrzzx },
-  { imgUrl: zghnjtyxgs },
-  { imgUrl: gjdw },
-  { imgUrl: zgzmnyjtyxgs },
-  { imgUrl: zgsy },
-  { imgUrl: zgnfdw },
-  { imgUrl: zglt },
-  { imgUrl: zgyd },
-  { imgUrl: zgdx },
-  { imgUrl: zggsyh },
-  { imgUrl: jtyh },
-  { imgUrl: zsyh },
-  { imgUrl: zggdyh },
-  { imgUrl: zgnyyh },
-  { imgUrl: zgwk },
-  { imgUrl: zgrmyh },
-  { imgUrl: zgmsyh },
-  { imgUrl: zgyhzj },
-  { imgUrl: hxyh },
-  { imgUrl: zh },
-  { imgUrl: zgh },
-  { imgUrl: zgsh },
-  { imgUrl: chinawk },
-  { imgUrl: lnjt },
-  { imgUrl: dzkjdx },
-  { imgUrl: zzdx },
-  { imgUrl: bjqhcgxy },
-  { imgUrl: bjdt },
-  { imgUrl: qnlx }
+  { imgUrl: "/Images/CSTC.png" },
+  { imgUrl: "/Images/zgxxaqcpzx.png" },
+  { imgUrl: "/Images/CCID.png" },
+  { imgUrl: "/Images/zggcwlyjy.png" },
+  { imgUrl: "/Images/zgmyhkj.png" },
+  { imgUrl: "/Images/zgjsyh.png" },
+  { imgUrl: "/Images/zgyh.png" },
+  { imgUrl: "/Images/jx.png" },
+  { imgUrl: "/Images/xyyh.png" },
+  { imgUrl: "/Images/zgpa.png" },
+  { imgUrl: "/Images/taikang.png" },
+  { imgUrl: "/Images/zgjrrzzx.png" },
+  { imgUrl: "/Images/zghnjtyxgs.png" },
+  { imgUrl: "/Images/gjdw.png" },
+  { imgUrl: "/Images/zgzmnyjtyxgs.png" },
+  { imgUrl: "/Images/zgsy.png" },
+  { imgUrl: "/Images/zgnfdw.png" },
+  { imgUrl: "/Images/zglt.png" },
+  { imgUrl: "/Images/zgyd.png" },
+  { imgUrl: "/Images/zgdx.png" },
+  { imgUrl: "/Images/zggsyh.png" },
+  { imgUrl: "/Images/jtyh.png" },
+  { imgUrl: "/Images/zsyh.png" },
+  { imgUrl: "/Images/zggdyh.png" },
+  { imgUrl: "/Images/zgnyyh.png" },
+  { imgUrl: "/Images/zgwk.png" },
+  { imgUrl: "/Images/zgrmyh.png" },
+  { imgUrl: "/Images/zgmsyh.png" },
+  { imgUrl: "/Images/zgyhzj.png" },
+  { imgUrl: "/Images/hxyh.png" },
+  { imgUrl: "/Images/zh.png" },
+  { imgUrl: "/Images/zgh.png" },
+  { imgUrl: "/Images/zgsh.png" },
+  { imgUrl: "/Images/chinawk.png" },
+  { imgUrl: "/Images/lnjt.png" },
+  { imgUrl: "/Images/dzkjdx.png" },
+  { imgUrl: "/Images/zzdx.png" },
+  { imgUrl: "/Images/bjqhcgxy.png" },
+  { imgUrl: "/Images/bjdt.png" },
+  { imgUrl: "/Images/qnlx.png" }
 ]
 const newBannerBottomList = computed(() => {
   let pages = []
@@ -404,10 +364,10 @@ const newBannerBottomList = computed(() => {
     <!-- 底部轮播 -->
     <div class="bottom-swiper-wrap relative overflow-hidden h-[500px] bg-[#1E83FF]">
       <div class="bottom-left-bg absolute left-[0] top-[0]">
-        <img src="@/assets/Images/bottom-banner-left-bg.png" alt="" class="h-[500px]">
+        <NuxtImg src="/Images/bottom-banner-left-bg.png" alt="" class="h-[500px]" />
       </div>
       <div class="bottom-right-bg absolute right-[0] top-[0]">
-        <img src="@/assets/Images/bottom-banner-right-bg.png" alt="" class="h-[500px]">
+        <NuxtImg src="/Images/bottom-banner-right-bg.png" alt="" class="h-[500px]" />
       </div>
       <div class="wjaq-container mx-auto h-[100%] font-bold overflow-hidden bg-[#1E83FF]">
         <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径</div>
@@ -419,7 +379,7 @@ const newBannerBottomList = computed(() => {
             <el-row :gutter="0" justify="space-evenly" class="h-[100%] items-center bottom-swiper-row px-[120px]">
               <el-col :span="6" v-for="(page, j) in item" :key="j"
                 class="h-[66px] w-[230px] flex items-center justify-center overflow-hidden rounded-[5px] px-[9px]">
-                <img :src="page.imgUrl" class="h-[100%]">
+                <NuxtImg :src="page.imgUrl" class="h-[100%]" />
               </el-col>
             </el-row>
           </swiper-slide>
@@ -443,7 +403,7 @@ const newBannerBottomList = computed(() => {
 
 <style lang="scss" scoped>
 .tree-wrap {
-  background-image: url("@/assets/Images/wanjin_tree.gif");
+  background-image: url("/Images/wanjin_tree.gif");
 }
 
 .bottom-swiper-wrap {

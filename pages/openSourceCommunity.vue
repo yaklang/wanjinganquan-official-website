@@ -19,7 +19,7 @@
   height: calc(100% - 105px);
   min-height: 814px;
   .openSourceCommunity-cont {
-    background-image: url("@/assets/Images/openSourceCommunity-bg.jpg");
+    background-image: url("/Images/openSourceCommunity-bg.jpg");
   }
 }
 </style>

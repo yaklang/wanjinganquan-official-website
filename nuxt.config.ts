@@ -18,7 +18,7 @@ export default defineNuxtConfig({
           content:
             "致力于为企业提供专业的网络安全基础设施与用户共建安全，为企业带来专业、可控、放心的安全产品及服务。2019年发布了基于“AI+知识图谱”的智能渗透测试机器人，将人工智能首次融入网络安全，2021年发布了国产化“图灵完备”的CDSL-YAK(YAK)语言，以全新的方式重新定义了安全能力融合，从底层安全基座出发构建企业安全体系。",
         },
-      ]
+      ],
     },
   },
   css: ["@/assets/scss/normalize.scss"],
@@ -27,7 +27,15 @@ export default defineNuxtConfig({
     shim: false,
   },
   // build modules
-  modules: ["@vueuse/nuxt", "@unocss/nuxt", "@element-plus/nuxt"],
+  modules: [
+    "@vueuse/nuxt",
+    "@unocss/nuxt",
+    "@element-plus/nuxt",
+    "@nuxt/image",
+  ],
+  image: {
+    
+  },
   // vueuse
   vueuse: {
     ssrHandlers: true,
