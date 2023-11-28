@@ -10,31 +10,40 @@
         </NuxtLink>
       </div>
       <div class="header-right flex h-[100%] leading-[86px]">
-        <div class="ml-[100px] text-[18px]">
+        <div class="ml-[90px] text-[18px]">
           <NuxtLink to="/">首页</NuxtLink>
         </div>
-        <div class="dropdown relative ml-[100px] text-[18px]">
-          <NuxtLink to="/safetyProduct">产品&解决方案</NuxtLink>
+        <div class="dropdown relative ml-[90px] text-[18px]">
+          <NuxtLink to="/safetyProduct">产品</NuxtLink>
           <ul
-            class="dropdown-content absolute w-[100px] h-[0px] overflow-hidden bg-[#fff] left-[10px] top-[55px] px-[13px] text-center text-[15px] rounded-[3px]">
-            <li class="cursor-pointer mt-[15px]">
-              <NuxtLink to="/safetyProduct/constructionScheme">CDSL-YAK</NuxtLink>
+            class="dropdown-content safetyProduct-dropdown-content absolute left-[0px] w-[340px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[13px] text-[14px] rounded-[3px]">
+            <li class="cursor-pointer">
+              <NuxtLink to="/safetyProduct/xiaozhi">小智：智能渗透测试平台</NuxtLink>
             </li>
             <li class="my-[10px] cursor-pointer">
-              <NuxtLink to="/safetyProduct/xiaozhi">小智</NuxtLink>
+              <a href="https://www.yaklang.com/" target="_blank">Yakit：交互式应用安全测试平台</a>
             </li>
             <li class="cursor-pointer">
-              <a href="https://www.yaklang.com/" target="_blank">Yakit</a>
+              <NuxtLink to="/safetyProduct/qjLargeModel">千机（ChatCS）：知识增强网络安全大模型应用</NuxtLink>
             </li>
           </ul>
         </div>
-        <div class="ml-[100px] text-[18px]">
+        <div class="dropdown relative ml-[90px] text-[18px]">
+          <NuxtLink to="/solution">解决方案</NuxtLink>
+          <ul
+            class="dropdown-content solution-dropdown-content absolute w-[260px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[13px] text-[14px] rounded-[3px]">
+            <li class="cursor-pointer mt-[15px]">
+              <NuxtLink to="/solution/constructionScheme">CDSL-YAK：企业安全建设解决方案</NuxtLink>
+            </li>
+          </ul>
+        </div>
+        <div class="ml-[90px] text-[18px]">
           <NuxtLink to="/securityService">安全服务</NuxtLink>
         </div>
-        <div class="ml-[100px] text-[18px]">
+        <div class="ml-[90px] text-[18px]">
           <NuxtLink to="/openSourceCommunity">开源社区</NuxtLink>
         </div>
-        <div class="ml-[100px] text-[18px]">
+        <div class="ml-[90px] text-[18px]">
           <NuxtLink to="/aboutUs">关于我们</NuxtLink>
         </div>
       </div>
@@ -64,8 +73,12 @@
   }
 
   &:hover {
-    .dropdown-content {
-      height: 110px;
+    .safetyProduct-dropdown-content {
+      height: 90px;
+    }
+
+    .solution-dropdown-content {
+      height: 50px;
     }
   }
 
