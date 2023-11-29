@@ -16,10 +16,10 @@ const coreTechnologyList = ref([
     <!-- 小智 banner -->
     <div class="relative h-[560px] bg-[#DEEEFD]">
       <div class="bottom-left-bg absolute left-[0] top-[0]">
-        <NuxtImg src="/Images/light-bg-left.png" alt="" class="h-[560px]" />
+        <NuxtImg src="/Images/light-bg-left.png" class="h-[560px]" />
       </div>
       <div class="bottom-right-bg absolute right-[0] top-[0]">
-        <NuxtImg src="/Images/light-bg-right.png" alt="" class="h-[560px]" />
+        <NuxtImg src="/Images/light-bg-right.png" class="h-[560px]" />
       </div>
       <div class="xiaozhi-banner-cont relative wjaq-container mx-auto h-[100%] flex justify-center items-center">
         <div class="text-center">
@@ -157,13 +157,13 @@ const coreTechnologyList = ref([
             <div class="text-[25px] text-center font-bold-600 mb-[20px]">网络场景信息的智能认知</div>
             <div class="text-[16px] mb-[110px] color-[#646363] leading-[35px]">
               基于漏洞情报知识图谱，对网络场景中的各种信息元素进行统一管理，并运用知识推理技术对场景元素进行扩展和悖论校正，完成对网络场景的智能认知。</div>
-            <div class="text-center"><NuxtImg src="/Images/xiaozhi-set.png" alt="" class="znrz-img h-[300px]" /></div>
+            <div class="text-center"><NuxtImg src="/Images/xiaozhi-set.png" class="znrz-img h-[300px]" /></div>
           </div>
           <div class="jczh-wrap w-[480px]">
             <div class="text-[25px] text-center font-bold-600 mb-[20px]">任务流程的复杂逻辑决策执行</div>
             <div class="text-[16px] mb-[110px] color-[#646363] leading-[35px]">
               依托于知识图谱的知识推理技术，联合其他智能体，实现高阶谓词逻辑的智能化决策技术。</div>
-            <div class="text-center"><NuxtImg src="/Images/xiaozhi-ai.png" alt="" class="jczh-img h-[320px]" /></div>
+            <div class="text-center"><NuxtImg src="/Images/xiaozhi-ai.png" class="jczh-img h-[320px]" /></div>
           </div>
         </div>
       </div>
@@ -184,7 +184,7 @@ const coreTechnologyList = ref([
         </div>
         <div class="flex justify-between items-center mb-[100px]" v-for="(item, index) in coreTechnologyList"
           :key="index">
-          <div class="mr-[88px]"><NuxtImg :src="item.imgUrl" alt="" class="h-[150px]" /></div>
+          <div class="mr-[88px]"><NuxtImg :src="item.imgUrl" class="h-[150px]" /></div>
           <div>
             <div class="mb-[15px] text-[24px] font-bold-600">{{ item.title }}</div>
             <div class="text-[18px] color-[#646363] leading-[35px]">

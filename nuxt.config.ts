@@ -11,7 +11,7 @@ export default defineNuxtConfig({
           content:
             "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
         },
-        { name: "keywords", content: "安全能力融合、CDSL-YAK、小智、Yakit" },
+        { name: "keywords", content: "安全能力融合、CDSL-YAK、小智、Yakit、千机（ChatCS）" },
         {
           hid: "description",
           name: "description",
@@ -34,7 +34,7 @@ export default defineNuxtConfig({
     "@nuxt/image",
   ],
   image: {
-    
+    quality: 80,
   },
   // vueuse
   vueuse: {

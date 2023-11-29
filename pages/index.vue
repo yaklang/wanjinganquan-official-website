@@ -361,10 +361,10 @@ const newBannerBottomList = computed(() => {
     <!-- 底部轮播 -->
     <div class="bottom-swiper-wrap relative overflow-hidden h-[500px] bg-[#1E83FF]">
       <div class="bottom-left-bg absolute left-[0] top-[0]">
-        <NuxtImg src="/Images/bottom-banner-left-bg.png" alt="" class="h-[500px]" />
+        <NuxtImg src="/Images/bottom-banner-left-bg.png" class="h-[500px]" />
       </div>
       <div class="bottom-right-bg absolute right-[0] top-[0]">
-        <NuxtImg src="/Images/bottom-banner-right-bg.png" alt="" class="h-[500px]" />
+        <NuxtImg src="/Images/bottom-banner-right-bg.png" class="h-[500px]" />
       </div>
       <div class="wjaq-container mx-auto h-[100%] font-bold overflow-hidden bg-[#1E83FF]">
         <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径</div>

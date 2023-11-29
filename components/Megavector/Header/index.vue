@@ -67,7 +67,7 @@
       list-style: none;
 
       &:hover a {
-        font-weight: 600;
+        color: #000;
       }
     }
   }

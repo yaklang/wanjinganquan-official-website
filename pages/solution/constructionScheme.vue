@@ -1,6 +1,6 @@
 <script setup>
 useSeoMeta({
-  title: '建设方案',
+  title: 'CDSL-YAK：企业安全建设解决方案',
   description: '以YAK语言为核心，聚焦网络安全底层，致力于安全融合，助力企业网络安全体系建设。',
 })
 </script>
@@ -10,10 +10,10 @@ useSeoMeta({
     <!-- 建设方案 banner -->
     <div class="relative h-[560px] bg-[#DEEEFD]">
       <div class="bottom-left-bg absolute left-[0] top-[0]">
-        <NuxtImg src="/Images/light-bg-left.png" alt="" class="h-[560px]" />
+        <NuxtImg src="/Images/light-bg-left.png" class="h-[560px]" />
       </div>
       <div class="bottom-right-bg absolute right-[0] top-[0]">
-        <NuxtImg src="/Images/light-bg-right.png" alt="" class="h-[560px]" />
+        <NuxtImg src="/Images/light-bg-right.png" class="h-[560px]" />
       </div>
       <div
         class="constructionScheme-banner-cont relative wjaq-container mx-auto h-[100%] flex justify-center items-center">
@@ -151,11 +151,11 @@ useSeoMeta({
       <!-- 实现企业安全工具的统一管理 -->
       <div class="flex justify-between items-center px-[10px] mb-[195px]">
         <div data-aos="fade-right">
-          <NuxtImg src="/Images/constructionScheme-tools.png" alt="" class="aqgj-img h-[314px]" />
+          <NuxtImg src="/Images/constructionScheme-tools.png" class="aqgj-img h-[314px]" />
         </div>
         <div data-aos="fade-left" class="w-[565px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">实现企业安全工具的统一管理</div>
-          <div class="color-[#646363] text-[18px] mb-[38px] leading-[32px]">构建企业渗透测试全流程工具并进行统一管理，工具原生协同，迅速拉平企业内部安全人员的 “硬件”
+          <div class="color-[#646363] text-[18px] mb-[38px] leading-[30px]">构建企业渗透测试全流程工具并进行统一管理，工具原生协同，迅速拉平企业内部安全人员的 “硬件”
             水平。</div>
           <div class="mb-[50px]">
             <div class="text-[18px] font-bold-600 mb-[15px]">全流程工具包括</div>
@@ -228,17 +228,17 @@ useSeoMeta({
           </div>
         </div>
         <div data-aos="fade-left">
-          <NuxtImg src="/Images/constructionScheme-xiezuo.png" alt="" class="aqtdgl-img h-[408px]" />
+          <NuxtImg src="/Images/constructionScheme-xiezuo.png" class="aqtdgl-img h-[408px]" />
         </div>
       </div>
       <!-- 针对新漏洞的快速响应 -->
       <div class="flex justify-between items-center px-[10px] mb-[195px]">
         <div data-aos="fade-right">
-          <NuxtImg src="/Images/constructionScheme-bugxy.png" alt="" class="ldksxy-img h-[470px]" />
+          <NuxtImg src="/Images/constructionScheme-bugxy.png" class="ldksxy-img h-[470px]" />
         </div>
         <div data-aos="fade-left" class="w-[450px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">针对新漏洞的快速响应</div>
-          <div class="color-[#646363] text-[18px] mb-[38px] leading-[32px]">针对网络空间新发现的漏洞，快速提供针对性的检测插件，按照影响程度进行分级响应。</div>
+          <div class="color-[#646363] text-[18px] mb-[38px] leading-[30px]">针对网络空间新发现的漏洞，快速提供针对性的检测插件，按照影响程度进行分级响应。</div>
           <div class="text-[16px]">
             <div class="flex items-center mb-[25px]">
               <svg class="w-[30px] h-[30px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" fill="none">
@@ -271,22 +271,25 @@ useSeoMeta({
       <div class="flex justify-between items-center px-[10px] mb-[195px]">
         <div data-aos="fade-right" class="w-[510px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">Yakit 产品部署方案</div>
-          <div class="color-[#646363] text-[18px] mb-[38px] leading-[32px]">基于 Yaklang 的低代码平台，融合“图灵完备”低代码 +
+          <div class="color-[#646363] text-[18px] mb-[38px] leading-[30px]">基于 Yaklang 的低代码平台，融合“图灵完备”低代码 +
             安全体系，针对企业部署需求提供不同的产品部署解决方案，极致降低安全运营成本。</div>
           <div class="mb-[50px]">
             <div class="text-[18px] font-bold-600 mb-[15px]">分布式引擎 SaaS 化部署</div>
             <div class="text-[16px] color-[#0070FF]">
               <div class="flex items-center mb-[10px]">
-                <svg class="w-[6px] h-[6px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6" fill="none">
-                  <circle cx="3" cy="3" r="2.5" stroke="#0070FF" />
-                </svg>
-                <span class="ml-[5px]">针对公网业务系统可以直接注册账号使用，用户无需购买，安装或维护任何软、硬件。</span>
+                <span class="leading-[30px]">
+                  <svg class="w-[6px] h-[6px] mr-[5px] mb-[2px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6"
+                    fill="none">
+                    <circle cx="3" cy="3" r="2.5" stroke="#0070FF" />
+                  </svg>
+                  针对公网业务系统可以直接注册账号使用，用户无需购买，安装或维护任何软、硬件。
+                </span>
               </div>
               <div class="flex items-center">
-                <svg class="w-[6px] h-[6px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6" fill="none">
-                  <circle cx="3" cy="3" r="2.5" stroke="#0070FF" />
-                </svg>
-                <span class="ml-[5px]">分布式调度 Yaklang 引擎，快速实现组织内任务的分发和管理。</span>
+                <span class="leading-[30px]"><svg class="w-[6px] h-[6px] mr-[5px] mb-[2px]"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6" fill="none">
+                    <circle cx="3" cy="3" r="2.5" stroke="#0070FF" />
+                  </svg>分布式调度 Yaklang 引擎，快速实现组织内任务的分发和管理。</span>
               </div>
             </div>
           </div>
@@ -294,39 +297,39 @@ useSeoMeta({
             <div class="text-[18px] font-bold-600 mb-[15px]">私有化部署</div>
             <div class="text-[16px] color-[#0070FF]">
               <div class="flex items-center mb-[10px]">
-                <svg class="w-[6px] h-[6px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6" fill="none">
-                  <circle cx="3" cy="3" r="2.5" stroke="#0070FF" />
-                </svg>
-                <span class="ml-[5px]">针对内网业务系统可以在内网直接部署 Yakit 服务器，配置安装后即可上线使用。</span>
+                <span class="leading-[30px]"><svg class="w-[6px] h-[6px] mr-[5px] mb-[2px]"
+                    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6" fill="none">
+                    <circle cx="3" cy="3" r="2.5" stroke="#0070FF" />
+                  </svg>针对内网业务系统可以在内网直接部署 Yakit 服务器，配置安装后即可上线使用。</span>
               </div>
               <div class="flex items-center">
-                <svg class="w-[6px] h-[6px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6" fill="none">
-                  <circle cx="3" cy="3" r="2.5" stroke="#0070FF" />
-                </svg>
-                <span class="ml-[5px]">持续“快速灵活低成本”挂载更多低代码服务和应用。</span>
+                <span><svg class="w-[6px] h-[6px] mr-[5px] mb-[2px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 6 6"
+                    fill="none">
+                    <circle cx="3" cy="3" r="2.5" stroke="#0070FF" />
+                  </svg>持续“快速灵活低成本”挂载更多低代码服务和应用。</span>
               </div>
             </div>
           </div>
         </div>
         <div data-aos="fade-left">
-          <NuxtImg src="/Images/constructionScheme-bushu.png" alt="" class="bsfa-img h-[452px]" />
+          <NuxtImg src="/Images/constructionScheme-bushu.png" class="bsfa-img h-[452px]" />
         </div>
       </div>
       <!-- 企业专属定制化服务和合作 -->
       <div class="flex justify-between items-center px-[10px] mb-[195px]">
         <div data-aos="fade-right">
-          <NuxtImg src="/Images/constructionScheme-dz.png" alt="" class="dzfu-img w-[460px]" />
+          <NuxtImg src="/Images/constructionScheme-dz.png" class="dzfu-img w-[460px]" />
         </div>
         <div data-aos="fade-left" class="w-[460px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">企业专属定制化服务和合作</div>
-          <div class="color-[#646363] text-[18px] mb-[38px] leading-[32px]">针对企业级用户的个性化定制需求，打造贴合企业业务真实场景的服务方案。</div>
+          <div class="color-[#646363] text-[18px] mb-[38px] leading-[30px]">针对企业级用户的个性化定制需求，打造贴合企业业务真实场景的服务方案。</div>
           <div class="mb-[50px]">
             <div class="text-[18px] font-bold mb-[15px]">定制化服务</div>
-            <div class="text-[16px] color-[#999EA8] leading-[32px]">如果您的安全团队在日常检测工作中有其他难题或者需求，我们可以提供定制服务。</div>
+            <div class="text-[16px] color-[#999EA8] leading-[30px]">如果您的安全团队在日常检测工作中有其他难题或者需求，我们可以提供定制服务。</div>
           </div>
           <div class="mb-[50px]">
             <div class="text-[18px] font-bold mb-[15px]">企业合作</div>
-            <div class="text-[16px] color-[#999EA8] leading-[32px]">如果您的团队有基于 Yak 的课题工程转化或者科研课题探讨的想法，欢迎<span
+            <div class="text-[16px] color-[#999EA8] leading-[30px]">如果您的团队有基于 Yak 的课题工程转化或者科研课题探讨的想法，欢迎<span
                 class="color-[#0070FF]">联系我们</span>。</div>
           </div>
         </div>
@@ -569,10 +572,10 @@ useSeoMeta({
         </div>
       </div>
       <div class="absolute top-[0] left-[0]">
-        <NuxtImg src="/Images/constructionScheme-l-circle.png" alt="" class="w-[418px]" />
+        <NuxtImg src="/Images/constructionScheme-l-circle.png" class="w-[418px]" />
       </div>
       <div class="absolute bottom-[0] right-[0]">
-        <NuxtImg src="/Images/constructionScheme-r-circle.png" alt="" class="w-[418px]" />
+        <NuxtImg src="/Images/constructionScheme-r-circle.png" class="w-[418px]" />
       </div>
     </div>
   </div>

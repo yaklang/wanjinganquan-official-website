@@ -2,7 +2,7 @@
 </script>
 
 <template>
-  <Title>万径千机—知识增强网络安全大模型应用</Title>
+  <Title>千机—知识增强网络安全大模型应用</Title>
   <div class="mt-[86px]">
     <!-- 万径千机 banner -->
     <div class="relative h-[411px] bg-[#DEEEFD]">
@@ -76,18 +76,18 @@
           <!-- 漏洞情报 -->
           <div class="flex justify-between items-center px-[10px] mb-[100px]">
             <div data-aos="fade-right">
-              <NuxtImg src="/Images/qj_ldqb.png" alt="" class="h-[421px]" />
+              <NuxtImg src="/Images/qj_ldqb.png" class="h-[421px]" />
             </div>
             <div data-aos="fade-left" class="w-[520px]">
               <div class="text-[32px] font-bold-600 mb-[20px]">漏洞情报</div>
-              <div class="text-[18px] font-bold-600 mb-[16px]">外文漏洞译制</div>
+              <div class="text-[18px] font-bold-600 mb-[18px]">外文漏洞译制</div>
               <div class="text-[16px] mb-[37px] leading-[30px]">情报源涵盖CVE、Github、EXploitDB、社区文章等。可读性已与人类安全专家译制效果无任何差异。</div>
-              <div class="text-[18px] font-bold-600 mb-[16px]">漏洞情报问答</div>
-              <div class="text-[16px] font-bold-600 mb-[16px]">CVE漏洞情报</div>
-              <div class="text-[16px] color-[#646363] mb-[25px] leading-[30px]">
+              <div class="text-[18px] font-bold-600 mb-[18px]">漏洞情报问答</div>
+              <div class="text-[16px] font-bold-600 mb-[12px]">CVE漏洞情报</div>
+              <div class="text-[16px] color-[#646363] mb-[20px] leading-[30px]">
                 对于特定漏洞的回答正确率高达92.1%（测试集验证结果），并能够在多轮人机交互过程中提供更详细更有价值的漏洞情报，且可解释性与稳定性很高。
               </div>
-              <div class="text-[16px] font-bold-600 mb-[16px]">通用漏洞情报</div>
+              <div class="text-[16px] font-bold-600 mb-[12px]">通用漏洞情报</div>
               <div class="text-[16px] color-[#646363] leading-[30px]">对于安全场景中的通用知识掌握，万径千机水平已趋近中高级安全专家，并随着不断的训练与优化，其能力还将得到更多涌现。</div>
             </div>
           </div>
@@ -109,7 +109,7 @@
               </div>
             </div>
             <div data-aos="fade-left">
-              <NuxtImg src="/Images/qj_fzjc.png" alt="" class="w-[400px]" />
+              <NuxtImg src="/Images/qj_fzjc.png" class="w-[400px]" />
             </div>
           </div>
         </div>
