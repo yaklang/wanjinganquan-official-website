@@ -1,5 +1,5 @@
 {
-  "name": "wanjinganquan-official-website",
+  "name": "megavector",
   "private": true,
   "type": "module",
   "scripts": {
@@ -13,6 +13,7 @@
   "devDependencies": {
     "@element-plus/nuxt": "^1.0.6",
     "@nuxt/devtools": "latest",
+    "@nuxt/image": "^1.1.0",
     "@unocss/nuxt": "^0.56.5",
     "@vueuse/nuxt": "^10.5.0",
     "nuxt": "^3.8.0",
@@ -30,5 +31,5 @@
     "swiper": "^8.4.7",
     "vue-awesome-swiper": "^5.0.1"
   },
-  "version": "0.0.34"
+  "version": "0.0.35"
 }
