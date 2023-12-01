@@ -39,8 +39,7 @@
         <div data-aos="fade-left" class="w-[650px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">渗透测试</div>
           <div class="text-[16px] mb-[38px] leading-[35px]">
-            从攻击者视角模拟最真实的攻击，帮助企业发现系统安全漏洞并协助修复。四维创智技术团队拥有丰富的安全测试经验，了解不同场景下的攻防思路，帮助企业快速定位问题所在，可根据业务实际应用场景定制不同测试目标和内容，严格遵守授
-            权许可范围，不影响业务的正常运行。</div>
+            从攻击者视角模拟最真实的攻击，帮助企业发现系统安全漏洞并协助修复。四维创智技术团队拥有丰富的安全测试经验，了解不同场景下的攻防思路，帮助企业快速定位问题所在，可根据业务实际应用场景定制不同测试目标和内容，严格遵守授权许可范围，不影响业务的正常运行。</div>
           <div class="color-[#0070FF] text-[24px] mt-[30px] mb-[20px] font-bold-600">检测内容</div>
           <div class="px-[100px]">
             <div class="flex justify-between text-[16px] mb-[22px]">
@@ -133,7 +132,7 @@
         <div data-aos="fade-right" class="w-[650px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">安全培训服务</div>
           <div class="text-[16px] mb-[38px] leading-[35px]">
-            行业定制化培训、产品培训、管理培训、技术培训。根据企业用户所在行业，有针对性的对安全从业人员提供渗透测试攻防思路、安全运维规则配置、安全风险评估、安全合规等方面进行专业的培训。万径安全团队讲师从攻到防、从理论到实践，都拥有丰富的安全从业经验以及多个国际、国内权威信息安全资质认证，包含：国际CISSP、OSCP、CEH资格认证、CISP、CISAW国内资质认证以及CCIE-R&S、CCIE-security、PMP等专业认证。
+            行业定制化培训、产品培训、管理培训、技术培训。根据企业用户所在行业，有针对性的对安全从业人员提供渗透测试攻防思路、安全运维规则配置、安全风险评估、安全合规等方面的专业培训。万径安全团队讲师从攻到防、从理论到实践，都拥有丰富的安全从业经验以及多个国际、国内权威信息安全资质认证，包含：国际CISSP、OSCP、CEH资格认证、CISP、CISAW国内资质认证以及CCIE-R&S、CCIE-security、PMP等专业认证。
           </div>
         </div>
         <div data-aos="fade-left">

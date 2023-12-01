@@ -18,7 +18,7 @@
           <ul
             class="dropdown-content safetyProduct-dropdown-content absolute left-[0px] w-[340px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[13px] text-[14px] rounded-[3px]">
             <li class="cursor-pointer">
-              <NuxtLink to="/safetyProduct/xiaozhi">小智：智能渗透测试平台</NuxtLink>
+              <NuxtLink to="/safetyProduct/xiaozhi">小智：新一代自动化渗透测试平台</NuxtLink>
             </li>
             <li class="my-[10px] cursor-pointer">
               <a href="https://www.yaklang.com/" target="_blank">Yakit：交互式应用安全测试平台</a>

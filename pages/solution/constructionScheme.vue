@@ -329,8 +329,7 @@ useSeoMeta({
           </div>
           <div class="mb-[50px]">
             <div class="text-[18px] font-bold mb-[15px]">企业合作</div>
-            <div class="text-[16px] color-[#999EA8] leading-[30px]">如果您的团队有基于 Yak 的课题工程转化或者科研课题探讨的想法，欢迎<span
-                class="color-[#0070FF]">联系我们</span>。</div>
+            <div class="text-[16px] color-[#999EA8] leading-[30px]">如果您的团队有基于 Yak 的课题工程转化或者科研课题探讨的想法，欢迎<NuxtLink :to="{ path: '/aboutUs', query: { scrollToBottom: true } }"><span class="color-[#0070FF]">联系我们</span></NuxtLink>。</div>
           </div>
         </div>
       </div>

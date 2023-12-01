@@ -114,11 +114,11 @@ const newBannerBottomList = computed(() => {
     <div class="h-[1400px] tree-wrap bg-center bg-contain bg-no-repeat">
       <div class="wjaq-container relative mx-auto h-[100%]">
         <!-- 小智-智能渗透测试机器人 -->
-        <div data-aos="fade-down" class="xiaozhi-tree-item absolute left-[49%] top-[20%]">
+        <div data-aos="fade-down" class="xiaozhi-tree-item absolute left-[32%] top-[20%]">
           <div
-            class="absolute top-[-35px] left-[-225px] text-center bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px]">
-            <div class="color-[#0070FF] text-[16px] mb-[5px] font-bold-600">小智-智能渗透测试机器人</div>
-            <div class="text-[12px] font-bold-600">新一代自动化渗透测试平台</div>
+            class="absolute top-[-35px] left-[-280px] text-center bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px]">
+            <div class="color-[#0070FF] text-[16px] mb-[5px] font-bold-600">小智-新一代自动化渗透测试平台</div>
+            <div class="text-[12px] font-bold-600">智能渗透测试机器人</div>
           </div>
           <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="89.78" cy="73.13" r="20.5" fill="url(#paint0_radial_447_1624)" fill-opacity="0.3" />
@@ -185,6 +185,47 @@ const newBannerBottomList = computed(() => {
             </defs>
           </svg>
         </div>
+        <!-- 万径千机 -->
+        <div data-aos="fade-down" class="absolute right-[28%] top-[22%]">
+          <div
+            class="absolute top-[-40px] right-[-220px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[280px]">
+            <div class="color-[#0070FF] text-[16px] text-center font-bold-600 w-[146px] mx-auto mb-[5px]">
+              万径千机
+            </div>
+            <div class="text-[12px] font-bold-600">知识增强网络安全大模型应用。</div>
+          </div>
+          <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20.5" cy="20.5" r="20.5" transform="matrix(-1 0 0 1 41 52.63)" fill="url(#paint0_radial_447_1616)"
+              fill-opacity="0.3" />
+            <circle cx="13.6667" cy="13.6667" r="13.6667" transform="matrix(-1 0 0 1 34.1666 59.4634)"
+              fill="url(#paint1_radial_447_1616)" fill-opacity="0.27" />
+            <circle cx="9.87037" cy="9.87037" r="9.87037" transform="matrix(-1 0 0 1 30.3704 63.2596)"
+              fill="url(#paint2_radial_447_1616)" fill-opacity="0.48" />
+            <circle cx="4.55556" cy="4.55556" r="4.55556" transform="matrix(-1 0 0 1 25.0555 68.5745)" fill="#016EF9" />
+            <path d="M109.28 1H93.23L21.16 73.07" stroke="black" stroke-width="1.5" stroke-miterlimit="10"
+              stroke-linecap="round" stroke-linejoin="round" />
+            <path
+              d="M20.49 75.65C19.1038 75.65 17.98 74.5262 17.98 73.14C17.98 71.7538 19.1038 70.63 20.49 70.63C21.8762 70.63 23 71.7538 23 73.14C23 74.5262 21.8762 75.65 20.49 75.65Z"
+              fill="black" />
+            <defs>
+              <radialGradient id="paint0_radial_447_1616" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(20.5 20.5) rotate(90) scale(20.5)">
+                <stop offset="0.869792" stop-color="#5199FF" />
+                <stop offset="1" stop-color="white" stop-opacity="0" />
+              </radialGradient>
+              <radialGradient id="paint1_radial_447_1616" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(13.6667 13.6667) rotate(90) scale(13.6667)">
+                <stop offset="0.869792" stop-color="#217CFD" />
+                <stop offset="1" stop-color="white" stop-opacity="0" />
+              </radialGradient>
+              <radialGradient id="paint2_radial_447_1616" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse"
+                gradientTransform="translate(9.87037 9.87037) rotate(90) scale(9.87037)">
+                <stop offset="0.807292" stop-color="#0070FF" />
+                <stop offset="1" stop-color="#4999FF" stop-opacity="0" />
+              </radialGradient>
+            </defs>
+          </svg>
+        </div>
         <!-- CDSL-YAK企业安全 -->
         <div data-aos="fade-up" class="absolute right-[20%] top-[50%]">
           <div
@@ -228,7 +269,7 @@ const newBannerBottomList = computed(() => {
         </div>
         <!-- 安全培训服务 -->
         <div data-aos="zoom-in"
-          class="absolute right-[50%] top-[30%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px]">
+          class="absolute right-[50%] top-[33%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px]">
           <div class="w-[36px] h-[23px]">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="23" viewBox="0 0 36 23" fill="none">
               <path

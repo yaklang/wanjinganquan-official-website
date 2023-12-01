@@ -81,7 +81,7 @@
             <div data-aos="fade-left" class="w-[520px]">
               <div class="text-[32px] font-bold-600 mb-[20px]">漏洞情报</div>
               <div class="text-[18px] font-bold-600 mb-[18px]">外文漏洞译制</div>
-              <div class="text-[16px] mb-[37px] leading-[30px]">情报源涵盖CVE、Github、EXploitDB、社区文章等。可读性已与人类安全专家译制效果无任何差异。</div>
+              <div class="text-[16px] color-[#646363] mb-[37px] leading-[30px]">情报源涵盖CVE、Github、EXploitDB、社区文章等。可读性已与人类安全专家译制效果无任何差异。</div>
               <div class="text-[18px] font-bold-600 mb-[18px]">漏洞情报问答</div>
               <div class="text-[16px] font-bold-600 mb-[12px]">CVE漏洞情报</div>
               <div class="text-[16px] color-[#646363] mb-[20px] leading-[30px]">

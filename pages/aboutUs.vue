@@ -1,4 +1,15 @@
 <script setup>
+const router = useRouter()
+
+watchEffect(() => {
+  const scrollToBottom = router.currentRoute.value.query.scrollToBottom
+
+  if (scrollToBottom === 'true') {
+    setTimeout(() => {
+      window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
+    }, 0)
+  }
+})
 </script>
 
 <template>
@@ -11,7 +22,7 @@
           <div class="text-[45px] mb-[35px]">让世界<span class="font-bold-600">更安全</span>，让安全<span
               class="font-bold-600">更简单</span>
           </div>
-          <div class="text-[18px] leading-[35px] w-[588px]">致力于为企业提供专业的网络安全基础设施与用户共建安全，为企业带来专业、可控、放心的安全产品及服务。<br>
+          <div class="text-[18px] leading-[35px] w-[588px]">致力于为企业提供专业的网络安全基础设施，与用户共建安全。为企业带来专业、可控、放心的安全产品及服务。<br>
             2019年发布了基于“AI+知识图谱”的智能渗透测试机器人，将人工智能首次融入网络安全。<br>
             2021年发布了国产化“图灵完备”的CDSL-YAK(YAK)语言，以全新的方式定义安全能力融合，从底层安全基座出发构建企业安全体系。
           </div>
