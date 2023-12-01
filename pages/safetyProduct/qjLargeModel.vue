@@ -13,7 +13,7 @@
         <NuxtImg src="/Images/light-bg-right.png" class="h-[411px]" />
       </div>
       <div class="wjaq-container mx-auto h-[100%] flex flex-col justify-center items-center">
-        <div class="text-[52px]"><span class="font-bold-600 color-[#007AFF]">万径千机</span>——知识增强网络安全大模型应用</div>
+        <div class="text-[52px]"><span class="font-bold-600 color-[#007AFF]">千机（ChatCS）</span>知识增强网络安全大模型</div>
         <div class="text-[18px] mt-[20px]">融合“千万”攻防知识，凝炼“百万”决策经验，让大模型更“可靠”、更“高效”地服务一线场景</div>
       </div>
     </div>
