@@ -13,7 +13,7 @@
         <div class="ml-[90px] text-[18px]">
           <NuxtLink to="/">首页</NuxtLink>
         </div>
-        <div class="dropdown relative ml-[90px] text-[18px]">
+        <div class="dropdown relative ml-[80px] text-[18px]">
           <NuxtLink to="/safetyProduct">产品</NuxtLink>
           <ul
             class="dropdown-content safetyProduct-dropdown-content absolute left-[0px] w-[340px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[13px] text-[14px] rounded-[3px]">
@@ -28,7 +28,7 @@
             </li>
           </ul>
         </div>
-        <div class="dropdown relative ml-[90px] text-[18px]">
+        <div class="dropdown relative ml-[80px] text-[18px]">
           <NuxtLink to="/solution">解决方案</NuxtLink>
           <ul
             class="dropdown-content solution-dropdown-content absolute w-[260px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[13px] text-[14px] rounded-[3px]">
@@ -37,13 +37,13 @@
             </li>
           </ul>
         </div>
-        <div class="ml-[90px] text-[18px]">
+        <div class="ml-[80px] text-[18px]">
           <NuxtLink to="/securityService">安全服务</NuxtLink>
         </div>
-        <div class="ml-[90px] text-[18px]">
+        <div class="ml-[80px] text-[18px]">
           <NuxtLink to="/openSourceCommunity">开源社区</NuxtLink>
         </div>
-        <div class="ml-[90px] text-[18px]">
+        <div class="ml-[80px] text-[18px]">
           <NuxtLink to="/aboutUs">关于我们</NuxtLink>
         </div>
       </div>

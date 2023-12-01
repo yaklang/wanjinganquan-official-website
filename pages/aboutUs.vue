@@ -4,7 +4,7 @@ const router = useRouter()
 watchEffect(() => {
   const scrollToBottom = router.currentRoute.value.query.scrollToBottom
 
-  if (scrollToBottom === 'true') {
+  if (scrollToBottom === 'true' && process.client) {
     setTimeout(() => {
       window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' })
     }, 0)

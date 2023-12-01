@@ -1,14 +1,16 @@
 <script setup>
+const router = useRouter()
+
 import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper'
 SwiperCore.use([Autoplay, Navigation, Pagination])
 
 // 头部轮播数据
 const bannerTopList = [
   { type: "banner_2", title: "重新定义", name: "安全能力融合", info: "立足于攻防一线，为企业带来全新的安全体系建设思路。", bgUrl: "/Images/wanjing-banner.png", titleWidth: "w-[512px]" },
-  { type: "banner_1", to: "/solution/constructionScheme", name: "CDSL-YAK", title: "行业解决方案", info: "以YAK语言为核心，聚焦网络安全底层，致力于安全融合，助力企业网络安全体系建设。", bgUrl: "/Images/solution-banner.png", titleWidth: "w-[512px]" },
+  { type: "banner_1", to: "/solution/constructionScheme", name: "CDSL-YAK", title: "企业安全建设解决方案", info: "以YAK语言为核心，以衍生产品为配套。通过构建底层安全能力基座，实现低位安全产品的高效集成，协助企业进行网络安全体系建设。", bgUrl: "/Images/solution-banner.png", titleWidth: "w-[660px]" },
   { type: "banner_1", to: "/safetyProduct/xiaozhi", name: "小智", title: "新一代自动化渗透测试平台", info: "国内率先实现“AI+网络安全检测”的智能渗透测试平台，能够实现自动化完成从信息收集、漏洞验证、漏洞利用、输出报告的渗透测试全过程。", bgUrl: "/Images/xiaozhi-banner.png", titleWidth: "w-[640px]" },
   { type: "banner_1", link: "https://www.yaklang.com/", name: "Yakit", title: "交互式应用安全测试平台", info: "YAK编写的gRPC服务器，并基于服务器构建客户端，通过GUI操控引擎能力，集成Yaklang的所有能力。", bgUrl: "/Images/yakit-banner.png", titleWidth: "w-[610px]" },
-  { type: "banner_1", to: "/safetyProduct/qjLargeModel", name: "万径千机——", title: "知识增强网络安全大模型应用", info: "融合“千万”攻防知识，凝炼“百万”决策经验，让大模型更“可靠”、更“高效”地服务一线场景。", bgUrl: "/Images/qj_banner.png", titleWidth: "w-[645px]" },
+  { type: "banner_1", to: "/safetyProduct/qjLargeModel", name: "千机（ChatCS）", title: "知识增强网络安全大模型", info: "融合“千万”攻防知识，凝炼“百万”决策经验，让大模型更“可靠”、更“高效”地服务一线场景。", bgUrl: "/Images/qj_banner.png", titleWidth: "w-[822px]" },
 ]
 
 // 底部轮播数据
@@ -64,6 +66,9 @@ const newBannerBottomList = computed(() => {
   return pages
 })
 
+const goToOtherPage = (path, hash) => {
+  router.push({ path: path, hash: hash });
+}
 </script>
 
 <template>
@@ -71,14 +76,14 @@ const newBannerBottomList = computed(() => {
   <div class="mt-[86px]">
     <!-- 头部轮播 -->
     <div class="h-[560px] bg-[#F4FAFF]">
-      <swiper class="h-[100%]" :speed="1500" loop :autoplay="{ disableOnInteraction: false }"
-        :pagination="{ el: '.swiper-pagination', clickable: true }">
+      <swiper class="h-[100%]" :speed="1500" loop :pagination="{ el: '.swiper-pagination', clickable: true }"
+        :autoplay="{ disableOnInteraction: false, delay: 5000 }">
         <swiper-slide v-for="(item, index) in bannerTopList" :key="index">
           <div v-if="item.type === 'banner_1'" class="h-[100%] bg-no-repeat bg-positon-center"
-            :style="{ backgroundImage: `url(${item.bgUrl})`, backgroundPosition: '45% center', backgroundSize: 'contain' }">
+            :style="{ backgroundImage: `url(${item.bgUrl})`, backgroundPosition: '50% center', backgroundSize: 'contain' }">
             <div class="wjaq-container h-[100%] mx-auto flex items-center">
               <div class='text-center'>
-                <div :class="['text-left', 'text-[45px]', 'font-bold-600', item.titleWidth]">
+                <div :class="['text-left', 'text-[40px]', 'font-bold-600', item.titleWidth]">
                   <span class="color-[#0070FF]">{{ item.name }}</span>{{ item.title }}
                 </div>
                 <div :class="['text-left', 'text-[18px]', 'mt-[10px]', 'leading-[30px]', item.titleWidth]">{{ item.info }}
@@ -98,7 +103,7 @@ const newBannerBottomList = computed(() => {
             :style="{ backgroundImage: `url(${item.bgUrl})`, backgroundPosition: 'bottom', backgroundSize: 'contain' }">
             <div class="wjaq-container h-[100%] mx-auto flex mt-[100px]">
               <div>
-                <div class="text-left text-[53px] font-bold-600">
+                <div class="text-left text-[45px] font-bold-600">
                   {{ item.title }}<span class="color-[#0070FF]">{{ item.name }}</span>
                 </div>
                 <div class="text-[24px] leading-[30px]">{{ item.info }}</div>
@@ -114,11 +119,11 @@ const newBannerBottomList = computed(() => {
     <div class="h-[1400px] tree-wrap bg-center bg-contain bg-no-repeat">
       <div class="wjaq-container relative mx-auto h-[100%]">
         <!-- 小智-智能渗透测试机器人 -->
-        <div data-aos="fade-down" class="xiaozhi-tree-item absolute left-[32%] top-[20%]">
+        <div data-aos="fade-down" class="xiaozhi-tree-item absolute left-[40%] top-[20%]">
           <div
-            class="absolute top-[-35px] left-[-280px] text-center bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px]">
-            <div class="color-[#0070FF] text-[16px] mb-[5px] font-bold-600">小智-新一代自动化渗透测试平台</div>
-            <div class="text-[12px] font-bold-600">智能渗透测试机器人</div>
+            class="absolute top-[-60px] left-[-300px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] w-[300px]">
+            <div class="color-[#0070FF] text-[16px] mb-[5px] font-bold-600">小智新一代自动化渗透测试平台</div>
+            <div class="text-[12px] font-bold-600">国内率先实现“Al+网络安全检测”的智能渗透测试平台，能够实现自动化完成从信息收集、漏洞验证、漏洞利用、输出报告的渗透测试全过程。</div>
           </div>
           <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="89.78" cy="73.13" r="20.5" fill="url(#paint0_radial_447_1624)" fill-opacity="0.3" />
@@ -150,11 +155,11 @@ const newBannerBottomList = computed(() => {
           </svg>
         </div>
         <!-- Yakit -->
-        <div data-aos="fade-up" class="absolute top-[40%] left-[19%]">
+        <div data-aos="fade-up" class="absolute top-[40%] left-[24%]">
           <div
-            class="absolute top-[-45px] left-[-225px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[235px]">
-            <div class="color-[#0070FF] text-[16px] text-center mb-[5px] font-bold-600">Yakit</div>
-            <div class="text-[12px] font-bold-600">国产化交互式应用安全测试平台/集成化安全能力平台</div>
+            class="absolute top-[-60px] left-[-295px] bg-[#fff] px-[15px] py-[15px] border-[2px] border-solid rounded-[5px] w-[300px]">
+            <div class="color-[#0070FF] text-[16px] mb-[5px] font-bold-600">Yakit国产化交互式应用安全测试平台</div>
+            <div class="text-[12px] font-bold-600">YAK编写的gRPC服务器，并基于服务器构建客户端，通过GUI操控引擎能力集成Yaklang的所有能力。</div>
           </div>
           <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="89.78" cy="73.13" r="20.5" fill="url(#paint0_radial_447_1624)" fill-opacity="0.3" />
@@ -185,14 +190,14 @@ const newBannerBottomList = computed(() => {
             </defs>
           </svg>
         </div>
-        <!-- 万径千机 -->
+        <!-- 千机 -->
         <div data-aos="fade-down" class="absolute right-[28%] top-[22%]">
           <div
-            class="absolute top-[-40px] right-[-220px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[280px]">
-            <div class="color-[#0070FF] text-[16px] text-center font-bold-600 w-[146px] mx-auto mb-[5px]">
-              万径千机
+            class="absolute top-[-50px] right-[-299px] bg-[#fff] px-[15px] py-[15px] border-[2px] border-solid rounded-[5px] w-[300px]">
+            <div class="color-[#0070FF] text-[16px] font-bold-600 mb-[5px]">
+              千机：知识增强网络安全大模型应用
             </div>
-            <div class="text-[12px] font-bold-600">知识增强网络安全大模型应用。</div>
+            <div class="text-[12px] font-bold-600">融合“千万“攻防知识，凝炼”百万”决策经验，让大模型更“可靠”、更“高效”地服务线场景。</div>
           </div>
           <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="20.5" cy="20.5" r="20.5" transform="matrix(-1 0 0 1 41 52.63)" fill="url(#paint0_radial_447_1616)"
@@ -227,13 +232,13 @@ const newBannerBottomList = computed(() => {
           </svg>
         </div>
         <!-- CDSL-YAK企业安全 -->
-        <div data-aos="fade-up" class="absolute right-[20%] top-[50%]">
+        <div data-aos="fade-up" class="absolute right-[23%] top-[50%]">
           <div
-            class="absolute top-[-60px] right-[-268px] bg-[#fff] px-[25px] py-[15px] border-[2px] border-solid rounded-[5px] max-w-[280px]">
-            <div class="color-[#0070FF] text-[16px] text-center font-bold-600 w-[146px] mx-auto mb-[5px]">
+            class="absolute top-[-70px] right-[-270px] bg-[#fff] px-[15px] py-[15px] border-[2px] border-solid rounded-[5px] w-[280px]">
+            <div class="color-[#0070FF] text-[16px] font-bold-600 mb-[5px]">
               CDSL-YAK企业安全建设解决方案
             </div>
-            <div class="text-[12px] font-bold-600">基于网络安全领域编程语言CDSL-YAK，为客户带来全新的安全体系建设思路。</div>
+            <div class="text-[12px] font-bold-600">以YAK语言为核心，以衍生产品为配套。通过构建底层安全能力基座，实现低位安全产品的高效集成，协助企业进行网络安全体系建设。</div>
           </div>
           <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="20.5" cy="20.5" r="20.5" transform="matrix(-1 0 0 1 41 52.63)" fill="url(#paint0_radial_447_1616)"
@@ -268,8 +273,8 @@ const newBannerBottomList = computed(() => {
           </svg>
         </div>
         <!-- 安全培训服务 -->
-        <div data-aos="zoom-in"
-          class="absolute right-[50%] top-[33%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px]">
+        <div data-aos="zoom-in" @click="goToOtherPage('/securityService', '#aqpxfw')"
+          class="absolute right-[50%] top-[33%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px] cursor-pointer">
           <div class="w-[36px] h-[23px]">
             <svg xmlns="http://www.w3.org/2000/svg" width="36" height="23" viewBox="0 0 36 23" fill="none">
               <path
@@ -296,8 +301,8 @@ const newBannerBottomList = computed(() => {
           </div>
         </div>
         <!-- 代码审计 -->
-        <div data-aos="zoom-in"
-          class="absolute left-[49%] top-[40%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px]">
+        <div data-aos="zoom-in" @click="goToOtherPage('/securityService', '#dmsj')"
+          class="absolute left-[49%] top-[40%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px] cursor-pointer">
           <div class="w-[31px] h-[25px]">
             <svg xmlns="http://www.w3.org/2000/svg" width="31" height="25" viewBox="0 0 31 25" fill="none">
               <path
@@ -328,8 +333,8 @@ const newBannerBottomList = computed(() => {
           </div>
         </div>
         <!-- 渗透测试 -->
-        <div data-aos="zoom-in"
-          class="absolute right-[50%] top-[50%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px]">
+        <div data-aos="zoom-in" @click="goToOtherPage('/securityService', '#stcs')"
+          class="absolute right-[50%] top-[50%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px] cursor-pointer">
           <div class="w-[37px] h-[25px]">
             <svg xmlns="http://www.w3.org/2000/svg" width="37" height="25" viewBox="0 0 37 25" fill="none">
               <path
@@ -370,9 +375,9 @@ const newBannerBottomList = computed(() => {
             <div class="text-[12px] w-[210px]">从攻击者视角模拟最真实的攻击，帮助企业发现系统安全漏洞并协助修复。</div>
           </div>
         </div>
-        <!-- 应急响应 -->
-        <div data-aos="zoom-in"
-          class="absolute left-[49%] top-[60%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px]">
+        <!-- 应急响应 -->      
+        <div data-aos="zoom-in" @click="goToOtherPage('/securityService', '#yjxy')"
+          class="absolute left-[49%] top-[60%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px] cursor-pointer">
           <div class="w-[25px] h-[31px]">
             <svg xmlns="http://www.w3.org/2000/svg" width="25" height="31" viewBox="0 0 25 31" fill="none">
               <path
@@ -409,7 +414,7 @@ const newBannerBottomList = computed(() => {
       </div>
       <div class="wjaq-container mx-auto h-[100%] font-bold overflow-hidden bg-[#1E83FF]">
         <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径</div>
-        <swiper class="h-[160px]" :speed="1500" loop :autoplay="{ disableOnInteraction: false }" :navigation="{
+        <swiper class="h-[160px]" :speed="1500" loop :autoplay="{ disableOnInteraction: false, delay: 5000 }" :navigation="{
           nextEl: '.swiper-button-next',
           prevEl: '.swiper-button-prev',
         }">
@@ -476,7 +481,7 @@ const newBannerBottomList = computed(() => {
   }
 
   .xiaozhi-tree-item {
-    top: 27%;
+    top: 22%;
   }
 }
 </style>
