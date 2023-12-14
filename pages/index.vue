@@ -197,7 +197,7 @@ const goToOtherPage = (path, hash) => {
             <div class="color-[#0070FF] text-[16px] font-bold-600 mb-[5px]">
               千机：知识增强网络安全大模型应用
             </div>
-            <div class="text-[12px] font-bold-600">融合“千万“攻防知识，凝炼”百万”决策经验，让大模型更“可靠”、更“高效”地服务线场景。</div>
+            <div class="text-[12px] font-bold-600">融合“千万“攻防知识，凝炼”百万”决策经验，让大模型更“可靠”、更“高效”地服务一线场景。</div>
           </div>
           <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="20.5" cy="20.5" r="20.5" transform="matrix(-1 0 0 1 41 52.63)" fill="url(#paint0_radial_447_1616)"
@@ -238,7 +238,7 @@ const goToOtherPage = (path, hash) => {
             <div class="color-[#0070FF] text-[16px] font-bold-600 mb-[5px]">
               CDSL-YAK企业安全建设解决方案
             </div>
-            <div class="text-[12px] font-bold-600">以YAK语言为核心，以衍生产品为配套。通过构建底层安全能力基座，实现低位安全产品的高效集成，协助企业进行网络安全体系建设。</div>
+            <div class="text-[12px] font-bold-600">以YAK语言为核心，以衍生产品为配套。通过构建底层安全能力，集成Yaklang的所有能力，实现低位安全产品的高效集成，协助企业进行网络安全体系建设。</div>
           </div>
           <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="20.5" cy="20.5" r="20.5" transform="matrix(-1 0 0 1 41 52.63)" fill="url(#paint0_radial_447_1616)"
