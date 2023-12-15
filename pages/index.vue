@@ -106,7 +106,7 @@ const goToOtherPage = (path, hash) => {
                 <div class="text-left text-[45px] font-bold-600">
                   {{ item.title }}<span class="color-[#0070FF]">{{ item.name }}</span>
                 </div>
-                <div class="text-[24px] leading-[30px]">{{ item.info }}</div>
+                <div class="text-[22px] leading-[30px]">{{ item.info }}</div>
               </div>
             </div>
           </div>

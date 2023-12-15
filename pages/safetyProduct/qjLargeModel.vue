@@ -140,7 +140,7 @@
           <div class="relative">
             <div data-aos="fade-down" class="w-[260px] mx-auto">
               <div class="text-[18px] mb-[10px] font-bold-600">增强安全保障系数</div>
-              <div class="text-[16px] color-[#646363] leading-[30px]">千机具备原子操作级代码分析能力，对各类未知数据样本都具备一定的研判效果。</div>
+              <div class="text-[16px] color-[#646363] leading-[30px]">千机具备原子级代码分析能力，对各类未知数据样本都具备一定的研判效果。</div>
             </div>
             <div class="flex justify-between items-center mt-[25px] mb-[50px]">
               <div data-aos="fade-left">

@@ -24,7 +24,7 @@ watchEffect(() => {
           </div>
           <div class="text-[18px] leading-[35px] w-[588px]">致力于为企业提供专业的网络安全基础设施，与用户共建安全。为企业带来专业、可控、放心的安全产品及服务。<br>
             2019年发布了基于“AI+知识图谱”的智能渗透测试机器人，将人工智能首次融入网络安全。<br>
-            2021年发布了国产化“图灵完备”的CDSL-YAK(YAK)语言，以全新的方式定义安全能力融合，从底层安全基座出发构建企业安全体系。
+            2021年发布了国产化“图灵完备”的CDSL-YAK语言，以全新的方式定义安全能力融合，从底层安全基座出发构建企业安全体系。
           </div>
         </div>
       </div>
@@ -247,7 +247,10 @@ watchEffect(() => {
               <div class="text-[24px] color-[#007AFF] font-bold-600">2017</div>
               <div class="mt-[8px] w-[245px] leading-[30px] text-[15px] history-cont-text">
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>千万级天使轮投资与中国信息安全测评中心合成立物联网安全实验室。</div>
+                  <div>千万级天使轮投资。</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>与中国信息安全测评中心联合成立物联网安全实验室。</div>
                 </div>
                 <div class="flex"><span class="mr-[5px]">·</span>
                   <div>CCRC信息安全风险评估三级服务资质要求。</div>
@@ -456,10 +459,7 @@ watchEffect(() => {
                     <div>2019“黄鹤杯”网络安全服务技能三等奖。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>高新技术企业证书。</div>
-                  </div>
-                  <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>国家电网第二届网络安全技能竞赛优秀组织奖。</div>
+                    <div>国家高新技术企业证书。</div>
                   </div>
                 </div>
                 <div class="mt-[8px] w-[240px] leading-[30px] text-[15px]">
@@ -633,10 +633,10 @@ watchEffect(() => {
                     <div>常春藤资本数千万A轮融资。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>Yak/Yakit亮相。</div>
+                    <div>Yak/Yakit亮相，网络安全生态语言发布。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>网络安全生态语言发布CNNVD技术支撑单位。</div>
+                    <div>CNNVD技术支撑单位。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
                     <div>ISO27001信息安全管理体系认证证书。</div>
@@ -774,6 +774,12 @@ watchEffect(() => {
                 <div class="flex"><span class="mr-[5px]">·</span>
                   <div>2021-2022智能网络安全创新产品奖。</div>
                 </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>网络安全技术应用工信部试点示范单位。</div>
+                </div>
+                <div class="flex"><span class="mr-[5px]">·</span>
+                  <div>ISC第十届互联网安全大会创新独角兽沙盒大赛冠军。</div>
+                </div>
               </div>
             </div>
             <div class="absolute left-[200px] top-[-80px]">
@@ -853,13 +859,19 @@ watchEffect(() => {
                     <div>全国信息安全标准化技术委员会成员单位。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
-                    <div>北京市新技术新产品(服务)。</div>
+                    <div>北京市新技术新产品证书。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
                     <div>北京市“创新型”中小企业。</div>
                   </div>
                   <div class="flex"><span class="mr-[5px]">·</span>
                     <div>北京市“科技型”中小企业。</div>
+                  </div>
+                  <div class="flex"><span class="mr-[5px]">·</span>
+                    <div>中国赛宝信息技术应用创新优秀解决方案三等奖。</div>
+                  </div>
+                  <div class="flex"><span class="mr-[5px]">·</span>
+                    <div>电力网络安全仿真验证和数据防护关键技术及应用质量技术奖。</div>
                   </div>
                 </div>
               </div>
