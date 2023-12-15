@@ -775,7 +775,7 @@ watchEffect(() => {
                   <div>2021-2022智能网络安全创新产品奖。</div>
                 </div>
                 <div class="flex"><span class="mr-[5px]">·</span>
-                  <div>网络安全技术应用工信部试点示范单位。</div>
+                  <div>工信部等十二部委网络安全技术应用试点示范项目。</div>
                 </div>
                 <div class="flex"><span class="mr-[5px]">·</span>
                   <div>ISC第十届互联网安全大会创新独角兽沙盒大赛冠军。</div>
