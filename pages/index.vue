@@ -9,52 +9,32 @@ const bannerTopList = [
   { type: "banner_2", title: "重新定义", name: "安全能力融合", info: "立足于攻防一线，为企业带来全新的安全体系建设思路。", bgUrl: "/Images/wanjing-banner.png", titleWidth: "w-[512px]" },
   { type: "banner_1", to: "/solution/constructionScheme", name: "CDSL-YAK", title: "企业安全建设解决方案", info: "以YAK语言为核心，以衍生产品为配套。通过构建底层安全能力基座，实现低位安全产品的高效集成，协助企业进行网络安全体系建设。", bgUrl: "/Images/solution-banner.png", titleWidth: "w-[660px]" },
   { type: "banner_1", to: "/safetyProduct/xiaozhi", name: "小智", title: "新一代自动化渗透测试平台", info: "国内率先实现“AI+网络安全检测”的智能渗透测试平台，能够实现自动化完成从信息收集、漏洞验证、漏洞利用、输出报告的渗透测试全过程。", bgUrl: "/Images/xiaozhi-banner.png", titleWidth: "w-[640px]" },
-  { type: "banner_1", link: "https://www.yaklang.com/", name: "Yakit", title: "交互式应用安全测试平台", info: "YAK编写的gRPC服务器，并基于服务器构建客户端，通过GUI操控引擎能力，集成Yaklang的所有能力。", bgUrl: "/Images/yakit-banner.png", titleWidth: "w-[610px]" },
+  { type: "banner_1", link: "https://www.yaklang.com/", name: "Yakit", title: "交互式应用安全测试平台", info: "为Yaklang编写了gRPC服务器，并基于gRPC服务器构建了客户端，通过GUI操控引擎能力，集成Yaklang的所有能力。", bgUrl: "/Images/yakit-banner.png", titleWidth: "w-[610px]" },
   { type: "banner_1", to: "/safetyProduct/qjLargeModel", name: "千机（ChatCS）", title: "知识增强网络安全大模型", info: "融合“千万”攻防知识，凝炼“百万”决策经验，让大模型更“可靠”、更“高效”地服务一线场景。", bgUrl: "/Images/qj_banner.png", titleWidth: "w-[822px]" },
 ]
 
 // 底部轮播数据
 const bannerBottomList = [
-  { imgUrl: "/Images/CSTC.png" },
-  { imgUrl: "/Images/zgxxaqcpzx.png" },
-  { imgUrl: "/Images/CCID.png" },
-  { imgUrl: "/Images/zggcwlyjy.png" },
-  { imgUrl: "/Images/zgmyhkj.png" },
-  { imgUrl: "/Images/zgjsyh.png" },
-  { imgUrl: "/Images/zgyh.png" },
-  { imgUrl: "/Images/jx.png" },
-  { imgUrl: "/Images/xyyh.png" },
-  { imgUrl: "/Images/zgpa.png" },
-  { imgUrl: "/Images/taikang.png" },
-  { imgUrl: "/Images/zgjrrzzx.png" },
-  { imgUrl: "/Images/zghnjtyxgs.png" },
   { imgUrl: "/Images/gjdw.png" },
-  { imgUrl: "/Images/zgzmnyjtyxgs.png" },
-  { imgUrl: "/Images/zgsy.png" },
   { imgUrl: "/Images/zgnfdw.png" },
-  { imgUrl: "/Images/zglt.png" },
-  { imgUrl: "/Images/zgyd.png" },
-  { imgUrl: "/Images/zgdx.png" },
-  { imgUrl: "/Images/zggsyh.png" },
-  { imgUrl: "/Images/jtyh.png" },
-  { imgUrl: "/Images/zsyh.png" },
-  { imgUrl: "/Images/zggdyh.png" },
-  { imgUrl: "/Images/zgnyyh.png" },
-  { imgUrl: "/Images/zgwk.png" },
-  { imgUrl: "/Images/zgrmyh.png" },
-  { imgUrl: "/Images/zgmsyh.png" },
-  { imgUrl: "/Images/zgyhzj.png" },
-  { imgUrl: "/Images/hxyh.png" },
-  { imgUrl: "/Images/zh.png" },
+  { imgUrl: "/Images/zghnjtyxgs.png" },
+  { imgUrl: "/Images/zgdtjtgs.png" },
   { imgUrl: "/Images/zgh.png" },
-  { imgUrl: "/Images/zgsh.png" },
-  { imgUrl: "/Images/chinawk.png" },
-  { imgUrl: "/Images/lnjt.png" },
-  { imgUrl: "/Images/dzkjdx.png" },
+  { imgUrl: "/Images/zglt.png" },
+  { imgUrl: "/Images/zgdx.png" },
+  { imgUrl: "/Images/zgjsyh.png" },
+  { imgUrl: "/Images/zgmsyh.png" },
+  { imgUrl: "/Images/gwydjt.png" },
+  { imgUrl: "/Images/hxyh.png" },
+  { imgUrl: "/Images/zgxxaqcpzx.png" },
+  { imgUrl: "/Images/hnsgat.png" },
+  { imgUrl: "/Images/gabyjs.png" },
+  { imgUrl: "/Images/zhrmghgslb.png" },
+  { imgUrl: "/Images/zhrmghgjtysb.png" },
+  { imgUrl: "/Images/xxgcdx.png" },
   { imgUrl: "/Images/zzdx.png" },
-  { imgUrl: "/Images/bjqhcgxy.png" },
-  { imgUrl: "/Images/bjdt.png" },
-  { imgUrl: "/Images/qnlx.png" }
+  { imgUrl: "/Images/cdxxgcdx.png" },
+  { imgUrl: "/Images/dzkjdx.png" },
 ]
 const newBannerBottomList = computed(() => {
   let pages = []
@@ -159,7 +139,7 @@ const goToOtherPage = (path, hash) => {
           <div
             class="absolute top-[-60px] left-[-295px] bg-[#fff] px-[15px] py-[15px] border-[2px] border-solid rounded-[5px] w-[300px]">
             <div class="color-[#0070FF] text-[16px] mb-[5px] font-bold-600">Yakit国产化交互式应用安全测试平台</div>
-            <div class="text-[12px] font-bold-600">YAK编写的gRPC服务器，并基于服务器构建客户端，通过GUI操控引擎能力集成Yaklang的所有能力。</div>
+            <div class="text-[12px] font-bold-600">为Yaklang编写了gRPC服务器，并基于gRPC服务器构建了客户端，通过GUI操控引擎能力集成Yaklang的所有能力。</div>
           </div>
           <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="89.78" cy="73.13" r="20.5" fill="url(#paint0_radial_447_1624)" fill-opacity="0.3" />
@@ -238,7 +218,8 @@ const goToOtherPage = (path, hash) => {
             <div class="color-[#0070FF] text-[16px] font-bold-600 mb-[5px]">
               CDSL-YAK企业安全建设解决方案
             </div>
-            <div class="text-[12px] font-bold-600">以YAK语言为核心，以衍生产品为配套。通过构建底层安全能力，集成Yaklang的所有能力，实现低位安全产品的高效集成，协助企业进行网络安全体系建设。</div>
+            <div class="text-[12px] font-bold-600">
+              以YAK语言为核心，以衍生产品为配套。通过构建底层安全能力，集成Yaklang的所有能力，实现低位安全产品的高效集成，协助企业进行网络安全体系建设。</div>
           </div>
           <svg class="w-[111px] h-[94px]" viewBox="0 0 111 94" fill="none" xmlns="http://www.w3.org/2000/svg">
             <circle cx="20.5" cy="20.5" r="20.5" transform="matrix(-1 0 0 1 41 52.63)" fill="url(#paint0_radial_447_1616)"
@@ -375,7 +356,7 @@ const goToOtherPage = (path, hash) => {
             <div class="text-[12px] w-[210px]">从攻击者视角模拟最真实的攻击，帮助企业发现系统安全漏洞并协助修复。</div>
           </div>
         </div>
-        <!-- 应急响应 -->      
+        <!-- 应急响应 -->
         <div data-aos="zoom-in" @click="goToOtherPage('/securityService', '#yjxy')"
           class="absolute left-[49%] top-[60%] py-[10px] px-[18px] color-[#fff] flex justify-between items-center bg-[#006FFF] rounded-[5px] cursor-pointer">
           <div class="w-[25px] h-[31px]">

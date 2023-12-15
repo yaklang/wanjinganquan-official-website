@@ -183,7 +183,7 @@ watchEffect(() => {
           <div class="absolute left-[20%] top-[-7%]">
             <div class="mb-[40px] w-[320px] hover-box">
               <div class="text-[24px] color-[#007AFF] font-bold-600">2015</div>
-              <div class="mt-[8px] leading-[30px] text-[15px] history-cont-text">与国家信息技术安全研究中心成立，“移动互联网金融安全联合实验室”。</div>
+              <div class="mt-[8px] leading-[30px] text-[15px] history-cont-text">与国家信息技术安全研究中心成立“移动互联网金融安全联合实验室”。</div>
             </div>
             <div class="ml-[75px]">
               <svg class="w-[64px] h-[67px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 67" fill="none">
