@@ -53,4 +53,5 @@ jobs:
             cd /root/wanjing-megavector/
             tar -xzvf public.tar.gz
             rm -r public.tar.gz
-            mv -f /root/wanjing-megavector/.output/ /root/wanjing-megavector/output/
+            rm -r output
+            mv -f .output/ output/
