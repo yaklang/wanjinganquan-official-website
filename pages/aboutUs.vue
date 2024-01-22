@@ -1,4 +1,7 @@
 <script setup>
+useSeoMeta({
+  title: '关于我们',
+})
 const router = useRouter()
 
 watchEffect(() => {
@@ -13,7 +16,6 @@ watchEffect(() => {
 </script>
 
 <template>
-  <Title>关于我们</Title>
   <div class="mt-[86px]">
     <!-- 关于我们 banner -->
     <div class="about-us-banner bg-cover bg-center h-[652px]">
@@ -22,9 +24,12 @@ watchEffect(() => {
           <div class="text-[45px] mb-[35px]">让世界<span class="font-bold-600">更安全</span>，让安全<span
               class="font-bold-600">更简单</span>
           </div>
-          <div class="text-[18px] leading-[35px] w-[588px]">致力于为企业提供专业的网络安全基础设施，与用户共建安全。为企业带来专业、可控、放心的安全产品及服务。<br>
+          <div class="text-[18px] leading-[35px] w-[588px]">
+            万径安全(MegaVector Security)<br>
+            成立于2013年，全称为四维创智（北京）科技发展有限公司。<br>
+            致力于为企业提供专业的网络安全基础设施，与用户共建安全。为企业带来专业、可控、放心的安全产品及服务。<br>
             2019年发布了基于“AI+知识图谱”的智能渗透测试机器人，将人工智能首次融入网络安全。<br>
-            2021年发布了国产化“图灵完备”的CDSL-YAK语言，以全新的方式定义安全能力融合，从底层安全基座出发构建企业安全体系。
+            2021年发布了国产化“图灵完备”的CDSL-YAK语言，以全新的方式定义安全能力融合，从底层安全基座出发构建企业安全体系。<br>
           </div>
         </div>
       </div>

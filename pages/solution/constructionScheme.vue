@@ -1,93 +1,90 @@
 <script setup>
 useSeoMeta({
   title: 'CDSL-YAK：企业安全建设解决方案',
-  description: '以YAK语言为核心，聚焦网络安全底层，致力于安全融合，助力企业网络安全体系建设。',
 })
 </script>
 
 <template>
   <div class="mt-[86px]">
     <!-- 建设方案 banner -->
-    <div class="relative h-[560px] bg-[#DEEEFD]">
+    <div class="relative h-[599px] bg-[#1D83FF]">
       <div class="bottom-left-bg absolute left-[0] top-[0]">
-        <NuxtImg src="/Images/light-bg-left.png" class="h-[560px]" />
+        <NuxtImg src="/Images/light-bg-left.png" class="h-[599px]" />
       </div>
       <div class="bottom-right-bg absolute right-[0] top-[0]">
-        <NuxtImg src="/Images/light-bg-right.png" class="h-[560px]" />
+        <NuxtImg src="/Images/light-bg-right.png" class="h-[599px]" />
       </div>
       <div
         class="constructionScheme-banner-cont relative wjaq-container mx-auto h-[100%] flex justify-center items-center">
         <div class="text-center">
-          <div class="text-[52px]"><span class="font-bold-600 color-[#007AFF]">CDSL-YAK</span>企业安全建设方案</div>
-          <div class="text-[18px] mt-[12px] mb-[45px]">以YAK语言为核心，聚焦网络安全底层，致力于安全融合，助力企业网络安全体系建设。</div>
+          <div class="text-[52px] color-[#fff]"><span class="font-bold-600">CDSL-YAK</span>企业安全建设方案</div>
+          <div class="text-[18px] mt-[12px] mb-[45px] color-[#fff]">以YAK语言为核心，聚焦网络安全底层，致力于安全融合，助力企业网络安全体系建设。</div>
           <div class="text-center flex justify-between pl-[65px]">
             <div>
-              <svg class="w-[32px] h-[51px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 51" fill="none">
+              <svg class="w-[32px] h-[51px]" width="32" height="51" viewBox="0 0 32 51" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M10.6491 17.7593L10.6491 39.5967H1L1 33.8475C1 29.9763 2.49666 26.255 5.177 23.4618L10.6491 17.7593Z"
-                  fill="#0070FF" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                  fill="#B7D7FF" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
                 <path
                   d="M21.3138 18.2671V39.5967H30.9629V34.0744C30.9629 30.0686 29.3607 26.2293 26.5132 23.4118L21.3138 18.2671Z"
-                  fill="#0070FF" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
+                  fill="#B7D7FF" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
                 <path
                   d="M21.1753 36.965C21.1753 41.8185 19.5154 46.526 16.4711 50.306L15.9122 51L15.3533 50.306C12.309 46.526 10.649 41.8185 10.649 36.965L21.1753 36.965Z"
-                  fill="#0070FF" />
+                  fill="#B7D7FF" />
                 <path
                   d="M7.60205 17.6769C7.60205 11.5972 10.2266 5.81342 14.802 1.80988C15.332 1.34618 16.1232 1.34619 16.6532 1.80988C21.2286 5.81342 23.8531 11.5972 23.8531 17.6769L23.8531 34.01H7.60205L7.60205 17.6769Z"
                   fill="white" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
                 <path
                   d="M7.60205 34.0103H23.8531V35.1044C23.8531 37.8658 21.6146 40.1044 18.8531 40.1044H12.602C9.84063 40.1044 7.60205 37.8658 7.60205 35.1044V34.0103Z"
                   fill="white" stroke="black" stroke-width="1.5" stroke-linejoin="round" />
-                <circle cx="15.7278" cy="17.7586" r="4.57062" fill="#0070FF" />
+                <circle cx="15.7278" cy="17.7586" r="4.57062" fill="#DEEEFD" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M21.8074 8.61736H9.64697C10.8692 6.04872 12.612 3.72511 14.8016 1.8092C15.3315 1.3455 16.1228 1.3455 16.6527 1.8092C18.8424 3.72511 20.5852 6.04872 21.8074 8.61736Z"
+                  d="M21.8074 8.61735H9.64697C10.8692 6.04871 12.612 3.7251 14.8016 1.8092C15.3315 1.3455 16.1228 1.3455 16.6527 1.8092C18.8423 3.7251 20.5852 6.04871 21.8074 8.61735Z"
                   fill="white" />
                 <path
-                  d="M21.8074 8.61736V9.36736H22.9948L22.4846 8.29511L21.8074 8.61736ZM9.64697 8.61736L8.96973 8.29511L8.45954 9.36736H9.64697V8.61736ZM14.8016 1.8092L14.3077 1.24477V1.24477L14.8016 1.8092ZM16.6527 1.8092L16.1589 2.37363V2.37363L16.6527 1.8092ZM21.8074 7.86736L9.64697 7.86736V9.36736H21.8074V7.86736ZM10.3242 8.9396C11.503 6.4623 13.1837 4.2214 15.2955 2.37363L14.3077 1.24477C12.0402 3.22882 10.2354 5.63514 8.96973 8.29511L10.3242 8.9396ZM15.2955 2.37363C15.5426 2.15736 15.9117 2.15736 16.1589 2.37363L17.1466 1.24477C16.3339 0.533646 15.1204 0.533646 14.3077 1.24477L15.2955 2.37363ZM16.1589 2.37363C18.2706 4.2214 19.9514 6.4623 21.1301 8.9396L22.4846 8.29511C21.2189 5.63514 19.4141 3.22881 17.1466 1.24477L16.1589 2.37363Z"
+                  d="M21.8074 8.61735V9.36735H22.9948L22.4846 8.29511L21.8074 8.61735ZM9.64697 8.61735L8.96973 8.29511L8.45954 9.36735H9.64697V8.61735ZM14.8016 1.8092L14.3077 1.24476L14.3077 1.24476L14.8016 1.8092ZM16.6527 1.8092L17.1466 1.24477L17.1466 1.24476L16.6527 1.8092ZM21.8074 7.86735L9.64697 7.86735V9.36735H21.8074V7.86735ZM10.3242 8.9396C11.503 6.46229 13.1837 4.22139 15.2955 2.37363L14.3077 1.24476C12.0402 3.22881 10.2354 5.63513 8.96973 8.29511L10.3242 8.9396ZM15.2955 2.37363C15.5426 2.15736 15.9117 2.15736 16.1589 2.37363L17.1466 1.24476C16.3339 0.533646 15.1204 0.533646 14.3077 1.24476L15.2955 2.37363ZM16.1589 2.37363C18.2706 4.22139 19.9514 6.46229 21.1301 8.9396L22.4846 8.29511C21.2189 5.63513 19.4141 3.22881 17.1466 1.24477L16.1589 2.37363Z"
                   fill="black" />
               </svg>
-              <div class="text-[18px] mt-[10px]">Yakit社区版<span class="font-bold font-bold-600">持续更新迭代</span></div>
+              <div class="text-[18px] mt-[10px] color-[#fff]">Yakit社区版<span class="font-bold font-bold-600">持续更新迭代</span>
+              </div>
             </div>
             <div class="mx-[100px]">
-              <svg class="w-[52px] h-[52px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 52 52" fill="none">
+              <svg class="w-[52px] h-[52px]" width="52" height="52" viewBox="0 0 52 52" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M19.102 25.6031C19.102 22.0962 16.2516 19.2539 12.7347 19.2539H6.36735C2.85045 19.2539 0 22.0962 0 25.6031V31.9523L4.30114 33.964L5.30612 46.7671H13.7959L14.8009 33.964L19.102 31.9523V25.6031Z"
-                  fill="#0070FF" />
+                  fill="#B7D7FF" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M13.5714 10.2589C13.5714 13.0345 11.3142 15.2853 8.53056 15.2853C5.74697 15.2853 3.48975 13.0345 3.48975 10.2589C3.48975 7.48322 5.74697 5.23242 8.53056 5.23242C11.3142 5.23242 13.5714 7.48322 13.5714 10.2589Z"
-                  fill="#0070FF" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M14.5919 10.2589C14.5919 13.0345 12.3347 15.2853 9.55107 15.2853C6.76748 15.2853 4.51025 13.0345 4.51025 10.2589C4.51025 7.48322 6.76748 5.23242 9.55107 5.23242C12.3347 5.23242 14.5919 7.48322 14.5919 10.2589Z"
-                  fill="#0070FF" />
+                  d="M14.5714 10.2589C14.5714 13.0345 12.3142 15.2853 9.53056 15.2853C6.74697 15.2853 4.48975 13.0345 4.48975 10.2589C4.48975 7.48322 6.74697 5.23242 9.53056 5.23242C12.3142 5.23242 14.5714 7.48322 14.5714 10.2589Z"
+                  fill="#B7D7FF" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M51.02 25.6031C51.02 22.0962 48.1696 19.2539 44.6527 19.2539H38.2853C34.7684 19.2539 31.918 22.0962 31.918 25.6031V31.9523L36.2191 33.964L37.2241 46.7671H45.7139L46.7189 33.964L51.02 31.9523V25.6031Z"
-                  fill="#0070FF" />
+                  fill="#B7D7FF" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M47.5309 10.2589C47.5309 13.0345 45.2736 15.2853 42.49 15.2853C39.7064 15.2853 37.4492 13.0345 37.4492 10.2589C37.4492 7.48322 39.7064 5.23242 42.49 5.23242C45.2736 5.23242 47.5309 7.48322 47.5309 10.2589Z"
-                  fill="#0070FF" />
-                <path fill-rule="evenodd" clip-rule="evenodd"
-                  d="M46.5103 10.2589C46.5103 13.0345 44.2531 15.2853 41.4695 15.2853C38.6859 15.2853 36.4287 13.0345 36.4287 10.2589C36.4287 7.48322 38.6859 5.23242 41.4695 5.23242C44.2531 5.23242 46.5103 7.48322 46.5103 10.2589Z"
-                  fill="#0070FF" />
+                  d="M46.5309 10.2589C46.5309 13.0345 44.2736 15.2853 41.49 15.2853C38.7064 15.2853 36.4492 13.0345 36.4492 10.2589C36.4492 7.48322 38.7064 5.23242 41.49 5.23242C44.2736 5.23242 46.5309 7.48322 46.5309 10.2589Z"
+                  fill="#B7D7FF" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M37.1839 23.4869C37.1839 19.98 34.3334 17.1377 30.8165 17.1377H20.2043C16.6874 17.1377 13.8369 19.98 13.8369 23.4869V34.0689L18.1381 36.0806L20.2043 51.0001H30.8165L32.8827 36.0806L37.1839 34.0689V23.4869Z"
-                  fill="#0070FF" />
+                  fill="#B7D7FF" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M37.1839 23.4869C37.1839 19.98 34.3334 17.1377 30.8165 17.1377H20.2043C16.6874 17.1377 13.8369 19.98 13.8369 23.4869V34.0689L18.1381 36.0806L20.2043 51.0001H30.8165L32.8827 36.0806L37.1839 34.0689V23.4869Z"
                   fill="white" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M31.6123 7.08466C31.6123 10.4455 28.8807 13.1693 25.5102 13.1693C22.1398 13.1693 19.4082 10.4455 19.4082 7.08466C19.4082 3.72381 22.1398 1 25.5102 1C28.8807 1 31.6123 3.72381 31.6123 7.08466Z"
-                  fill="#0070FF" />
+                  fill="#B7D7FF" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M31.6123 7.08466C31.6123 10.4455 28.8807 13.1693 25.5102 13.1693C22.1398 13.1693 19.4082 10.4455 19.4082 7.08466C19.4082 3.72381 22.1398 1 25.5102 1C28.8807 1 31.6123 3.72381 31.6123 7.08466Z"
                   fill="white" stroke="black" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M26.041 23.2405C26.041 23.8148 26.5066 24.2805 27.081 24.2805H31.3684C31.9427 24.2805 32.4084 23.8148 32.4084 23.2405V23.2041C32.4084 22.6297 31.9427 22.1641 31.3684 22.1641H27.081C26.5066 22.1641 26.041 22.6297 26.041 23.2041V23.2405Z"
-                  fill="#0070FF" />
+                  fill="#B7D7FF" />
               </svg>
-              <div class="text-[18px] mt-[10px]">针对个人用户<span class="font-bold-600">永久免费</span></div>
+              <div class="text-[18px] mt-[10px] color-[#fff]">针对个人用户<span class="font-bold-600">永久免费</span></div>
             </div>
             <div>
-              <svg class="w-[56px] h-[52px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 56 52" fill="none">
+              <svg class="w-[56px] h-[52px]" width="56" height="52" viewBox="0 0 56 52" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M48.2806 31.8421H12.6136L9.68457 8.68408L51.2106 10.6141L48.2806 31.8421Z" fill="white" />
                 <path d="M49.4791 23.1576L48.2801 31.8416H12.6141L9.68408 8.68359L31.3661 9.69159" stroke="black"
@@ -107,19 +104,19 @@ useSeoMeta({
                   fill="white" />
                 <path fill-rule="evenodd" clip-rule="evenodd"
                   d="M55.0705 9.649C55.0705 14.978 50.7505 19.298 45.4215 19.298C40.0925 19.298 35.7725 14.978 35.7725 9.649C35.7725 4.32 40.0925 0 45.4215 0C50.7505 0 55.0705 4.32 55.0705 9.649Z"
-                  fill="#0070FF" />
+                  fill="#B7D7FF" />
                 <path d="M41.5615 9.64893H49.2805" stroke="white" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
                 <path d="M45.4214 5.78906V13.5081" stroke="white" stroke-width="2" stroke-linecap="round"
                   stroke-linejoin="round" />
               </svg>
-              <div class="text-[18px] mt-[10px]">公共插件商店及配套社区<span class="font-bold-600">永久免费</span></div>
+
+              <div class="text-[18px] mt-[10px] color-[#fff]">公共插件商店及配套社区<span class="font-bold-600">永久免费</span></div>
             </div>
           </div>
-          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/yakit-technical-white-paper.pdf?response-content-type=application/octet-stream"
-            download>
+          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/Enterprise-security-construct-solution.pdf" download>
             <span
-              class="inline-block rounded-[43px] bg-[#0070FF] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[45px]">
+              class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">
               <svg class="w-[18px] h-[16px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" fill="none">
                 <path d="M1 9.5V12.5C1 13.6046 1.89543 14.5 3 14.5H15C16.1046 14.5 17 13.6046 17 12.5V9.5" stroke="white"
                   stroke-width="1.5" stroke-linecap="round" />
@@ -134,7 +131,7 @@ useSeoMeta({
     </div>
 
     <!-- 企业版合作专享 -->
-    <div class="constructionScheme-cont bg-center bg-contain bg-no-repeat wjaq-container mx-auto mt-[166px] mb-[148px]">
+    <div class="constructionScheme-cont bg-center bg-contain bg-no-repeat wjaq-container mx-auto mt-[300px] mb-[148px]">
       <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[380px]">
         <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
           fill="none">
@@ -316,7 +313,7 @@ useSeoMeta({
         </div>
       </div>
       <!-- 企业专属定制化服务和合作 -->
-      <div class="flex justify-between items-center px-[10px] mb-[195px]">
+      <div class="flex justify-between items-center px-[10px] mb-[300px]">
         <div data-aos="fade-right">
           <NuxtImg src="/Images/constructionScheme-dz.png" class="dzfu-img w-[460px]" />
         </div>
@@ -329,7 +326,9 @@ useSeoMeta({
           </div>
           <div class="mb-[50px]">
             <div class="text-[18px] font-bold mb-[15px]">企业合作</div>
-            <div class="text-[16px] color-[#999EA8] leading-[30px]">如果您的团队有基于 Yak 的课题工程转化或者科研课题探讨的想法，欢迎<NuxtLink :to="{ path: '/aboutUs', query: { scrollToBottom: true } }"><span class="color-[#0070FF]">联系我们</span></NuxtLink>。</div>
+            <div class="text-[16px] color-[#999EA8] leading-[30px]">如果您的团队有基于 Yak 的课题工程转化或者科研课题探讨的想法，欢迎<NuxtLink
+                :to="{ path: '/aboutUs', query: { scrollToBottom: true } }"><span class="color-[#0070FF]">联系我们</span>
+              </NuxtLink>。</div>
           </div>
         </div>
       </div>

@@ -1,11 +1,13 @@
 <script setup>
+useSeoMeta({
+  title: '千机—知识增强网络安全大模型应用',
+})
 </script>
 
 <template>
-  <Title>千机—知识增强网络安全大模型应用</Title>
   <div class="mt-[86px]">
     <!-- 万径千机 banner -->
-    <div class="relative h-[411px] bg-[#DEEEFD]">
+    <div class="relative h-[411px] bg-[#1D83FF]">
       <div class="bottom-left-bg absolute left-[0] top-[0]">
         <NuxtImg src="/Images/light-bg-left.png" class="h-[411px]" />
       </div>
@@ -13,13 +15,13 @@
         <NuxtImg src="/Images/light-bg-right.png" class="h-[411px]" />
       </div>
       <div class="wjaq-container mx-auto h-[100%] flex flex-col justify-center items-center">
-        <div class="text-[52px]"><span class="font-bold-600 color-[#007AFF]">千机（ChatCS）</span>知识增强网络安全大模型</div>
-        <div class="text-[18px] mt-[20px]">融合“千万”攻防知识，凝炼“百万”决策经验，让大模型更“可靠”、更“高效”地服务一线场景</div>
+        <div class="text-[52px] color-[#fff]"><span class="font-bold-600">千机（ChatCS）</span>知识增强网络安全大模型</div>
+        <div class="text-[18px] mt-[20px] color-[#fff]">融合“千万”攻防知识，凝炼“百万”决策经验，让大模型更“可靠”、更“高效”地服务一线场景</div>
       </div>
     </div>
     <div class="wjaq-container mx-auto overflow-hidden">
       <!-- 关键特性 -->
-      <div class="mt-[235px]">
+      <div class="mt-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[250px]">
           <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
             fill="none">
@@ -59,7 +61,7 @@
       </div>
       <div class="qj_cont bg-center bg-contain bg-no-repeat">
         <!-- 功能亮点 -->
-        <div class="mt-[182px]">
+        <div class="mt-[300px]">
           <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[250px]">
             <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 21 21" fill="none">
@@ -114,7 +116,7 @@
           </div>
         </div>
         <!-- POC代码生成 -->
-        <div class="mt-[120px]">
+        <div class="mt-[200px]">
           <div class="relative py-[15px] px-[40px] mb-[80px] mx-auto w-[350px]">
             <div class="text-[32px] text-center font-bold-600">
               POC代码生成
@@ -123,7 +125,7 @@
           <NuxtImg src="/Images/qj_rectangle.png" class="w-[1150px] ml-[60px]" />
         </div>
         <!-- 大模型赋能产业发展 -->
-        <div class="mb-[100px] mt-[100px] mb-[160px]">
+        <div class="mb-[300px] mt-[200px] mb-[160px]">
           <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[450px]">
             <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 21 21" fill="none">

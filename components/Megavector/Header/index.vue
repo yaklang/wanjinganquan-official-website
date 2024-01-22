@@ -21,10 +21,13 @@
               <NuxtLink to="/safetyProduct/xiaozhi">小智：新一代自动化渗透测试平台</NuxtLink>
             </li>
             <li class="my-[10px] cursor-pointer">
-              <a href="https://www.yaklang.com/" target="_blank">Yakit：交互式应用安全测试平台</a>
+              <NuxtLink to="/safetyProduct/securityTestPlatform">Yakit：交互式应用安全测试平台</NuxtLink>
             </li>
             <li class="cursor-pointer">
               <NuxtLink to="/safetyProduct/qjLargeModel">千机（ChatCS）：知识增强网络安全大模型应用</NuxtLink>
+            </li>
+            <li class="my-[10px] cursor-pointer">
+              <a href="https://www.yaklang.com/" target="_blank">YAK：网络安全领域编程语言</a>
             </li>
           </ul>
         </div>
@@ -34,6 +37,9 @@
             class="dropdown-content solution-dropdown-content absolute w-[260px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[13px] text-[14px] rounded-[3px]">
             <li class="cursor-pointer mt-[15px]">
               <NuxtLink to="/solution/constructionScheme">CDSL-YAK：企业安全建设解决方案</NuxtLink>
+            </li>
+            <li class="cursor-pointer mt-[15px]">
+              <NuxtLink to="/solution/qualityImproScheme">渗透测试质量提升方案</NuxtLink>
             </li>
           </ul>
         </div>
@@ -74,11 +80,11 @@
 
   &:hover {
     .safetyProduct-dropdown-content {
-      height: 90px;
+      height: 120px;
     }
 
     .solution-dropdown-content {
-      height: 50px;
+      height: 80px;
     }
   }
 

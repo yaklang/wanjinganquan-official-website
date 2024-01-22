@@ -11,12 +11,13 @@ export default defineNuxtConfig({
           content:
             "width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no",
         },
-        { name: "keywords", content: "安全能力融合、CDSL-YAK、小智、Yakit、千机（ChatCS）" },
         {
-          hid: "description",
+          name: "keywords",
+          content: "万径安全，四维创智，千机，网络安全领域语言，Yak，网络安全领域大模型，知识增强，ChatCS，AI+知识图谱，动化渗透工具，攻防一体，自动化渗透，智能渗透，智能渗透测试机器人，自动化渗透测试机器人，人工智能知识图谱，自动化渗透测试，AI知识图谱",
+        },
+        {
           name: "description",
-          content:
-            "致力于为企业提供专业的网络安全基础设施与用户共建安全，为企业带来专业、可控、放心的安全产品及服务。2019年发布了基于“AI+知识图谱”的智能渗透测试机器人，将人工智能首次融入网络安全，2021年发布了国产化“图灵完备”的CDSL-YAK(YAK)语言，以全新的方式重新定义了安全能力融合，从底层安全基座出发构建企业安全体系。",
+          content: "四维创智、万径安全",
         },
       ],
     },
