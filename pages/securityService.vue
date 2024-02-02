@@ -33,7 +33,7 @@
     <div class="securityService-cont wjaq-container min-h-[2157px] mx-auto overflow-hidden">
       <!-- 渗透测试 -->
       <div id="stcs"></div>
-      <div class="flex justify-between items-center px-[10px] mt-[166px]">
+      <div class="flex justify-between items-center px-[10px] mt-[300px]">
         <div data-aos="fade-right">
           <NuxtImg src="/Images/securityService-stcs.png" class="h-[320px]" />
         </div>
@@ -132,7 +132,7 @@
       </div>
       <!-- 安全培训服务 -->
       <div id="aqpxfw"></div>
-      <div class="flex justify-between items-center px-[10px] my-[195px]">
+      <div class="flex justify-between items-center px-[10px] mt-[195px] mb-[300px]">
         <div data-aos="fade-right" class="w-[650px]">
           <div class="text-[32px] font-bold-600 mb-[16px]">安全培训服务</div>
           <div class="text-[16px] mb-[38px] leading-[35px]">
