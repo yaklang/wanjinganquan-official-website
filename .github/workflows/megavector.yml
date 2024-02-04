@@ -22,8 +22,8 @@ jobs:
 
       # 打包
       - name: build
-        run: yarn install
-      - run: yarn run generate
+        run: npm install
+      - run: npm run generate
 
       # 静态文件压缩
       - name: pack out file
