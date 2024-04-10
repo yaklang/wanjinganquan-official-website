@@ -18,7 +18,7 @@ useSeoMeta({
           </div>
           <div class="color-[#0070FF] text-[32px]">“&nbsp;&nbsp;渗透测试是一种非常专业的安全服务。&nbsp;”</div>
           <div class="text-center">
-            <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/penetration-testing-solution.pdf?response-content-type=application/octet-stream" download>
+            <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/penetration-testing-solution.pdf" download>
               <span
                 class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">
                 <svg class="w-[18px] h-[16px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" fill="none">
