@@ -16,7 +16,7 @@ useSeoMeta({
           </div>
           <div class="text-[18px] leading-[35px] mb-[25px]">渗透测试能够直观地让管理人员知道自己网络所面临的问题，从而帮助组织提前采取防范措施，避免或者减轻可能发生的损失。
           </div>
-          <div class="color-[#0070FF] text-[32px]">渗透测试是一种非常专业的安全服务。</div>
+          <div class="color-[#0070FF] text-[32px]">“&nbsp;&nbsp;渗透测试是一种非常专业的安全服务。&nbsp;”</div>
           <div class="text-center">
             <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/penetration-testing-solution.pdf?response-content-type=application/octet-stream" download>
               <span
