@@ -11,10 +11,26 @@ useSeoMeta({
       <div class="wjaq-container mx-auto h-[100%] flex items-center justify-between">
         <div class="w-[600px]">
           <div class="text-[52px] mb-[18px]">渗透测试质量提升方案</div>
-          <div class="text-[18px] leading-[35px]">渗透测试，也被称为渗透性评估或者攻击模拟，是完全模拟黑客可能使用的攻击技术和漏洞发现技术，对目标系统的安全作深入的探测，发现系统最脆弱的环节。
+          <div class="text-[18px] leading-[35px]">
+            渗透测试，也被称为渗透性评估或者攻击模拟，是完全模拟黑客可能使用的攻击技术和漏洞发现技术，对目标系统的安全作深入的探测，发现系统最脆弱的环节。
           </div>
-          <div class="text-[18px] leading-[35px] mb-[25px]">渗透测试能够直观地让管理人员知道自己网络所面临的问题，从而帮助组织提前采取防范措施，避免或者减轻可能发生的损失。</div>
+          <div class="text-[18px] leading-[35px] mb-[25px]">渗透测试能够直观地让管理人员知道自己网络所面临的问题，从而帮助组织提前采取防范措施，避免或者减轻可能发生的损失。
+          </div>
           <div class="color-[#0070FF] text-[32px]">渗透测试是一种非常专业的安全服务。</div>
+          <div class="text-center">
+            <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/penetration-testing-solution.pdf?response-content-type=application/octet-stream" download>
+              <span
+                class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">
+                <svg class="w-[18px] h-[16px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" fill="none">
+                  <path d="M1 9.5V12.5C1 13.6046 1.89543 14.5 3 14.5H15C16.1046 14.5 17 13.6046 17 12.5V9.5"
+                    stroke="white" stroke-width="1.5" stroke-linecap="round" />
+                  <path d="M5 5.80159L9 8.92857M9 8.92857L13 5.80159M9 8.92857V1" stroke="white" stroke-width="1.5"
+                    stroke-linecap="round" />
+                </svg>
+                下载白皮书
+              </span>
+            </a>
+          </div>
         </div>
         <NuxtImg src="/Images/qualityImproScheme-banner2.png" class="w-[500px]" />
       </div>
@@ -91,8 +107,8 @@ useSeoMeta({
       <div class="mb-[300px]">
         <!-- 万径安全渗透测质量提升解决方案 -->
         <div class="relative py-[15px] px-[40px] mb-[130px] mx-auto w-[835px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -145,8 +161,8 @@ useSeoMeta({
       <div class="mb-[300px]">
         <!-- 解决方案的部署实施 -->
         <div class="relative py-[15px] px-[40px] mb-[114px] mx-auto w-[585px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
