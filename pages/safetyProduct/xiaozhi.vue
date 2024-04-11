@@ -122,7 +122,7 @@ const coreTechnologyList = ref([
               <div class="text-[18px] mt-[10px] color-[#fff]">打破信息差<span class="font-bold-600">自动执行</span></div>
             </div>
           </div>
-          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/xiaozhi-product-white-paper.pdf?response-content-type=application/octet-stream"
+          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/xiaozhi-product-white-paper.pdf"
             download>
             <span
               class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">

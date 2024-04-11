@@ -26,7 +26,7 @@ const coreFunList3 = ref([
           <div class="text-[52px] color-[#fff]"><span class="font-bold-600">Yakit</span>交互式应用安全测试平台</div>
           <div class="text-[18px] color-[#fff] mt-[19px]">为Yaklang编写了gRPC服务器，并基于gRPC服务器构建了客户端，通过GUI操控引擎能力，集成Yaklang的所有能力。
           </div>
-          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/yakit-technical-white-paper.pdf?response-content-type=application/octet-stream"
+          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/yakit-technical-white-paper.pdf"
             download>
             <span
               class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[60px]">
