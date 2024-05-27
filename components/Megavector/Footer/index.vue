@@ -8,7 +8,7 @@
       <div class="footer-text text-[14px] text-[#A8A9AA]">
         <span>Copyright 2013© 四维创智(北京)科技发展有限公司 All Rights Reserved 京ICP备17047700号-1</span>
         <span class="mx-[25px]">邮编：100085</span>
-        <span>地址：北京市海淀区上地六街28号院2号楼403</span>
+        <span>地址：北京市海淀区上地街道金隅嘉华大厦F座804</span>
       </div>
     </div>
   </div>
