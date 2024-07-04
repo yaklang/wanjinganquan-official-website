@@ -16,38 +16,47 @@
         <div class="dropdown relative ml-[80px] text-[18px]">
           <NuxtLink to="/safetyProduct">产品</NuxtLink>
           <ul
-            class="dropdown-content safetyProduct-dropdown-content absolute left-[0px] w-[340px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[13px] text-[14px] rounded-[3px]">
-            <li class="cursor-pointer">
-              <NuxtLink to="/safetyProduct/xiaozhi">小智：新一代自动化渗透测试平台</NuxtLink>
-            </li>
-            <li class="my-[10px] cursor-pointer">
-              <NuxtLink to="/safetyProduct/securityTestPlatform">Yakit：交互式应用安全测试平台</NuxtLink>
-            </li>
-            <li class="cursor-pointer">
-              <NuxtLink to="/safetyProduct/qjLargeModel">千机（ChatCS）：知识增强网络安全大模型应用</NuxtLink>
-            </li>
-            <li class="my-[10px] cursor-pointer">
-              <a href="https://www.yaklang.com/" target="_blank">YAK：网络安全领域编程语言</a>
-            </li>
+            class="dropdown-content safetyProduct-dropdown-content absolute left-[0px] w-[340px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[0px] text-[14px] rounded-[3px]">
+            <NuxtLink to="/safetyProduct/xiaozhi">
+              <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
+                小智：新一代自动化渗透测试平台
+              </li>
+            </NuxtLink>
+            <NuxtLink to="/safetyProduct/securityTestPlatform">
+              <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
+                Yakit：交互式应用安全测试平台
+              </li>
+            </NuxtLink>
+            <NuxtLink to="/safetyProduct/qjLargeModel">
+              <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
+                千机（ChatCS）：知识增强网络安全大模型应用
+              </li>
+            </NuxtLink>
+            <a href="https://www.yaklang.com/" target="_blank">
+              <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
+                YAK：网络安全领域编程语言
+              </li>
+            </a>
           </ul>
         </div>
-        <div class="dropdown relative ml-[80px] text-[18px]">
+        <div class="dropdown relative ml-[70px] text-[18px]">
           <NuxtLink to="/solution">解决方案</NuxtLink>
           <ul
-            class="dropdown-content solution-dropdown-content absolute w-[260px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[13px] text-[14px] rounded-[3px]">
-            <li class="cursor-pointer mt-[15px]">
-              <NuxtLink to="/solution/constructionScheme">CDSL-YAK：企业安全建设解决方案</NuxtLink>
-            </li>
-            <li class="cursor-pointer mt-[15px]">
-              <NuxtLink to="/solution/qualityImproScheme">渗透测试质量提升方案</NuxtLink>
-            </li>
+            class="dropdown-content solution-dropdown-content absolute w-[260px] h-[0px] overflow-hidden bg-[#fff] left-[0px] top-[55px] px-[0px] text-[14px] rounded-[3px]">
+            <NuxtLink to="/solution/constructionScheme">
+              <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
+                CDSL-YAK：企业安全建设解决方案
+              </li>
+            </NuxtLink>
+            <NuxtLink to="/solution/qualityImproScheme">
+              <li class="cursor-pointer pl-[15px] h-[35px] leading-[35px]">
+                渗透测试质量提升方案
+              </li>
+            </NuxtLink>
           </ul>
         </div>
         <div class="ml-[80px] text-[18px]">
           <NuxtLink to="/securityService">安全服务</NuxtLink>
-        </div>
-        <div class="ml-[80px] text-[18px]">
-          <NuxtLink to="/openSourceCommunity">开源社区</NuxtLink>
         </div>
         <div class="ml-[80px] text-[18px]">
           <NuxtLink to="/aboutUs">关于我们</NuxtLink>
@@ -64,27 +73,31 @@
 
 .dropdown {
   .dropdown-content {
+    background-color: #020100;
     line-height: normal;
     z-index: 99999;
     box-shadow: 1px 1px 3px 0px rgba(164, 207, 244, 0.10), 5px 4px 6px 0px rgba(164, 207, 244, 0.09), 10px 9px 8px 0px rgba(164, 207, 244, 0.05), 19px 16px 10px 0px rgba(164, 207, 244, 0.01), 29px 25px 11px 0px rgba(164, 207, 244, 0.00);
     transition: height 0.3s;
 
-    li {
-      list-style: none;
+    a {
+      li {
+        color: #fff;
+        list-style: none;
 
-      &:hover a {
-        color: #000;
+        &:hover {
+          background-color: #0070FF
+        }
       }
     }
   }
 
   &:hover {
     .safetyProduct-dropdown-content {
-      height: 120px;
+      height: 140px;
     }
 
     .solution-dropdown-content {
-      height: 80px;
+      height: 70px;
     }
   }
 

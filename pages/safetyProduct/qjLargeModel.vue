@@ -23,8 +23,8 @@ useSeoMeta({
       <!-- 关键特性 -->
       <div class="mt-[300px]">
         <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[250px]">
-          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 21 21"
-            fill="none">
+          <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 21 21" fill="none">
             <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
           </svg>
           <div class="text-[40px] text-center font-bold-600">
@@ -52,7 +52,8 @@ useSeoMeta({
           </div>
           <div class="w-[28%]">
             <div class="font-bold-600 mb-[25px] text-center text-[25px]">精准响应与约束</div>
-            <div class="color-[#868686] mb-[122px] leading-[30px]">千机不仅生成回答，还利用背景知识约束生成的文本，缩小计算响应与背景知识的偏离度，确保回答准确无误。</div>
+            <div class="color-[#868686] mb-[122px] leading-[30px]">千机不仅生成回答，还利用背景知识约束生成的文本，缩小计算响应与背景知识的偏离度，确保回答准确无误。
+            </div>
             <div class="text-center">
               <NuxtImg src="/Images/qj_jzxyyys.png" class="w-[245px]" />
             </div>
@@ -60,8 +61,42 @@ useSeoMeta({
         </div>
       </div>
       <div class="qj_cont bg-center bg-contain bg-no-repeat">
+        <!-- 运行原理 -->
+        <div class="mt-[300px] text-center">
+          <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[250px]">
+            <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 21 21" fill="none">
+              <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
+            </svg>
+            <div class="text-[40px] text-center font-bold-600">
+              运行原理
+            </div>
+            <svg class="absolute right-[0] bottom-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 21 21" fill="none">
+              <path d="M4.47035e-07 18L18 18L18 4.47035e-07" stroke="#0070FF" stroke-width="6" />
+            </svg>
+          </div>
+          <NuxtImg src="/Images/yunxingyuanli.png" class="w-[1000px]" />
+        </div>
+        <!-- 数据流程 -->
+        <div class="mt-[200px] text-center">
+          <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[250px]">
+            <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 21 21" fill="none">
+              <path d="M21 3H3V21" stroke="#0070FF" stroke-width="6" />
+            </svg>
+            <div class="text-[40px] text-center font-bold-600">
+              数据流程
+            </div>
+            <svg class="absolute right-[0] bottom-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 21 21" fill="none">
+              <path d="M4.47035e-07 18L18 18L18 4.47035e-07" stroke="#0070FF" stroke-width="6" />
+            </svg>
+          </div>
+          <NuxtImg src="/Images/sjlc.png" class="w-[1000px]" />
+        </div>
         <!-- 功能亮点 -->
-        <div class="mt-[300px]">
+        <div class="mt-[200px]">
           <div class="relative py-[15px] px-[40px] mb-[120px] mx-auto w-[250px]">
             <svg class="absolute left-[0] top-[0] w-[21px] h-[21px]" xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 21 21" fill="none">
@@ -83,14 +118,16 @@ useSeoMeta({
             <div data-aos="fade-left" class="w-[520px]">
               <div class="text-[32px] font-bold-600 mb-[20px]">漏洞情报</div>
               <div class="text-[18px] font-bold-600 mb-[18px]">外文漏洞译制</div>
-              <div class="text-[16px] color-[#646363] mb-[37px] leading-[30px]">情报源涵盖CVE、Github、EXploitDB、社区文章等。可读性已与人类安全专家译制效果无任何差异。</div>
+              <div class="text-[16px] color-[#646363] mb-[37px] leading-[30px]">
+                情报源涵盖CVE、Github、EXploitDB、社区文章等。可读性已与人类安全专家译制效果无任何差异。</div>
               <div class="text-[18px] font-bold-600 mb-[18px]">漏洞情报问答</div>
               <div class="text-[16px] font-bold-600 mb-[12px]">CVE漏洞情报</div>
               <div class="text-[16px] color-[#646363] mb-[20px] leading-[30px]">
                 对于特定漏洞的回答正确率高达92.1%（测试集验证结果），并能够在多轮人机交互过程中提供更详细更有价值的漏洞情报，且可解释性与稳定性很高。
               </div>
               <div class="text-[16px] font-bold-600 mb-[12px]">通用漏洞情报</div>
-              <div class="text-[16px] color-[#646363] leading-[30px]">对于安全场景中的通用知识掌握，万径千机水平已趋近中高级安全专家，并随着不断的训练与优化，其能力还将得到更多涌现。</div>
+              <div class="text-[16px] color-[#646363] leading-[30px]">
+                对于安全场景中的通用知识掌握，万径千机水平已趋近中高级安全专家，并随着不断的训练与优化，其能力还将得到更多涌现。</div>
             </div>
           </div>
           <!-- 辅助决策 -->
@@ -148,7 +185,8 @@ useSeoMeta({
               <div data-aos="fade-left">
                 <div class="w-[260px] mb-[75px]">
                   <div class="text-[18px] mb-[10px] font-bold-600">提高数据运营效率</div>
-                  <div class="text-[16px] color-[#646363] leading-[30px]">通过大模型对多源异构的安全运营数据进行语义归一化处理，实现数据的上下文标准统一流转。</div>
+                  <div class="text-[16px] color-[#646363] leading-[30px]">通过大模型对多源异构的安全运营数据进行语义归一化处理，实现数据的上下文标准统一流转。
+                  </div>
                 </div>
                 <div class="w-[260px]">
                   <div class="text-[18px] mb-[10px] font-bold-600">降低人力资源成本</div>
@@ -161,11 +199,13 @@ useSeoMeta({
               <div data-aos="fade-right">
                 <div class="w-[260px] mb-[75px]">
                   <div class="text-[18px] mb-[10px] font-bold-600">融合安全防护设备</div>
-                  <div class="text-[16px] color-[#646363] leading-[30px]">结合思维链技术，千机能够以极低成本将企业各类安全防护设备资源进行融合，使其成为一个完整的安全运营系统。</div>
+                  <div class="text-[16px] color-[#646363] leading-[30px]">
+                    结合思维链技术，千机能够以极低成本将企业各类安全防护设备资源进行融合，使其成为一个完整的安全运营系统。</div>
                 </div>
                 <div class="w-[260px]">
                   <div class="text-[18px] mb-[10px] font-bold-600">沉淀模型优化场景</div>
-                  <div class="text-[16px] color-[#646363] leading-[30px]">经过大量真实业务场景的实践，千机能够根据场景实际需求通过微调与专业知识补充，不断完善自身功能。</div>
+                  <div class="text-[16px] color-[#646363] leading-[30px]">
+                    经过大量真实业务场景的实践，千机能够根据场景实际需求通过微调与专业知识补充，不断完善自身功能。</div>
                 </div>
               </div>
             </div>
@@ -178,6 +218,7 @@ useSeoMeta({
       </div>
     </div>
   </div>
+  <MegavectorOnlineConsultation></MegavectorOnlineConsultation>
 </template>
 
 <style lang="scss" scoped>
