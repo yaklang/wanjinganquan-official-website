@@ -1,6 +1,4 @@
 <script setup>
-const router = useRouter()
-
 import SwiperCore, { Autoplay, Navigation, Pagination } from 'swiper'
 SwiperCore.use([Autoplay, Navigation, Pagination])
 
@@ -36,19 +34,19 @@ const newBannerBottomList = computed(() => {
   })
   return pages
 })
-
-const goToOtherPage = (path, hash) => {
-  router.push({ path: path, hash: hash });
-}
 </script>
 
 <template>
   <Title>首页</Title>
   <div class="mt-[86px]">
     <!-- 头部轮播 -->
-    <div class="h-[560px] bg-[#F4FAFF]">
+    <div class="top-swiper-wrap h-[560px] bg-[#F4FAFF]">
       <swiper class="h-[100%]" loop :speed="1500" :autoplay="{ disableOnInteraction: false, delay: 5000 }"
-        :pagination="{ el: '.swiper-pagination', clickable: true }">
+        :pagination="{ el: '.swiper-pagination', clickable: true }" :navigation="{
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+        ">
         <swiper-slide>
           <div class="h-[100%] bg-no-repeat overflow-hidden"
             :style="{ backgroundImage: 'url(/Images/wanjing-banner.png)', backgroundPosition: 'bottom', backgroundSize: 'contain' }">
@@ -167,6 +165,18 @@ const goToOtherPage = (path, hash) => {
           </div>
         </swiper-slide>
         <div class="swiper-pagination"></div>
+        <div class="swiper-button-prev flex" slot="button-prev">
+          <svg xmlns="http://www.w3.org/2000/svg" width="21" height="48" viewBox="0 0 21 48" fill="none">
+            <path d="M19.014 45.4263L2 24.2131L19.014 2.99993" stroke="white" stroke-width="4" stroke-linecap="round"
+              stroke-linejoin="round" />
+          </svg>
+        </div>
+        <div class="swiper-button-next flex" slot="button-next">
+          <svg width="21" height="48" viewBox="0 0 21 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path id="Rectangle 323" d="M1.98603 2.99993L19 24.2131L1.98603 45.4263" stroke="white" stroke-width="4"
+              stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </div>
       </swiper>
     </div>
 
@@ -184,11 +194,12 @@ const goToOtherPage = (path, hash) => {
       </div>
       <div class="wjaq-container mx-auto h-[100%] font-bold overflow-hidden bg-[#1E83FF]">
         <div class="text-[40px] text-center text-[#fff] my-[70px]">他们也选择万径</div>
-        <swiper class="h-[160px]" :speed="1500" loop :autoplay="{ disableOnInteraction: false, delay: 5000 }" :navigation="{
-          nextEl: '.swiper-button-next',
-          prevEl: '.swiper-button-prev',
-        }
-          ">
+        <swiper class="h-[160px]" :speed="1500" loop :autoplay="{ disableOnInteraction: false, delay: 5000 }"
+          :navigation="{
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      }
+        ">
           <swiper-slide v-for='( item, i ) in  newBannerBottomList ' :key='i'>
             <el-row :gutter="0" justify="space-evenly" class="h-[100%] items-center bottom-swiper-row px-[120px]">
               <el-col :span="6" v-for="( page, j ) in  item " :key="j"
@@ -213,15 +224,48 @@ const goToOtherPage = (path, hash) => {
       </div>
     </div>
   </div>
+  <MegavectorOnlineConsultation></MegavectorOnlineConsultation>
 </template>
 
 <style lang="scss" scoped>
 .tree-wrap {
-  background-image: url("/Images/wanjin_tree.png");
+  background-image: url('/Images/wanjin_tree.png');
 }
 
 [data-aos^=zoom][data-aos^=zoom].aos-animate {
-  opacity: 0.8 !important;
+  opacity: .8 !important;
+}
+
+.top-swiper-wrap {
+  &:hover {
+
+    .swiper-button-next,
+    .swiper-button-prev {
+      visibility: visible;
+    }
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    justify-content: center;
+    overflow: hidden;
+    width: 37px;
+    height: 54px;
+    border-radius: 3px;
+    background-color: #BCD9FF;
+    visibility: hidden;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+
+  }
+
+  .swiper-button-next:after,
+  .swiper-button-prev:after {
+    display: none;
+  }
 }
 
 .bottom-swiper-wrap {
@@ -233,15 +277,15 @@ const goToOtherPage = (path, hash) => {
   }
 
   .swiper-button-prev {
-    justify-content: flex-start;
     top: 25px;
     left: 0;
+    justify-content: flex-start;
   }
 
   .swiper-button-next {
-    justify-content: flex-end;
     top: 25px;
     right: 0;
+    justify-content: flex-end;
   }
 
   .swiper-button-next:after,

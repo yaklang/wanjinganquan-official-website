@@ -706,6 +706,7 @@ const coreTechnologyList = ref([
       </div>
     </div>
   </div>
+  <MegavectorOnlineConsultation></MegavectorOnlineConsultation>
 </template>
 
 <style lang="scss" scoped>
