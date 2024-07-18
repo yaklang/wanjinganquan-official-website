@@ -11,6 +11,6 @@
 .zxzx {
   position: fixed;
   right: 0;
-  bottom: 100px;
+  bottom: 185px;
 }
 </style>
