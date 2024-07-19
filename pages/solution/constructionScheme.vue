@@ -114,7 +114,7 @@ useSeoMeta({
               <div class="text-[18px] mt-[10px] color-[#fff]">公共插件商店及配套社区<span class="font-bold-600">永久免费</span></div>
             </div>
           </div>
-          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/Enterprise-security-construct-solution.pdf" download>
+          <a href="https://yaklang.oss-cn-beijing.aliyuncs.com/Enterprise-security-construct-solution.pdf" download target="_block">
             <span
               class="inline-block rounded-[43px] bg-[#000] color-[#fff] py-[10px] px-[30px] h-[48px] text-[18px] leading-[26px] text-center mt-[55px]">
               <svg class="w-[18px] h-[16px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 16" fill="none">
